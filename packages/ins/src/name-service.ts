@@ -39,7 +39,7 @@ export const parseINSName = (name: string): ParsedInsName => {
 };
 
 /**
- * This class is used to resolve names and addresses accross the Interchain Name System.
+ * This class is used to resolve names and addresses across the Interchain Name System.
  *
  * @Module INS
  */
