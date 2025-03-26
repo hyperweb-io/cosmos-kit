@@ -1,0 +1,43 @@
+# How to Add Bitget Wallet to CosmosKit
+
+There are two packages for bitgetwallet
+
+- `@cosmos-kit/bitgetwallet`
+- `@cosmos-kit/bitgetwallet-extension`
+
+`@cosmos-kit/bitgetwallet` export all available bitgetwallet wallets, while if you only want to add a particular one, choose `@cosmos-kit/bitgetwallet-extension`
+
+> Note: all these packages export `wallets` and it's an array of `MainWalletBase`
+
+Take `@cosmos-kit/bitgetwallet` for example
+
+## install `@cosmos-kit/bitgetwallet`
+
+```
+yarn add @cosmos-kit/bitgetwallet
+```
+
+## import the wallets
+
+```js
+import { wallets as bitgetwallet } from "@cosmos-kit/bitgetwallet";
+```
+
+## add to your provider
+
+```js
+function MyCosmosApp({ Component, pageProps }: AppProps) {
+  return (
+      <ChainProvider
+        chains={chains}
+        assetLists={assets}
+        wallets={[...bitgetwallet]}
+        walletConnectOptions={...} // required if `wallets` contains mobile wallets
+      >
+        <Component {...pageProps} />
+      </ChainProvider>
+  );
+}
+
+export default MyCosmosApp;
+```
