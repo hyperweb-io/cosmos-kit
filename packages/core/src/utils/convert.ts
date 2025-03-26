@@ -1,4 +1,5 @@
 import { AssetList, Chain } from '@chain-registry/types';
+import { chains } from 'chain-registry';
 
 import { ChainName, ChainRecord, Endpoints, SignerOptions } from '../types';
 import { getIsLazy } from './endpoint';
@@ -26,7 +27,10 @@ export function convertChain(
   };
   const converted = {
     name: chainName,
-    chain: typeof chain === 'string' ? void 0 : chain,
+    chain:
+      typeof chain === 'string'
+        ? chains.find((prev) => prev.chain_name === chainName)
+        : chain,
     assetList,
     clientOptions: {
       stargate: signerOptions?.stargate?.(chain),
