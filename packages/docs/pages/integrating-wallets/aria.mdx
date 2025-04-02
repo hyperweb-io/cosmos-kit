@@ -1,0 +1,36 @@
+# How to Add Aria Mobile Wallet to CosmosKit
+
+- `@cosmos-kit/aria-mobile`
+
+`@cosmos-kit/aria-mobile` export wallets for connecting to the Aria mobile wallet
+
+## add `@cosmos-kit/aria-mobile`
+
+```
+yarn add @cosmos-kit/aria-mobile
+```
+
+## import the wallets
+
+```js
+import { wallets } from "@cosmos-kit/aria-mobile";
+```
+
+## add to your provider
+
+```js
+function MyCosmosApp({ Component, pageProps }: AppProps) {
+  return (
+      <ChainProvider
+        chains={chains}
+        assetLists={assets}
+        wallets={[...wallets]}
+        walletConnectOptions={...} // required if `wallets` contains mobile wallets
+      >
+        <Component {...pageProps} />
+      </ChainProvider>
+  );
+}
+
+export default MyCosmosApp;
+```
