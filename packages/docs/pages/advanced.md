@@ -13,11 +13,11 @@ There are four important classes.
 
 Before all, we need to clarify that there are two types of entities in CosmosKit as a wallet adapter: **Chain** and **Wallet**. Chain is identified by chain name i.e. `cosmoshub`, `osmosis` etc. And wallet is identified by wallet name i.e. `keplr-extension`, `keplr-mobile`, `cosmostation-extension` etc.
 
-> Note that we're taking a single wallet application as a wallet in CosmosKit rather than the wallet product name. Taking `Keplr` as an example, we diffientiate `extension` and `mobile` in our code because they are connected via totally different codes. So for product `Keplr`, we have two wallets `keplr-extension` and `keplr-mobile` in CosmosKit.
+> Note that we're taking a single wallet application as a wallet in CosmosKit rather than the wallet product name. Taking `Keplr` as an example, we differentiate `extension` and `mobile` in our code because they are connected via totally different codes. So for product `Keplr`, we have two wallets `keplr-extension` and `keplr-mobile` in CosmosKit.
 
 ### WalletManager
 
-`WalletManager` is the entrance of the whole code and it manages all `WalletRepo`, `MainWalletBase`, `ChainWalletBase` instances in it. It also corresponds to `ChainProvider` in `@cosmos-kit/react-lite` and `@cosmos-kit/react`. You can find that the properties of JSX element `ChainProvider` are almost the same with the constructor arguments of `WalletManager`. All necesssary chain information and wallet information from `ChainProvider` will be passed to corresponding wallet classes via `WalletManager`.
+`WalletManager` is the entrance of the whole code and it manages all `WalletRepo`, `MainWalletBase`, `ChainWalletBase` instances in it. It also corresponds to `ChainProvider` in `@cosmos-kit/react-lite` and `@cosmos-kit/react`. You can find that the properties of JSX element `ChainProvider` are almost the same with the constructor arguments of `WalletManager`. All necessary chain information and wallet information from `ChainProvider` will be passed to corresponding wallet classes via `WalletManager`.
 
 Three important properties/arguments in `ChainProvider`/`WalletManager` are `chains`, `assetLists` and `wallets`. `chains` and `assetLists` provide chain information, and `wallets` provides wallet information. Actually `wallets` is an array of `MainWalletBase` instances. Here leads to the second class `MainWalletBase`.
 

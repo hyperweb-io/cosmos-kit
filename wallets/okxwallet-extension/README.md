@@ -12,7 +12,7 @@
    <a href="https://www.npmjs.com/package/@cosmos-kit/okxwallet-extension"><img height="20" src="https://img.shields.io/github/package-json/v/hyperweb-io/cosmos-kit?filename=wallets%2Fokxwallet-extension%2Fpackage.json"></a>
 </p>
 
-Cosmos Kit is a univeral wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
+Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
 
 @cosmos-kit/okxwallet is the okxWallet integration for Cosmos Kit.
 

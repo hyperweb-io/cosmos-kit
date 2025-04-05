@@ -195,7 +195,7 @@ function CosmosApp() {
 
 **Type:** `NameServiceName` = `string`;
 
-Currently two name services are registered: `'icns'` and `'stargaze'`. The default name service is `icns`. This property is only used in `getNameService` of `useManager` when prarameter `chainName` is undefined, and in `useNameService` when the prarameter `name` is not provided. Otherwise it will return the name service object corresponding to provided chain. Therefore it won't affect `getNameService` method returned by `useChain`, since `chainName` is always provide in `useChain`.
+Currently two name services are registered: `'icns'` and `'stargaze'`. The default name service is `icns`. This property is only used in `getNameService` of `useManager` when parameter `chainName` is undefined, and in `useNameService` when the parameter `name` is not provided. Otherwise it will return the name service object corresponding to provided chain. Therefore it won't affect `getNameService` method returned by `useChain`, since `chainName` is always provide in `useChain`.
 
 ### endpointOptions
 
@@ -261,7 +261,7 @@ There are four levels of `isLazy` setting.
 
 3. Endpoint `isLazy`: `isLazy` in `ExtendedHttpEndpoint` only controls the one in `ExtendedHttpEndpoint` object. For signing or broadcasting a transaction, this one is the lowerst level and with the highest priority.
 
-4. Parameter `isLazy`: `isLazy` in `getRpcEndpoint` and `getRestEndpoint` prarameters. It also globally controls all endpoints. (Note: this one only affects getting endpoint functions with the highest priority, but won't affect signing or broadcasting a transaction.)
+4. Parameter `isLazy`: `isLazy` in `getRpcEndpoint` and `getRestEndpoint` parameters. It also globally controls all endpoints. (Note: this one only affects getting endpoint functions with the highest priority, but won't affect signing or broadcasting a transaction.)
 
 The calculation of final `isLazy` can be seen [here](https://github.com/hyperweb-io/cosmos-kit/blob/main/packages/core/src/utils/endpoint.ts#L32-L59).
 
