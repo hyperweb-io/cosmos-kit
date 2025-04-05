@@ -2,9 +2,9 @@
 
 ## Basic Usage
 
-### Resovle INS names
+### Resolve INS names
 
-### Resovle an address on a particular nameservice
+### Resolve an address on a particular nameservice
 
 ### Working with only a single nameservice
 
