@@ -17,7 +17,7 @@ Before all, we need to clarify that there are two types of entities in CosmosKit
 
 ### WalletManager
 
-`WalletManager` is the entrance of the whole code and it manages all `WalletRepo`, `MainWalletBase`, `ChainWalletBase` instances in it. It also corresponds to `ChainProvider` in `@cosmos-kit/react-lite` and `@cosmos-kit/react`. You can find that the properties of JSX element `ChainProvider` are almost the same with the constructor arguments of `WalletManager`. All necesssary chain information and wallet information from `ChainProvider` will be passed to corresponding wallet classes via `WalletManager`.
+`WalletManager` is the entrance of the whole code and it manages all `WalletRepo`, `MainWalletBase`, `ChainWalletBase` instances in it. It also corresponds to `ChainProvider` in `@cosmos-kit/react-lite` and `@cosmos-kit/react`. You can find that the properties of JSX element `ChainProvider` are almost the same with the constructor arguments of `WalletManager`. All necessary chain information and wallet information from `ChainProvider` will be passed to corresponding wallet classes via `WalletManager`.
 
 Three important properties/arguments in `ChainProvider`/`WalletManager` are `chains`, `assetLists` and `wallets`. `chains` and `assetLists` provide chain information, and `wallets` provides wallet information. Actually `wallets` is an array of `MainWalletBase` instances. Here leads to the second class `MainWalletBase`.
 
