@@ -129,6 +129,7 @@ export class WalletManager extends StateBase {
         this.isLazy,
         this.logger
       );
+
       return converted;
     });
 
@@ -142,10 +143,17 @@ export class WalletManager extends StateBase {
     });
 
     this.chainRecords.forEach((chainRecord, index) => {
-      const repo = new WalletRepo(
-        chainRecord,
-        wallets.map(({ getChainWallet }) => getChainWallet(chainRecord.name)!)
+      const chainWallets = wallets.map(
+        ({ getChainWallet }) => getChainWallet(chainRecord.name)!
       );
+
+      const repo = new WalletRepo(
+        chainWallets.find(
+          (prev) => prev.chainName === chainRecord.name
+        ).chainRecord,
+        chainWallets
+      );
+
       repo.logger = this.logger;
       repo.repelWallet = this.repelWallet;
       repo.session = this.session;
@@ -154,6 +162,7 @@ export class WalletManager extends StateBase {
         this.chainRecords[index] = repo.chainRecord;
       }
     });
+
     this.checkEndpoints(endpointOptions?.endpoints);
   }
 
