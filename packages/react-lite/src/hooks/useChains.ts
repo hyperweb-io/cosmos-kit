@@ -20,8 +20,8 @@ export function useChains(chainNames: ChainName[], sync = true) {
     );
   }
 
-  const repos = names.map(name => walletManager.getWalletRepo(name));
-  const ids = repos.map(repo => repo.chainRecord.chain.chain_id);
+  const repos = names.map((name) => walletManager.getWalletRepo(name));
+  const ids = repos.map((repo) => repo.chainRecord.chain.chain_id);
 
   return names.reduce((result, chainName, index) => {
     const walletRepo = repos[index];
@@ -35,11 +35,11 @@ export function useChains(chainNames: ChainName[], sync = true) {
             await wallet.client?.enable?.(ids);
           } catch (e) {
             for (const repo of repos) {
-              await wallet.client?.addChain?.(repo.chainRecord)
+              await wallet.client?.addChain?.(repo.chainRecord);
             }
             await wallet.client?.enable?.(ids);
           }
-        }
+        };
       }
 
       if (wallet.isModeWalletConnect) {
