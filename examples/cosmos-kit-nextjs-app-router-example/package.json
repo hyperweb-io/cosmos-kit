@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@cosmos-kit/keplr": "^2.15.0",
+    "@cosmos-kit/keplr-mobile": "^2.15.0",
     "@cosmos-kit/react": "^2.22.0",
     "@interchain-ui/react": "latest",
     "@radix-ui/react-slot": "^1.1.2",
@@ -20,6 +21,7 @@
     "next": "15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-qr-code": "^2.0.15",
     "tailwind-merge": "^3.0.2",
     "tw-animate-css": "^1.2.4"
   },
@@ -36,6 +38,7 @@
   },
   "resolutions": {
     "@cosmos-kit/keplr": "file:../../wallets/keplr",
+    "@cosmos-kit/keplr-mobile": "file:../../wallets/keplr-mobile",
     "@cosmos-kit/react": "file:../../packages/react"
   }
 }
