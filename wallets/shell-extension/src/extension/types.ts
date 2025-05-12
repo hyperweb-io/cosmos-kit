@@ -38,7 +38,7 @@ export interface Shell {
   /**
    * mode means that how Keplr is connected.
    * If the connected Keplr is browser's extension, the mode should be "extension".
-   * If the connected Keplr is on the mobile app with the embeded web browser, the mode should be "mobile-web".
+   * If the connected Keplr is on the mobile app with the embedded web browser, the mode should be "mobile-web".
    */
   readonly mode: ShellMode;
   defaultOptions: ShellIntereactionOptions;
@@ -138,9 +138,9 @@ export interface Shell {
       types: Record<
         string,
         | {
-            name: string;
-            type: string;
-          }[]
+          name: string;
+          type: string;
+        }[]
         | undefined
       >;
       domain: Record<string, any>;

@@ -32,9 +32,9 @@ export const CoreUtil = {
     return `${plainAppUrl}/wc?uri=${encodedWcUrl}`;
   },
 
-  async wait(miliseconds: number) {
+  async wait(milliseconds: number) {
     return new Promise((resolve) => {
-      setTimeout(resolve, miliseconds);
+      setTimeout(resolve, milliseconds);
     });
   },
 
