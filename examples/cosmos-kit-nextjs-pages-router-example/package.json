@@ -31,6 +31,7 @@
     "@cosmos-kit/core": "^2.16.0",
     "@cosmos-kit/cosmostation": "^2.15.0",
     "@cosmos-kit/fin": "^2.14.0",
+    "@cosmos-kit/foxwallet": "^1.0.0",
     "@cosmos-kit/ins": "^2.2.4",
     "@cosmos-kit/keplr": "^2.15.0",
     "@cosmos-kit/leap": "^2.15.0",
