@@ -73,6 +73,10 @@ export class GalaxyStationClient implements WalletClient {
     return await this.client.getOfflineSigner(chainId);
   }
 
+  getOfflineSignerAmino(chainId: string) {
+    return this.client.keplr.getOfflineSignerOnlyAmino(chainId);
+  }
+
   async signArbitrary(
     chainId: string,
     signer: string,
