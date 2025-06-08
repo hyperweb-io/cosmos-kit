@@ -1,10 +1,27 @@
 /* eslint-disable no-unsafe-optional-chaining */
 import { AminoSignResponse, StdSignature, StdSignDoc } from '@cosmjs/amino';
-import { SignOptions, WalletAccount, WalletClient } from '@cosmos-kit/core';
+import {
+  DirectSignDoc,
+  SignOptions,
+  SignType,
+  WalletAccount,
+  WalletClient,
+} from '@cosmos-kit/core';
 import Station from '@hexxagon/station-connector';
+import { SignDoc } from 'cosmjs-types/cosmos/tx/v1beta1/tx';
+import Long from 'long';
 
 export class GalaxyStationClient implements WalletClient {
   readonly client: Station;
+  private _defaultSignOptions: SignOptions = {
+    preferNoSetFee: false,
+    preferNoSetMemo: true,
+    disableBalanceCheck: true,
+  };
+
+  get defaultSignOptions() {
+    return this._defaultSignOptions;
+  }
 
   constructor(client: Station) {
     this.client = client;
@@ -69,8 +86,29 @@ export class GalaxyStationClient implements WalletClient {
     return await this.client.keplr.signAmino(chainId, signer, signDoc);
   }
 
-  async getOfflineSigner(chainId: string) {
-    return await this.client.getOfflineSigner(chainId);
+  getOfflineSigner(chainId: string, preferredSignType?: SignType) {
+    switch (preferredSignType) {
+      case 'amino':
+        return this.getOfflineSignerAmino(chainId);
+      case 'direct':
+        return this.getOfflineSignerDirect(chainId);
+      default:
+        return this.getOfflineSignerAmino(chainId);
+    }
+  }
+
+  getOfflineSignerAmino(chainId: string) {
+    return this.client.keplr.getOfflineSignerOnlyAmino(chainId);
+  }
+
+  getOfflineSignerDirect(chainId: string) {
+    return {
+      getAccounts: async () => {
+        return [await this.getAccount(chainId)];
+      },
+      signDirect: (signerAddress: string, signDoc: SignDoc) =>
+        this.signDirect(chainId, signerAddress, signDoc),
+    };
   }
 
   async signArbitrary(
@@ -79,5 +117,22 @@ export class GalaxyStationClient implements WalletClient {
     data: string | Uint8Array
   ): Promise<StdSignature> {
     return await this.client.keplr.signArbitrary(chainId, signer, data);
+  }
+
+  async signDirect(
+    chainId: string,
+    signer: string,
+    signDoc: DirectSignDoc,
+    signOptions?: SignOptions
+  ) {
+    return await this.client.keplr.signDirect(
+      chainId,
+      signer,
+      {
+        ...signDoc,
+        accountNumber: Long.fromString(signDoc.accountNumber.toString()),
+      },
+      signOptions || this.defaultSignOptions
+    );
   }
 }
