@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.31.1](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.0...docs@2.31.1) (2025-07-22)
+
+**Note:** Version bump only for package docs
+
+
+
+
+
+# [2.31.0](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.30.0...docs@2.31.0) (2025-07-16)
+
+
+### Features
+
+* add FoxWallet extension ([493a6be](https://github.com/hyperweb-io/cosmos-kit/commit/493a6bed6fc057fca233c6311882cb5ce1cd3f45))
+
+
+
+
+
 # [2.30.0](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.29.0...docs@2.30.0) (2025-04-07)
 
 ### Features

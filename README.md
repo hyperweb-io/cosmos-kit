@@ -21,6 +21,13 @@
 
 Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
 
+> **⚠️ UPGRADE to 3.0**
+> 
+> **Cosmos Kit 3.0 and Create Cosmos App 2.0 is here!**
+> 
+> Please use [**interchain-kit**](https://github.com/hyperweb-io/interchain-kit), the official successor with improved tooling, broader compatibility, and full Interchain ecosystem support.
+> You can also see [**create-interchain-app**](https://github.com/hyperweb-io/create-interchain-app) our official starter kit that supports Interchain Kit.
+
 ## 🏁 Quickstart
 
 Get started quickly by using [create-cosmos-app](https://github.com/hyperweb-io/create-cosmos-app) to help you build high-quality Cosmos apps fast!
@@ -117,11 +124,11 @@ cd packages/example
 yarn dev
 ```
 
-#### [Basic Next.js Example](https://github.com/hyperweb-io/cosmos-kit/tree/main/packages/example)
+#### [Basic Next.js Example](https://github.com/hyperweb-io/cosmos-kit/tree/main/examples)
 
 This example demonstrates a Next.js project that integrates the `@cosmos-kit/react` wallet adapter. Note that this example has historically been used by multiple teams to test PRs.
 
-#### ["vanilla" example showing how `WalletManager` works](https://github.com/hyperweb-io/cosmos-kit/tree/main/packages/example/pages/wallet-manager)
+#### ["vanilla" example showing how `WalletManager` works](https://github.com/hyperweb-io/cosmos-kit/tree/main/examples/cosmos-kit-nextjs-pages-router-example/pages/wallet-manager)
 
 This example is ideal for developers looking to create integrations for Vue.js, Svelte, or other frameworks. It uses a basic Next.js setup without relying on React-specific hooks, providing a clear model for building custom integrations.
 

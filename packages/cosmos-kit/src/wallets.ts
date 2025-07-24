@@ -50,14 +50,14 @@ export type WalletList<
   M extends MainWalletBase | null
 > = (E extends MainWalletBase
   ? M extends MainWalletBase
-    ? [E, M]
-    : [E]
+  ? [E, M]
+  : [E]
   : M extends MainWalletBase
   ? [M]
   : []) & {
-  mobile: M | null;
-  extension: E | null;
-};
+    mobile: M | null;
+    extension: E | null;
+  };
 
 export function createWalletList<
   ExtensionWallet extends MainWalletBase | null,

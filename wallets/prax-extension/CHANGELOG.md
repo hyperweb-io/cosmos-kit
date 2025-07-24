@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/prax-extension@0.4.1...@cosmos-kit/prax-extension@0.4.2) (2025-07-22)
+
+**Note:** Version bump only for package @cosmos-kit/prax-extension
+
+
+
+
+
+## [0.4.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/prax-extension@0.4.0...@cosmos-kit/prax-extension@0.4.1) (2025-07-16)
+
+**Note:** Version bump only for package @cosmos-kit/prax-extension
+
+
+
+
+
 # [0.4.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/prax-extension@0.3.7...@cosmos-kit/prax-extension@0.4.0) (2025-03-25)
 
 **Note:** Version bump only for package @cosmos-kit/prax-extension

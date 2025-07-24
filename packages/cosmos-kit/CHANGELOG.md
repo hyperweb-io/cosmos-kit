@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.25.1](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.25.0...cosmos-kit@2.25.1) (2025-07-22)
+
+**Note:** Version bump only for package cosmos-kit
+
+
+
+
+
+# [2.25.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.24.0...cosmos-kit@2.25.0) (2025-07-16)
+
+
+### Features
+
+* add Bitget Wallet into wallets ([91c4c9d](https://github.com/hyperweb-io/cosmos-kit/commit/91c4c9ddd2527f2cefe1ad5d19b575771433e4bf))
+* add FoxWallet extension ([493a6be](https://github.com/hyperweb-io/cosmos-kit/commit/493a6bed6fc057fca233c6311882cb5ce1cd3f45))
+
+
+
+
+
 # [2.24.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.23.10...cosmos-kit@2.24.0) (2025-03-25)
 
 ### Bug Fixes

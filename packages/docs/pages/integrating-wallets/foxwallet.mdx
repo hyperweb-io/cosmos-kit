@@ -1,0 +1,43 @@
+# How to Add FoxWallet to CosmosKit
+
+There are two packages for foxwallet
+
+- `@cosmos-kit/foxwallet`
+- `@cosmos-kit/foxwallet-extension`
+
+`@cosmos-kit/foxwallet` export all available foxwallet wallets, while if you only want to add a particular one, choose `@cosmos-kit/foxwallet-extension`
+
+> Note: all these packages export `wallets` and it's an array of `MainWalletBase`
+
+Take `@cosmos-kit/foxwallet` for example
+
+## add `@cosmos-kit/foxwallet`
+
+```
+yarn add @cosmos-kit/foxwallet
+```
+
+## import the wallets
+
+```js
+import { wallets as foxwallet } from "@cosmos-kit/foxwallet";
+```
+
+## add to your provider
+
+```js
+function MyCosmosApp({ Component, pageProps }: AppProps) {
+  return (
+      <ChainProvider
+        chains={chains}
+        assetLists={assets}
+        wallets={[...foxwallet]}
+        walletConnectOptions={...} // required if `wallets` contains mobile wallets
+      >
+        <Component {...pageProps} />
+      </ChainProvider>
+  );
+}
+
+export default MyCosmosApp;
+```

@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/gatewallet-extension",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "cosmos-kit wallet connector",
   "author": "developers@hyperweb.io",
   "contributors": [
@@ -59,7 +59,7 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.0"
+    "@cosmos-kit/core": "^2.16.2"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

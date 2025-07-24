@@ -14,6 +14,13 @@
 
 Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
 
+> **⚠️ UPGRADE to 3.0**
+> 
+> **Cosmos Kit 3.0 and Create Cosmos App 2.0 is here!**
+> 
+> Please use [**interchain-kit**](https://github.com/hyperweb-io/interchain-kit), the official successor with improved tooling, broader compatibility, and full Interchain ecosystem support.
+> You can also see [**create-interchain-app**](https://github.com/hyperweb-io/create-interchain-app) our official starter kit that supports Interchain Kit.
+
 @cosmos-kit/trust-extension is the Trust Wallet integration for Cosmos Kit.
 
 > 💡 According to [Trust Doc](https://developer.trustwallet.com/developer/develop-for-trust/browser-extension), Trust Wallet Browser Extension currently supports only Ethereum & EVM chains, and support for Cosmos is still in progress. Because of the block from wallet side, `@cosmoskit/trust-extension` is not fully implemented yet and we don't recommend to use it for now.

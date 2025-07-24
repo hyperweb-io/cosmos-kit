@@ -21,6 +21,14 @@
 
 Cosmos Kit is a universal wallet adapter for developers to build apps that quickly and easily interact with Cosmos blockchains and wallets.
 
+> **⚠️ UPGRADE to 3.0**
+> 
+> **Cosmos Kit 3.0 and Create Cosmos App 2.0 is here!**
+> 
+> Please use [**interchain-kit**](https://github.com/hyperweb-io/interchain-kit), the official successor with improved tooling, broader compatibility, and full Interchain ecosystem support.
+> You can also see [**create-interchain-app**](https://github.com/hyperweb-io/create-interchain-app) our official starter kit that supports Interchain Kit.
+
+
 ## 🏁 Quickstart
 
 Get started quickly by using [create-cosmos-app](https://github.com/hyperweb-io/create-cosmos-app) to help you build high-quality Cosmos apps fast!

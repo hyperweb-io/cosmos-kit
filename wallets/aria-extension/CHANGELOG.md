@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.17.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.17.0...@cosmos-kit/aria-extension@2.17.1) (2025-07-22)
+
+**Note:** Version bump only for package @cosmos-kit/aria-extension
+
+
+
+
+
+# [2.17.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.16.0...@cosmos-kit/aria-extension@2.17.0) (2025-07-16)
+
+
+### Features
+
+* update constant.ts ([f2a2828](https://github.com/hyperweb-io/cosmos-kit/commit/f2a28283272d5dc16a2b09d8c067d385bb4b6a0f))
+
+
+
+
+
 # [2.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.15.6...@cosmos-kit/aria-extension@2.16.0) (2025-03-25)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension

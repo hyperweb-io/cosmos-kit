@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/leap@2.15.1...@cosmos-kit/leap@2.15.2) (2025-07-22)
+
+**Note:** Version bump only for package @cosmos-kit/leap
+
+
+
+
+
+## [2.15.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/leap@2.15.0...@cosmos-kit/leap@2.15.1) (2025-07-16)
+
+**Note:** Version bump only for package @cosmos-kit/leap
+
+
+
+
+
 # [2.15.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/leap@2.14.7...@cosmos-kit/leap@2.15.0) (2025-03-25)
 
 **Note:** Version bump only for package @cosmos-kit/leap

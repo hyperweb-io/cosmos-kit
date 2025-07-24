@@ -14,6 +14,7 @@ import { MainWalletBase } from "@cosmos-kit/core";
 import { wallets as keplrWallets } from "@cosmos-kit/keplr";
 import { wallets as leapWallets } from "@cosmos-kit/leap";
 import { wallets as owalletWallets } from "@cosmos-kit/owallet";
+import { wallets as foxWallets } from "@cosmos-kit/foxwallet";
 // Show how to custom modal views
 import { ChainProvider, defaultModalViews } from "@cosmos-kit/react";
 import { wallets as stationWallets } from "@cosmos-kit/station";
@@ -101,6 +102,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           ...ctrlWallets,
           // ...frontierWallets,
           ...coin98Wallets,
+          ...foxWallets,
           // ...finWallets,
           // ...cdcwalletWallets,
         ]}

@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/keplr",
-  "version": "2.15.0",
+  "version": "2.15.2",
   "description": "cosmos-kit wallet connector",
   "author": "developers@hyperweb.io",
   "contributors": [
@@ -65,7 +65,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/keplr-extension": "^2.15.0",
-    "@cosmos-kit/keplr-mobile": "^2.15.0"
+    "@cosmos-kit/keplr-extension": "^2.15.2",
+    "@cosmos-kit/keplr-mobile": "^2.15.2"
   }
 }
