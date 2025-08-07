@@ -348,7 +348,8 @@ export class WalletManager extends StateBase {
 
   private _reconnect = async (
     walletName: WalletName,
-    checkConnection = false
+    checkConnection = false,
+    onlyChainNames?: ChainName[]
   ) => {
     if (
       checkConnection &&
@@ -359,9 +360,21 @@ export class WalletManager extends StateBase {
     this.logger?.debug('[Event Emit] `refresh_connection` (manager)');
     this.coreEmitter.emit('refresh_connection');
     await this.getMainWallet(walletName).connect();
-    await this.getMainWallet(walletName)
-      .getChainWalletList(true)[0]
-      ?.connect(true);
+    await Promise.all(
+      this.getMainWallet(walletName)
+        .getChainWalletList(true)
+        .map((w, index) =>
+          !onlyChainNames
+            ? // If no chains specified, just connect the first chain wallet and sync to all active chain wallets.
+              index === 0
+              ? w.connect(true)
+              : undefined
+            : // If chains specified, connect only the specified chains, without sync.
+            onlyChainNames.includes(w.chainName)
+            ? w.connect(false)
+            : undefined
+        )
+    );
   };
 
   private _restoreAccounts = async () => {
@@ -375,32 +388,103 @@ export class WalletManager extends StateBase {
         const mainWallet = this.getMainWallet(walletName);
         mainWallet.activate();
 
+        let onlyChainNames: ChainName[] | undefined;
         if (mainWallet.clientMutable.state === State.Done) {
           const accountsStr = window.localStorage.getItem(
             'cosmos-kit@2:core//accounts'
           );
           if (accountsStr && accountsStr !== '[]') {
             const accounts: SimpleAccount[] = JSON.parse(accountsStr);
-            accounts.forEach((data) => {
-              const chainWallet = mainWallet
-                .getChainWalletList(false)
-                .find(
-                  (w) =>
-                    w.chainRecord.chain?.chain_id === data.chainId &&
-                    w.namespace === data.namespace
-                );
-              chainWallet?.activate();
-              if (mainWallet.walletInfo.mode === 'wallet-connect') {
-                chainWallet?.setData(data);
-                chainWallet?.setState(State.Done);
+
+            const accountChainWallets = accounts.flatMap(
+              (data): ChainWalletBase | [] => {
+                const chainWallet = mainWallet
+                  .getChainWalletList(false)
+                  .find(
+                    (w) =>
+                      w.chainRecord.chain?.chain_id === data.chainId &&
+                      w.namespace === data.namespace
+                  );
+                chainWallet?.activate();
+                if (mainWallet.walletInfo.mode === 'wallet-connect') {
+                  chainWallet?.setData(data);
+                  chainWallet?.setState(State.Done);
+                }
+                return chainWallet || [];
               }
-            });
+            );
+
             mainWallet.setState(State.Done);
+
+            // Activate all repos for the account chains and get their chain
+            // records.
+            const connectedChainRecords = accountChainWallets.flatMap(
+              (chainWallet): ChainRecord | [] => {
+                try {
+                  const repo = this.getWalletRepo(chainWallet.chainName);
+                  repo.activate();
+                  return repo.chainRecord;
+                } catch {
+                  return [];
+                }
+              }
+            );
+
+            const attemptConnectAll = async () => {
+              try {
+                await mainWallet.client?.enable?.(
+                  connectedChainRecords.map(
+                    (chainRecord) => chainRecord.chain.chain_id
+                  )
+                );
+                return true;
+              } catch (error) {
+                // If the error is a wallet rejection, log and return false to
+                // indicate user rejection. Do not throw to continue.
+                if (error instanceof Error && mainWallet.rejectMatched(error)) {
+                  this.logger?.error(
+                    `Failed to connect to stored chains: ${error.message}`
+                  );
+                  return false;
+                }
+
+                throw error;
+              }
+            };
+
+            // Connect to all chains at once. On error (other than user
+            // rejection), attempt to add each chain and try again.
+            try {
+              const rejected = !(await attemptConnectAll());
+              // If user rejected, do not call `_reconnect` at the bottom or
+              // else every chain wallet will attempt to connect to all chains
+              // again.
+              if (rejected) {
+                return;
+              }
+            } catch (error) {
+              // If failed to enable, add each chain and try again.
+              for (const chainRecord of connectedChainRecords) {
+                await mainWallet.client?.addChain?.(chainRecord);
+              }
+
+              const rejected = !(await attemptConnectAll());
+              // If user rejected, do not call `_reconnect` at the bottom or
+              // else every chain wallet will attempt to connect to all chains
+              // again.
+              if (rejected) {
+                return;
+              }
+            }
+
+            onlyChainNames = connectedChainRecords.map(
+              (chainRecord) => chainRecord.name
+            );
           }
         }
 
         if (mainWallet.walletInfo.mode !== 'wallet-connect') {
-          await this._reconnect(walletName);
+          await this._reconnect(walletName, undefined, onlyChainNames);
         }
       } catch (error) {
         if (error instanceof WalletNotProvidedError) {
