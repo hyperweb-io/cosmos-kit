@@ -7,7 +7,7 @@ export const GatewalletExtensionInfo: Wallet = {
   prettyName: 'GateWallet',
   logo: ICON,
   mode: 'extension',
-  mobileDisabled: true,
+  mobileDisabled: false,
   rejectMessage: {
     source: 'Request rejected',
   },
