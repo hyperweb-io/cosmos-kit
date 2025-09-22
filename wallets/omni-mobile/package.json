@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/omni-mobile",
-  "version": "2.13.2",
+  "version": "2.13.3",
   "description": "cosmos-kit wallet connector",
   "author": "developers@hyperweb.io",
   "contributors": [
@@ -71,8 +71,8 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.2",
-    "@cosmos-kit/walletconnect": "^2.13.2"
+    "@cosmos-kit/core": "^2.16.3",
+    "@cosmos-kit/walletconnect": "^2.13.3"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

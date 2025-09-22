@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/walletconnect",
-  "version": "2.13.2",
+  "version": "2.13.3",
   "description": "cosmos-kit wallet connector using walletconnect",
   "author": "developers@hyperweb.io",
   "contributors": [
@@ -74,7 +74,7 @@
   },
   "dependencies": {
     "@cosmjs/proto-signing": "^0.32.3",
-    "@cosmos-kit/core": "^2.16.2",
+    "@cosmos-kit/core": "^2.16.3",
     "@walletconnect/sign-client": "^2.9.0",
     "@walletconnect/utils": "^2.9.0",
     "events": "3.3.0"

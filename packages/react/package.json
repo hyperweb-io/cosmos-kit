@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/react",
-  "version": "2.22.2",
+  "version": "2.22.3",
   "description": "cosmos-kit wallet connector",
   "author": "developers@hyperweb.io",
   "contributors": [
@@ -81,8 +81,8 @@
   },
   "dependencies": {
     "@chain-registry/types": "^0.46.11",
-    "@cosmos-kit/core": "^2.16.2",
-    "@cosmos-kit/react-lite": "^2.16.2",
+    "@cosmos-kit/core": "^2.16.3",
+    "@cosmos-kit/react-lite": "^2.16.3",
     "@react-icons/all-files": "^4.1.0"
   },
   "peerDependencies": {

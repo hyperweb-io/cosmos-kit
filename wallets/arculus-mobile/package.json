@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/arculus-mobile",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "arculus cosmos-kit wallet connector",
   "author": "arculusdevelopers@composecure.com",
   "contributors": [
@@ -56,7 +56,7 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.2",
-    "@cosmos-kit/walletconnect": "^2.13.2"
+    "@cosmos-kit/core": "^2.16.3",
+    "@cosmos-kit/walletconnect": "^2.13.3"
   }
 }

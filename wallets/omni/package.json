@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/omni",
-  "version": "2.13.2",
+  "version": "2.13.3",
   "description": "cosmos-kit wallet connector",
   "author": "developers@hyperweb.io",
   "contributors": [
@@ -65,6 +65,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/omni-mobile": "^2.13.2"
+    "@cosmos-kit/omni-mobile": "^2.13.3"
   }
 }

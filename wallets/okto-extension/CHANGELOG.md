@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.11.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/okto-extension@2.11.2...@cosmos-kit/okto-extension@2.11.3) (2025-08-12)
+
+**Note:** Version bump only for package @cosmos-kit/okto-extension
+
+
+
+
+
 ## [2.11.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/okto-extension@2.11.1...@cosmos-kit/okto-extension@2.11.2) (2025-07-22)
 
 **Note:** Version bump only for package @cosmos-kit/okto-extension

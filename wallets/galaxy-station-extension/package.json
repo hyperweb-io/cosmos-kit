@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/galaxy-station-extension",
-  "version": "2.14.2",
+  "version": "2.14.3",
   "description": "@cosmos-kit/galaxy-station-extension is the Galaxy Station integration for CosmosKit",
   "author": "Hexxagon",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "@chain-registry/types": "0.46.11",
-    "@cosmos-kit/core": "^2.16.2",
+    "@cosmos-kit/core": "^2.16.3",
     "@hexxagon/feather.js": "^1.0.9-beta.8",
     "@hexxagon/station-connector": "^1.0.17"
   },

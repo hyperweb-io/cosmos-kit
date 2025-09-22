@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/arculus",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "cosmos-kit wallet connector",
   "author": "arculusdevelopers@composecure.com",
   "contributors": [
@@ -50,6 +50,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/arculus-mobile": "^0.1.4"
+    "@cosmos-kit/arculus-mobile": "^0.1.5"
   }
 }

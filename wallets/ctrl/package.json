@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/ctrl",
-  "version": "2.14.2",
+  "version": "2.14.3",
   "description": "cosmos-kit wallet connector",
   "author": "amin@ctrl.xyz",
   "contributors": [
@@ -53,6 +53,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/ctrl-extension": "^2.15.2"
+    "@cosmos-kit/ctrl-extension": "^2.15.3"
   }
 }

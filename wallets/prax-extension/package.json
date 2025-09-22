@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/prax-extension",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "cosmos-kit wallet connector for Prax",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.16.2"
+    "@cosmos-kit/core": "^2.16.3"
   },
   "devDependencies": {
     "@bufbuild/protobuf": "^1.10.0",

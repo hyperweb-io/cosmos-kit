@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/gatewallet",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "cosmos-kit wallet connector",
   "author": "developers@hyperweb.io",
   "contributors": [
@@ -53,6 +53,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/gatewallet-extension": "^1.2.2"
+    "@cosmos-kit/gatewallet-extension": "^1.2.3"
   }
 }

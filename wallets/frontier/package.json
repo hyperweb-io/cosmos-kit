@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/frontier",
-  "version": "2.13.2",
+  "version": "2.13.3",
   "description": "cosmos-kit wallet connector",
   "author": "mayank.yadav@frontierwallet.io",
   "contributors": [
@@ -53,6 +53,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/frontier-extension": "^2.13.2"
+    "@cosmos-kit/frontier-extension": "^2.13.3"
   }
 }

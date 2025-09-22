@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/foxwallet-extension",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "cosmos-kit wallet connector",
   "author": "developers@cosmology.zone",
   "contributors": [
@@ -59,7 +59,7 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.2"
+    "@cosmos-kit/core": "^2.16.3"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

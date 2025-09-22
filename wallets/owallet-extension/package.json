@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/owallet-extension",
-  "version": "2.15.2",
+  "version": "2.15.3",
   "description": "cosmos-kit wallet connector",
   "author": "defi@orai.io",
   "contributors": [
@@ -72,7 +72,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.16.2",
+    "@cosmos-kit/core": "^2.16.3",
     "@keplr-wallet/types": "^0.12.90"
   },
   "peerDependencies": {

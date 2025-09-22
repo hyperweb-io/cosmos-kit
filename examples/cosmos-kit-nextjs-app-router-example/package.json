@@ -1,6 +1,6 @@
 {
   "name": "cosmos-kit-nextjs-app-router-example",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@cosmos-kit/keplr": "^2.15.2",
-    "@cosmos-kit/react": "^2.22.2",
+    "@cosmos-kit/keplr": "^2.15.3",
+    "@cosmos-kit/react": "^2.22.3",
     "@interchain-ui/react": "latest",
     "@radix-ui/react-slot": "^1.1.2",
     "chain-registry": "*",

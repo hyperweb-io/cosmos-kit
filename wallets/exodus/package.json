@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/exodus",
-  "version": "2.13.2",
+  "version": "2.13.3",
   "description": "@cosmos-kit/exodus is the Exodus integration for CosmosKit",
   "author": "devs@exodus.io",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
@@ -48,6 +48,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/exodus-extension": "^2.13.2"
+    "@cosmos-kit/exodus-extension": "^2.13.3"
   }
 }

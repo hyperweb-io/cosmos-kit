@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/imtoken-extension",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "cosmos-kit wallet connector",
   "author": "dev@token.im",
   "contributors": [
@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.16.2"
+    "@cosmos-kit/core": "^2.16.3"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

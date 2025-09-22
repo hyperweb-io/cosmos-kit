@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/cosmology-tech/cosmos-kit/compare/@cosmos-kit/foxwallet-extension@1.1.1...@cosmos-kit/foxwallet-extension@1.1.2) (2025-08-12)
+
+**Note:** Version bump only for package @cosmos-kit/foxwallet-extension
+
+
+
+
+
 ## [1.1.1](https://github.com/cosmology-tech/cosmos-kit/compare/@cosmos-kit/foxwallet-extension@1.1.0...@cosmos-kit/foxwallet-extension@1.1.1) (2025-07-22)
 
 **Note:** Version bump only for package @cosmos-kit/foxwallet-extension
