@@ -13,7 +13,6 @@ import {
 import {
   BroadcastMode,
   DirectSignDoc,
-  SignOptions,
   SignType,
   SuggestToken,
   WalletAccount,
@@ -23,31 +22,13 @@ import { Aria } from './types';
 
 export class AriaClient implements WalletClient {
   readonly client: Aria;
-  private _defaultSignOptions: SignOptions = {
-    preferNoSetFee: false,
-    preferNoSetMemo: true,
-    disableBalanceCheck: true,
-  };
 
-  get defaultSignOptions() {
-    return this._defaultSignOptions;
-  }
-
-  setDefaultSignOptions(options: SignOptions) {
-    this._defaultSignOptions = options;
-  }
-
-  constructor(client: any) {
-    if (!client) throw new Error('Aria client not initialized');
+  constructor(client: Aria) {
     this.client = client;
   }
 
-  async suggestToken({ chainId, tokens, type }: SuggestToken) {
-    if (type === 'cw20') {
-      for (const { contractAddress } of tokens) {
-        await this.client.suggestCW20Token(chainId, contractAddress);
-      }
-    }
+  async disconnect() {
+    return;
   }
 
   async getSimpleAccount(chainId: string) {
@@ -71,18 +52,20 @@ export class AriaClient implements WalletClient {
     };
   }
 
+  async suggestToken({ chainId, tokens, type }: SuggestToken) {
+    if (type === 'cw20') {
+      for (const { contractAddress } of tokens) {
+        await this.client.suggestCW20Token(chainId, contractAddress);
+      }
+    }
+  }
+
   async signAmino(
     chainId: string,
     signer: string,
-    signDoc: StdSignDoc,
-    signOptions?: SignOptions
+    signDoc: StdSignDoc
   ): Promise<AminoSignResponse> {
-    return await this.client.signAmino(
-      chainId,
-      signer,
-      signDoc,
-      signOptions || this.defaultSignOptions
-    );
+    return await this.client.signAmino(chainId, signer, signDoc);
   }
 
   async signArbitrary(
@@ -96,15 +79,9 @@ export class AriaClient implements WalletClient {
   async signDirect(
     chainId: string,
     signer: string,
-    signDoc: DirectSignDoc,
-    signOptions?: SignOptions
+    signDoc: DirectSignDoc
   ): Promise<DirectSignResponse> {
-    return await this.client.signDirect(
-      chainId,
-      signer,
-      signDoc,
-      signOptions || this.defaultSignOptions
-    );
+    return await this.client.signDirect(chainId, signer, signDoc);
   }
 
   getOfflineSigner(
