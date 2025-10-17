@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet@2.15.5...@cosmos-kit/owallet@2.15.6) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/owallet
+
+
+
+
+
+## [2.15.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet@2.15.4...@cosmos-kit/owallet@2.15.5) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/owallet
+
+
+
+
+
+## [2.15.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet@2.15.3...@cosmos-kit/owallet@2.15.4) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/owallet
+
+
+
+
+
 ## [2.15.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet@2.15.2...@cosmos-kit/owallet@2.15.3) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/owallet

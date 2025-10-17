@@ -1,8 +1,8 @@
 {
   "name": "@cosmos-kit/shell",
-  "version": "2.14.3",
+  "version": "2.14.6",
   "description": "cosmos-kit wallet connector",
-  "author": "developers@hyperweb.io",
+  "author": "developers@interweb.co",
   "contributors": [
     {
       "name": "Jun Liu"
@@ -65,6 +65,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/shell-extension": "^2.14.3"
+    "@cosmos-kit/shell-extension": "^2.14.6"
   }
 }

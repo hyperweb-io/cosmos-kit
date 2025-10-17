@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/cosmos-extension-metamask@0.13.5...@cosmos-kit/cosmos-extension-metamask@0.13.6) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/cosmos-extension-metamask
+
+
+
+
+
+## [0.13.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/cosmos-extension-metamask@0.13.4...@cosmos-kit/cosmos-extension-metamask@0.13.5) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/cosmos-extension-metamask
+
+
+
+
+
+## [0.13.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/cosmos-extension-metamask@0.13.3...@cosmos-kit/cosmos-extension-metamask@0.13.4) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/cosmos-extension-metamask
+
+
+
+
+
 ## [0.13.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/cosmos-extension-metamask@0.13.2...@cosmos-kit/cosmos-extension-metamask@0.13.3) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/cosmos-extension-metamask

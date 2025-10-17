@@ -24,6 +24,7 @@ import { wallets as exodusExtension } from '@cosmos-kit/exodus-extension';
 import { wallets as tailwindWallet } from '@cosmos-kit/tailwind';
 import { wallets as cdcwalletExtension } from '@cosmos-kit/cdcwallet-extension';
 import { wallets as bitgetwalletExtension } from '@cosmos-kit/bitgetwallet-extension';
+import { wallets as gatewalletExtension } from '@cosmos-kit/gatewallet-extension';
 
 export type WalletName =
   | 'keplr'
@@ -43,7 +44,8 @@ export type WalletName =
   | 'exodus'
   | 'galaxystation'
   | 'cdcwallet'
-  | 'bitgetwallet';
+  | 'bitgetwallet'
+  | 'gatewallet';
 
 export type WalletList<
   E extends MainWalletBase | null,
@@ -104,6 +106,7 @@ export const tailwind = createWalletList(tailwindWallet[0], null);
 export const owallet = createWalletList(owalletExtension[0], owalletMobile[0]);
 export const cdcwallet = createWalletList(cdcwalletExtension[0], null);
 export const bitgetwallet = createWalletList(bitgetwalletExtension[0], null);
+export const gatewallet = createWalletList(gatewalletExtension[0], null);
 
 export type SubWalletList = MainWalletBase[] & {
   get mobile(): MainWalletBase[];
@@ -128,6 +131,7 @@ export type AllWalletList = SubWalletList & {
   cdcwallet: typeof cdcwallet;
   galaxystation: typeof galaxystation;
   bitgetwallet: typeof bitgetwallet;
+  gatewallet: typeof gatewallet;
   for: (...names: WalletName[]) => SubWalletList;
   not: (...names: WalletName[]) => SubWalletList;
 };
@@ -169,7 +173,7 @@ export function createAllWalletList(ws: MainWalletBase[]) {
   wallets.cdcwallet = cdcwallet;
   wallets.galaxystation = galaxystation;
   wallets.bitgetwallet = bitgetwallet;
-
+  wallets.gatewallet = gatewallet;
   defineGetters(wallets);
 
   wallets.for = function (...ns: WalletName[]) {
@@ -218,4 +222,5 @@ export const wallets = createAllWalletList([
   ...cdcwallet,
   ...galaxystation,
   ...bitgetwallet,
+  ...gatewallet,
 ]);

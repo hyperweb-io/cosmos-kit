@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.26.3](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.2...cosmos-kit@2.26.3) (2025-10-16)
+
+**Note:** Version bump only for package cosmos-kit
+
+
+
+
+
+## [2.26.2](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.1...cosmos-kit@2.26.2) (2025-10-16)
+
+**Note:** Version bump only for package cosmos-kit
+
+
+
+
+
+## [2.26.1](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.0...cosmos-kit@2.26.1) (2025-10-16)
+
+**Note:** Version bump only for package cosmos-kit
+
+
+
+
+
+# [2.26.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.25.2...cosmos-kit@2.26.0) (2025-10-15)
+
+
+### Features
+
+* add gate wallet into wallets ([3583ec5](https://github.com/hyperweb-io/cosmos-kit/commit/3583ec50564c2658339fb933b3d4945a54f4e0bd))
+
+
+
+
+
 ## [2.25.2](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.25.1...cosmos-kit@2.25.2) (2025-08-12)
 
 **Note:** Version bump only for package cosmos-kit

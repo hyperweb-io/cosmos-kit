@@ -1,8 +1,8 @@
 {
   "name": "@cosmos-kit/trust-mobile",
-  "version": "2.13.3",
+  "version": "2.13.6",
   "description": "cosmos-kit wallet connector",
-  "author": "developers@hyperweb.io",
+  "author": "developers@interweb.co",
   "contributors": [
     {
       "name": "Jun Liu"
@@ -71,8 +71,8 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.3",
-    "@cosmos-kit/walletconnect": "^2.13.3"
+    "@cosmos-kit/core": "^2.16.6",
+    "@cosmos-kit/walletconnect": "^2.13.6"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

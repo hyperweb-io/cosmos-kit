@@ -1,8 +1,8 @@
 {
   "name": "@cosmos-kit/shell-extension",
-  "version": "2.14.3",
+  "version": "2.14.6",
   "description": "cosmos-kit wallet connector",
-  "author": "developers@hyperweb.io",
+  "author": "developers@interweb.co",
   "contributors": [
     {
       "name": "Jun Liu"
@@ -72,7 +72,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.16.3"
+    "@cosmos-kit/core": "^2.16.6"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

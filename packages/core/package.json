@@ -1,8 +1,8 @@
 {
   "name": "@cosmos-kit/core",
-  "version": "2.16.3",
+  "version": "2.16.6",
   "description": "cosmos-kit wallet connector core package",
-  "author": "developers@hyperweb.io",
+  "author": "developers@interweb.co",
   "contributors": [
     {
       "name": "Jun Liu"

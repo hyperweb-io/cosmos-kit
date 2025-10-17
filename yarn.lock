@@ -1394,6 +1394,13 @@
   resolved "https://registry.yarnpkg.com/@cosmjs/utils/-/utils-0.32.4.tgz#a9a717c9fd7b1984d9cefdd0ef6c6f254060c671"
   integrity sha512-D1Yc+Zy8oL/hkUkFUL/bwxvuDBzRGpc4cF7/SkdhxX4iHpSLgdOuTt1mhCh9+kl6NQREy9t7SYZ6xeW5gFe60w==
 
+"@cosmos-kit/gatewallet-extension@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@cosmos-kit/gatewallet-extension/-/gatewallet-extension-1.1.2.tgz#cbceb49f11200262cf756dbe31f7560961f23c21"
+  integrity sha512-kVsJYAZErKl5zlFzQMEmQTupEdZIUPNdtYeqSexCJxKKf+rTv+LQ9m9OTRZoUOzMKjt2DoUxnb6w+bvY9b8EeQ==
+  dependencies:
+    "@cosmos-kit/core" "^2.15.1"
+
 "@cosmostation/extension-client@0.1.15":
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/@cosmostation/extension-client/-/extension-client-0.1.15.tgz#cdc6d8fce42217704c1c0d5814f0ee7ce27e8dab"

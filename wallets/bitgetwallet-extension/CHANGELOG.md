@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/bitgetwallet-extension@1.2.4...@cosmos-kit/bitgetwallet-extension@1.2.5) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/bitgetwallet-extension
+
+
+
+
+
+## [1.2.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/bitgetwallet-extension@1.2.3...@cosmos-kit/bitgetwallet-extension@1.2.4) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/bitgetwallet-extension
+
+
+
+
+
+## [1.2.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/bitgetwallet-extension@1.2.2...@cosmos-kit/bitgetwallet-extension@1.2.3) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/bitgetwallet-extension
+
+
+
+
+
 ## [1.2.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/bitgetwallet-extension@1.2.1...@cosmos-kit/bitgetwallet-extension@1.2.2) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/bitgetwallet-extension
