@@ -57,20 +57,17 @@
     ]
   },
   "dependencies": {
+    "@toruslabs/eccrypto": "6.2.0",
     "@cosmos-kit/core": "^2.16.3",
-    "@solana/web3.js": "^1.77.3",
-    "@toruslabs/eccrypto": "^2.1.1",
-    "@web3auth/auth-adapter": "^9.5.0",
-    "@web3auth/base": "^9.5.0",
-    "@web3auth/base-provider": "^9.5.0",
-    "@web3auth/ethereum-provider": "^9.5.0",
-    "@web3auth/no-modal": "^9.5.0",
-    "@web3auth/solana-provider": "^9.5.0",
-    "ethereum-cryptography": "^2.1.2",
-    "url": "^0.11.1"
+    "@web3auth/auth": "^10.5.0",
+    "@web3auth/modal": "^10.4.0",
+    "url": "^0.11.1",
+    "viem": "^2.23.0",
+    "@react-native-async-storage/async-storage": "^2.2.0"
   },
   "devDependencies": {
-    "@chain-registry/types": "^0.46.11"
+    "@chain-registry/types": "^0.46.11",
+    "typescript": "5.8.3"
   },
   "peerDependencies": {
     "@chain-registry/types": ">= 0.17",
