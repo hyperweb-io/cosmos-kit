@@ -48,24 +48,4 @@ export interface Vultisig {
     signer: string,
     data: string | Uint8Array
   ): Promise<StdSignature>;
-  getEnigmaPubKey(chainId: string): Promise<Uint8Array>;
-  getEnigmaTxEncryptionKey(
-    chainId: string,
-    nonce: Uint8Array
-  ): Promise<Uint8Array>;
-  enigmaEncrypt(
-    chainId: string,
-    contractCodeHash: string,
-    msg: object
-  ): Promise<Uint8Array>;
-  enigmaDecrypt(
-    chainId: string,
-    ciphertext: Uint8Array,
-    nonce: Uint8Array
-  ): Promise<Uint8Array>;
-  sendTx(
-    chainId: string,
-    tx: Uint8Array,
-    mode: BroadcastMode
-  ): Promise<Uint8Array>;
 }
