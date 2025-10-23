@@ -58,11 +58,6 @@
   "bugs": {
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "dist/"
-    ]
-  },
   "dependencies": {
     "@babel/runtime": "7.11.2"
   }

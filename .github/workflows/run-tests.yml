@@ -27,8 +27,4 @@ jobs:
 
       - name: Test
         run: |
-          cd packages/core && yarn test
-
-      - name: Test React Lite
-        run: |
-          cd packages/react-lite && yarn test
+          npx --yes lerna@7 run test -- --passWithNoTests

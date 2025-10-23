@@ -1,3 +1,8 @@
+// Polyfill for TextEncoder/TextDecoder required by @cosmjs packages
+const { TextEncoder, TextDecoder } = require('util');
+global.TextEncoder = TextEncoder;
+global.TextDecoder = TextDecoder;
+
 Object.setPrototypeOf(window, {
   keplr: {
     enable: () => Promise.resolve(),

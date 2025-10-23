@@ -62,11 +62,11 @@
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
     "@cosmos-kit/core": "^2.16.6",
-    "@cosmsnap/snapper": "^0.2.5",
-    "cosmjs-types": ">=0.9.0"
+    "@cosmsnap/snapper": "^0.2.5"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",
-    "@cosmjs/proto-signing": ">=0.32.3"
+    "@cosmjs/proto-signing": ">=0.32.3",
+    "cosmjs-types": ">=0.9.0"
   }
 }
