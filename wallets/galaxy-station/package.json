@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/galaxy-station",
-  "version": "2.14.6",
+  "version": "2.14.7",
   "description": "@cosmos-kit/station is the Galaxy Station integration for CosmosKit",
   "author": "Hexxagon",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
@@ -48,7 +48,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/galaxy-station-extension": "^2.14.6",
-    "@cosmos-kit/galaxy-station-mobile": "^2.14.6"
+    "@cosmos-kit/galaxy-station-extension": "^2.14.7",
+    "@cosmos-kit/galaxy-station-mobile": "^2.14.7"
   }
 }

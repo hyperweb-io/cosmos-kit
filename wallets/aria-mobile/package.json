@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/aria-mobile",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "cosmos-kit wallet connector",
   "author": "developers@interweb.co",
   "contributors": [
@@ -71,7 +71,7 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.6",
-    "@cosmos-kit/walletconnect": "^2.13.6"
+    "@cosmos-kit/core": "^2.16.7",
+    "@cosmos-kit/walletconnect": "^2.13.7"
   }
 }

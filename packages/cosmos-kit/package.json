@@ -1,6 +1,6 @@
 {
   "name": "cosmos-kit",
-  "version": "2.26.3",
+  "version": "2.26.4",
   "description": "cosmos-kit wallet connector",
   "author": "developers@interweb.co",
   "contributors": [
@@ -71,24 +71,24 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/bitgetwallet-extension": "^1.2.5",
-    "@cosmos-kit/cdcwallet": "^2.16.6",
-    "@cosmos-kit/coin98": "^2.14.6",
-    "@cosmos-kit/compass": "^2.14.6",
-    "@cosmos-kit/cosmostation": "^2.15.6",
-    "@cosmos-kit/ctrl": "^2.14.6",
-    "@cosmos-kit/exodus": "^2.13.6",
-    "@cosmos-kit/fin": "^2.14.6",
-    "@cosmos-kit/galaxy-station": "^2.14.6",
+    "@cosmos-kit/bitgetwallet-extension": "^1.2.6",
+    "@cosmos-kit/cdcwallet": "^2.16.7",
+    "@cosmos-kit/coin98": "^2.14.7",
+    "@cosmos-kit/compass": "^2.14.7",
+    "@cosmos-kit/cosmostation": "^2.15.7",
+    "@cosmos-kit/ctrl": "^2.14.7",
+    "@cosmos-kit/exodus": "^2.13.7",
+    "@cosmos-kit/fin": "^2.14.7",
+    "@cosmos-kit/galaxy-station": "^2.14.7",
     "@cosmos-kit/gatewallet-extension": "1.1.2",
-    "@cosmos-kit/keplr": "^2.15.7",
-    "@cosmos-kit/leap": "^2.15.6",
-    "@cosmos-kit/ledger": "^2.14.6",
-    "@cosmos-kit/okxwallet-extension": "^2.14.6",
-    "@cosmos-kit/omni": "^2.13.6",
-    "@cosmos-kit/owallet": "^2.15.6",
-    "@cosmos-kit/shell": "^2.14.6",
-    "@cosmos-kit/tailwind": "^1.8.6",
-    "@cosmos-kit/trust": "^2.14.6"
+    "@cosmos-kit/keplr": "^2.15.8",
+    "@cosmos-kit/leap": "^2.15.7",
+    "@cosmos-kit/ledger": "^2.14.7",
+    "@cosmos-kit/okxwallet-extension": "^2.14.7",
+    "@cosmos-kit/omni": "^2.13.7",
+    "@cosmos-kit/owallet": "^2.15.7",
+    "@cosmos-kit/shell": "^2.14.7",
+    "@cosmos-kit/tailwind": "^1.8.7",
+    "@cosmos-kit/trust": "^2.14.7"
   }
 }

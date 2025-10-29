@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/keplr-mobile",
-  "version": "2.15.7",
+  "version": "2.15.8",
   "description": "cosmos-kit wallet connector",
   "author": "developers@interweb.co",
   "contributors": [
@@ -72,9 +72,9 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.16.6",
-    "@cosmos-kit/keplr-extension": "^2.15.7",
-    "@cosmos-kit/walletconnect": "^2.13.6",
+    "@cosmos-kit/core": "^2.16.7",
+    "@cosmos-kit/keplr-extension": "^2.15.8",
+    "@cosmos-kit/walletconnect": "^2.13.7",
     "@keplr-wallet/provider-extension": "^0.12.95",
     "@keplr-wallet/wc-client": "^0.12.95"
   },
