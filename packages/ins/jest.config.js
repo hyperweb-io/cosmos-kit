@@ -1,7 +1,7 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
   preset: 'ts-jest',
-  testEnvironment: 'jsdom',
+  testEnvironment: 'node',
   transform: {
     '^.+\\.tsx?$': [
       'ts-jest',
@@ -11,9 +11,11 @@ module.exports = {
       },
     ],
   },
-  transformIgnorePatterns: [`/node_modules/*`],
+  transformIgnorePatterns: [
+    'node_modules/(?!(chain-registry)/)',
+  ],
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  modulePathIgnorePatterns: ['dist/*'],
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  testPathIgnorePatterns: ['cjs/*', 'esm/*'],
+  modulePathIgnorePatterns: ['cjs/*', 'esm/*'],
 };

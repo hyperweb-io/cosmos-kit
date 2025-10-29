@@ -1,3 +1,9 @@
+// adds polyfill for TextEncoder/TextDecoder because jsdom doesn't support them
+// https://github.com/jsdom/jsdom/issues/2524
+const { TextEncoder, TextDecoder } = require('util');
+global.TextEncoder = TextEncoder;
+global.TextDecoder = TextDecoder;
+
 Object.setPrototypeOf(window, {
   keplr: {
     enable: () => Promise.resolve(),

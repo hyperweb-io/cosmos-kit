@@ -1,4 +1,4 @@
-import { Chains } from '@chain-registry/types';
+import { Chain } from '@chain-registry/types';
 import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
 
 export type NameServiceName = string;
@@ -18,10 +18,10 @@ export type NameServiceRegistry = NameServiceInfo[];
 
 export type ParsedInsName =
   | {
-      name: string;
-      resolver: string;
-      nameservice: string;
-    }
+    name: string;
+    resolver: string;
+    nameservice: string;
+  }
   | undefined;
 
 /**
@@ -44,13 +44,13 @@ export const parseINSName = (name: string): ParsedInsName => {
  * @Module INS
  */
 export class INS {
-  chains: Chains;
+  chains: Chain[];
   ins_registry: NameServiceRegistry;
 
   /**
    * This class is used to resolve names and addresses.
    */
-  constructor(chains: Chains, ins_registry: NameServiceRegistry) {
+  constructor(chains: Chain[], ins_registry: NameServiceRegistry) {
     this.chains = chains;
     this.ins_registry = ins_registry;
   }
