@@ -48,4 +48,9 @@ export interface Vultisig {
     signer: string,
     data: string | Uint8Array
   ): Promise<StdSignature>;
+  sendTx(
+    chainId: string,
+    tx: Uint8Array,
+    mode: BroadcastMode
+  ): Promise<Uint8Array>;
 }

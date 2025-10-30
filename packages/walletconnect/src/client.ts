@@ -314,7 +314,7 @@ export class WCClient implements WalletClient {
     }
 
     this.signClient = await SignClient.init(
-      this.options?.signClient as SignClientTypes.Options
+      this.options?.signClient as unknown as SignClientTypes.Options
     );
     this.relayUrl = this.options?.signClient.relayUrl;
 

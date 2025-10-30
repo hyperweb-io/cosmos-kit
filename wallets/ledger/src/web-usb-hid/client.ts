@@ -3,14 +3,18 @@ import {
   OfflineAminoSigner,
   StdSignDoc,
 } from '@cosmjs/amino';
-import { sortedJsonStringify } from '@cosmjs/amino/build/signdoc';
 import { Secp256k1Signature } from '@cosmjs/crypto';
 import { fromHex } from '@cosmjs/encoding';
 import { Algo } from '@cosmjs/proto-signing';
 import { SignType, WalletClient } from '@cosmos-kit/core';
 import Cosmos from '@ledgerhq/hw-app-cosmos';
 
-import { ChainIdToBech32Prefix, getCosmosApp, getCosmosPath } from './utils';
+import {
+  ChainIdToBech32Prefix,
+  getCosmosApp,
+  getCosmosPath,
+  sortedJsonStringify,
+} from './utils';
 
 export class LedgerClient implements WalletClient {
   client: Cosmos;
