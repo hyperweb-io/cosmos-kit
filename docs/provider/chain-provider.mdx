@@ -12,7 +12,7 @@ These properties are shared by `ChainProvider`s from `@cosmos-kit/react` and `@c
 
 Required property of type `(Chain | string)[]`.
 
-It defines supported chains. Any actions involving chains beyound it might cause errors.
+It defines supported chains. Any actions involving chains beyond it might cause errors.
 
 If chain has been registered in `@chain-registry/client`, you can also simply provide chain name (type `string`) here and it'll fetch the chain information automatically.
 
@@ -195,7 +195,7 @@ function CosmosApp() {
 
 **Type:** `NameServiceName` = `string`;
 
-Currently two name services are registered: `'icns'` and `'stargaze'`. The default name service is `icns`. This property is only used in `getNameService` of `useManager` when prarameter `chainName` is undefined, and in `useNameService` when the prarameter `name` is not provided. Otherwise it will return the name service object corresponding to provided chain. Therefore it won't affect `getNameService` method returned by `useChain`, since `chainName` is always provide in `useChain`.
+Currently two name services are registered: `'icns'` and `'stargaze'`. The default name service is `icns`. This property is only used in `getNameService` of `useManager` when parameter `chainName` is undefined, and in `useNameService` when the parameter `name` is not provided. Otherwise it will return the name service object corresponding to provided chain. Therefore it won't affect `getNameService` method returned by `useChain`, since `chainName` is always provide in `useChain`.
 
 ### endpointOptions
 

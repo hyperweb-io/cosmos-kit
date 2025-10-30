@@ -17,7 +17,7 @@ export const getBitgetwalletFromExtension: () => Promise<
     return void 0;
   }
 
-  const bitgetWallet = (window as BitgetwalletWindow).bitgetWallet.keplr;
+  const bitgetWallet = (window as unknown as BitgetwalletWindow).bitgetWallet.keplr;
 
   if (bitgetWallet) {
     return bitgetWallet;

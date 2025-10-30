@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.14.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/trust@2.14.6...@cosmos-kit/trust@2.14.7) (2025-10-29)
+
+**Note:** Version bump only for package @cosmos-kit/trust
+
+
+
+
+
 ## [2.14.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/trust@2.14.5...@cosmos-kit/trust@2.14.6) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/trust
