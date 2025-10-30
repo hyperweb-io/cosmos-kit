@@ -3,9 +3,8 @@ import { OfflineAminoSigner, StdSignature } from '@cosmjs/amino';
 import { OfflineDirectSigner } from '@cosmjs/proto-signing';
 import { DappEnv, WalletClient } from '@cosmos-kit/core';
 import { makeADR36AminoSignDoc } from '@keplr-wallet/cosmos';
-import eccrypto from '@toruslabs/eccrypto';
-import { LOGIN_PROVIDER } from '@web3auth/auth-adapter';
-import { UserInfo } from '@web3auth/base';
+import * as eccrypto from '@toruslabs/eccrypto';
+import { AUTH_CONNECTION, UserInfo } from '@web3auth/modal';
 
 import { Web3AuthSigner } from './signer';
 import { Web3AuthClientOptions } from './types';
@@ -61,8 +60,8 @@ export class Web3AuthClient implements WalletClient {
     }
 
     if (
-      (this.#options?.loginProvider === LOGIN_PROVIDER.EMAIL_PASSWORDLESS ||
-        this.#options?.loginProvider === LOGIN_PROVIDER.SMS_PASSWORDLESS) &&
+      (this.#options?.loginProvider === AUTH_CONNECTION.EMAIL_PASSWORDLESS ||
+        this.#options?.loginProvider === AUTH_CONNECTION.SMS_PASSWORDLESS) &&
       this.#loginHint === undefined
     ) {
       throw new Error(
