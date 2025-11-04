@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/web3auth",
-  "version": "2.16.7",
+  "version": "2.16.8",
   "description": "cosmos-kit wallet connector for Web3Auth",
   "author": "noah@noah.zone",
   "contributors": [
@@ -57,13 +57,13 @@
     ]
   },
   "dependencies": {
-    "@toruslabs/eccrypto": "6.2.0",
     "@cosmos-kit/core": "^2.16.7",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@toruslabs/eccrypto": "6.2.0",
     "@web3auth/auth": "^10.5.0",
     "@web3auth/modal": "^10.4.0",
     "url": "^0.11.1",
-    "viem": "^2.23.0",
-    "@react-native-async-storage/async-storage": "^2.2.0"
+    "viem": "^2.23.0"
   },
   "devDependencies": {
     "@chain-registry/types": "^0.46.11",

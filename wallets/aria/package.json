@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/aria",
-  "version": "2.16.7",
+  "version": "2.16.8",
   "description": "cosmos-kit wallet connector",
   "author": "dblackstone@orchestralabs.org",
   "contributors": [
@@ -54,6 +54,6 @@
   },
   "dependencies": {
     "@cosmos-kit/aria-extension": "^2.18.5",
-    "@cosmos-kit/aria-mobile": "^1.1.7"
+    "@cosmos-kit/aria-mobile": "^1.1.8"
   }
 }

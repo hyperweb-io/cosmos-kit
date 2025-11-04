@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/owallet",
-  "version": "2.15.7",
+  "version": "2.15.8",
   "description": "cosmos-kit wallet connector",
   "author": "defi@orai.io",
   "contributors": [
@@ -66,6 +66,6 @@
   },
   "dependencies": {
     "@cosmos-kit/owallet-extension": "^2.15.7",
-    "@cosmos-kit/owallet-mobile": "^2.16.7"
+    "@cosmos-kit/owallet-mobile": "^2.16.8"
   }
 }
