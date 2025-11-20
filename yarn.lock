@@ -2798,7 +2798,7 @@
   dependencies:
     long "^4.0.0"
 
-"@keplr-wallet/types@^0.12.253", "@keplr-wallet/types@^0.12.257", "@keplr-wallet/types@^0.12.263":
+"@keplr-wallet/types@^0.12.253", "@keplr-wallet/types@^0.12.257", "@keplr-wallet/types@^0.12.290":
   version "0.12.290"
   resolved "https://registry.yarnpkg.com/@keplr-wallet/types/-/types-0.12.290.tgz#0681c7231a54bbbb470e01d799637ef20527f950"
   integrity sha512-nWKbtgQzFiHhJF23XdgFi8YlZoXPM3zoUdNdLo5W1XHLd7T0CZdC54//L+eAPbQ+KI8FbJ/qvQRPSjyi0bzk6w==
@@ -3737,10 +3737,10 @@
     "@oko-wallet/bytes" "^0.0.3-alpha.50"
     "@oko-wallet/stdlib-js" "^0.0.2-rc.32"
 
-"@oko-wallet/oko-sdk-cosmos@^0.0.6-rc.135":
-  version "0.0.6-rc.135"
-  resolved "https://registry.yarnpkg.com/@oko-wallet/oko-sdk-cosmos/-/oko-sdk-cosmos-0.0.6-rc.135.tgz#4d9e62c07e75aa95d0c7afbae665b9b58e533c03"
-  integrity sha512-/8Dr3roE98uEQPVq2VTm7WL0Ou1aI9TBOmuERzb5wLUSIKEi5ZXivq349g8GUH53BWGIVMbEtsUHvqso6i4Tyg==
+"@oko-wallet/oko-sdk-cosmos@^0.0.6-rc.136":
+  version "0.0.6-rc.136"
+  resolved "https://registry.yarnpkg.com/@oko-wallet/oko-sdk-cosmos/-/oko-sdk-cosmos-0.0.6-rc.136.tgz#dd81ffc2fb747bd1404da2b6479e72df46cbe0ce"
+  integrity sha512-orzjHqxw6nYvtvqjT0MJb52q0aRBQ/HFcsxUAYdbbJd0gkUjO5lNSb1ktfuvwEKueNua1ZrWcXx71HFQiWvSpA==
   dependencies:
     "@cosmjs/amino" "^0.33.1"
     "@cosmjs/proto-signing" "^0.33.1"

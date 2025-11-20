@@ -194,8 +194,7 @@ export class OkoWalletClient implements WalletClient {
     return await this.client.sendTx(
       chainId,
       tx,
-      mode as 'async' | 'sync' | 'block',
-      {}
+      mode as 'async' | 'sync' | 'block'
     );
   }
 }
