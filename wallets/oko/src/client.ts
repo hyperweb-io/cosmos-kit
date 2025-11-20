@@ -51,14 +51,14 @@ export class OkoWalletClient implements WalletClient {
     if (this.loginProvider !== 'email') {
       throw new Error('Email login is not enabled for this wallet instance');
     }
-    // return await this.client.okoWallet.startEmailSignIn(email);
+    return await this.client.okoWallet.startEmailSignIn(email);
   }
 
   async completeEmailSignIn(email: string, code: string) {
     if (this.loginProvider !== 'email') {
       throw new Error('Email login is not enabled for this wallet instance');
     }
-    // return await this.client.okoWallet.completeEmailSignIn(email, code);
+    return await this.client.okoWallet.completeEmailSignIn(email, code);
   }
 
   async enable(_chainIds: string | string[]) {}

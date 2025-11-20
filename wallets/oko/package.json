@@ -57,8 +57,8 @@
   "dependencies": {
     "@cosmos-kit/core": "^2.16.7",
     "@keplr-wallet/types": "^0.12.263",
-    "@oko-wallet/oko-sdk-cosmos": "^0.0.6-rc.134",
-    "@oko-wallet/oko-sdk-core": "^0.0.6-rc.112"
+    "@oko-wallet/oko-sdk-cosmos": "^0.0.6-rc.135",
+    "@oko-wallet/oko-sdk-core": "^0.0.6-rc.113"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">= 0.28",

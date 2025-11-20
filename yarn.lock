@@ -3721,26 +3721,26 @@
   dependencies:
     "@octokit/openapi-types" "^18.0.0"
 
-"@oko-wallet/bytes@^0.0.3-alpha.49":
-  version "0.0.3-alpha.49"
-  resolved "https://registry.yarnpkg.com/@oko-wallet/bytes/-/bytes-0.0.3-alpha.49.tgz#f3e86f9a743df8ebf7ac076339b12d7dae3130c9"
-  integrity sha512-B4T7ovZoQ39gXs/mqfEdCU/gJV5gZAO1bYEuCLrolpIRGBo+XQ2Yn7cKwqBvcBtCuEi72nIfcPfawEg0moHNAQ==
+"@oko-wallet/bytes@^0.0.3-alpha.50":
+  version "0.0.3-alpha.50"
+  resolved "https://registry.yarnpkg.com/@oko-wallet/bytes/-/bytes-0.0.3-alpha.50.tgz#b632d7e62b631544cda87a2e8f0603f112df6bc1"
+  integrity sha512-HVakEhlQlaSPvUMsE2VGKRLRCdfYfn6KUkHGmYS/GA5p1T87YXTGd8TzsoPETaJtBCiJxQ4pf5Wedj664hvGxA==
   dependencies:
-    "@oko-wallet/stdlib-js" "^0.0.2-rc.31"
+    "@oko-wallet/stdlib-js" "^0.0.2-rc.32"
 
-"@oko-wallet/oko-sdk-core@^0.0.6-rc.112":
-  version "0.0.6-rc.112"
-  resolved "https://registry.yarnpkg.com/@oko-wallet/oko-sdk-core/-/oko-sdk-core-0.0.6-rc.112.tgz#0b13250d4706beede616db818228b2d397d76f3b"
-  integrity sha512-QCQoq1PGusZnmqCEU3NLKT7Hd8AsBtBt8cndRXiltpqnaJ78E+xC0rN6xuGrKR+EIRnvIS55Mz3vtdkARqsatw==
+"@oko-wallet/oko-sdk-core@^0.0.6-rc.113":
+  version "0.0.6-rc.113"
+  resolved "https://registry.yarnpkg.com/@oko-wallet/oko-sdk-core/-/oko-sdk-core-0.0.6-rc.113.tgz#838c9b084cae666ae413a85b83778c8c94ef4521"
+  integrity sha512-6ipQEA/Nl5Wh809sgDyklHJzs4NxbwU1g8JbNpnVNfbbAgzE5dp3otEuspEieyznzZdBxKJq/0zbtL/cfnpp2A==
   dependencies:
     "@keplr-wallet/types" "^0.12.257"
-    "@oko-wallet/bytes" "^0.0.3-alpha.49"
-    "@oko-wallet/stdlib-js" "^0.0.2-rc.31"
+    "@oko-wallet/bytes" "^0.0.3-alpha.50"
+    "@oko-wallet/stdlib-js" "^0.0.2-rc.32"
 
-"@oko-wallet/oko-sdk-cosmos@^0.0.6-rc.134":
-  version "0.0.6-rc.134"
-  resolved "https://registry.yarnpkg.com/@oko-wallet/oko-sdk-cosmos/-/oko-sdk-cosmos-0.0.6-rc.134.tgz#7663a592feedb746b155646b3000a50cc3646047"
-  integrity sha512-PgJf0ah6vobhH3x6W2NjJbiVaZiLLfAUK3a39mGK0Y7aZmq285OralDCejyo5Jxx26mU2uudKmBpZjwW7MHfFQ==
+"@oko-wallet/oko-sdk-cosmos@^0.0.6-rc.135":
+  version "0.0.6-rc.135"
+  resolved "https://registry.yarnpkg.com/@oko-wallet/oko-sdk-cosmos/-/oko-sdk-cosmos-0.0.6-rc.135.tgz#4d9e62c07e75aa95d0c7afbae665b9b58e533c03"
+  integrity sha512-/8Dr3roE98uEQPVq2VTm7WL0Ou1aI9TBOmuERzb5wLUSIKEi5ZXivq349g8GUH53BWGIVMbEtsUHvqso6i4Tyg==
   dependencies:
     "@cosmjs/amino" "^0.33.1"
     "@cosmjs/proto-signing" "^0.33.1"
@@ -3748,16 +3748,16 @@
     "@keplr-wallet/types" "^0.12.253"
     "@noble/curves" "1.9.7"
     "@noble/hashes" "^1.8.0"
-    "@oko-wallet/oko-sdk-core" "^0.0.6-rc.112"
-    "@oko-wallet/stdlib-js" "^0.0.2-rc.31"
+    "@oko-wallet/oko-sdk-core" "^0.0.6-rc.113"
+    "@oko-wallet/stdlib-js" "^0.0.2-rc.32"
     bech32 "^2.0.0"
     buffer "^6.0.3"
     uuid "*"
 
-"@oko-wallet/stdlib-js@^0.0.2-rc.31":
-  version "0.0.2-rc.31"
-  resolved "https://registry.yarnpkg.com/@oko-wallet/stdlib-js/-/stdlib-js-0.0.2-rc.31.tgz#b62997407882f7754d8c53fbedb0d1b8c4e50a18"
-  integrity sha512-BmG+FKWKcNDS+Fu+aEPsaUlldnU2rwkExnyuNkj+lIdVQT2Bg42BgCGgRQxiF1MbPAFnA/sLe+r/il4zXbKXSg==
+"@oko-wallet/stdlib-js@^0.0.2-rc.32":
+  version "0.0.2-rc.32"
+  resolved "https://registry.yarnpkg.com/@oko-wallet/stdlib-js/-/stdlib-js-0.0.2-rc.32.tgz#45c2434aa61d921d42f24fb8b76cf061b28124e0"
+  integrity sha512-P/h3FfuEfK6DROTsC0tm7l4NfKXresFCIOAJYZv1fspdUvakmkG0Cy5ojsVk36IYOI+dPtJhInp5PGfzTww5oQ==
 
 "@parcel/watcher@2.0.4":
   version "2.0.4"
