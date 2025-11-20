@@ -27,8 +27,8 @@ export class OkoWalletClient implements WalletClient {
   readonly loginProvider: OkoLoginProvider;
   private _defaultSignOptions: SignOptions = {
     preferNoSetFee: false,
-    preferNoSetMemo: true,
-    disableBalanceCheck: true,
+    preferNoSetMemo: false,
+    disableBalanceCheck: false,
   };
 
   get defaultSignOptions() {

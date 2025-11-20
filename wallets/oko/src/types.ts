@@ -4,14 +4,18 @@ export type OkoLoginProvider = 'google' | 'email';
 
 export interface OkoLoginMethod {
   provider: OkoLoginProvider;
-  name: string;
-  logo?: string;
 }
 
 export interface OkoWalletOptions {
   apiKey: string;
   sdkEndpoint?: string;
+  loginMethods?: OkoLoginMethod[];
+}
+
+export interface OkoWalletInternalOptions {
+  apiKey: string;
+  sdkEndpoint?: string;
   loginProvider: OkoLoginProvider;
 }
 
-export type OkoWalletInfo = Wallet & { options: OkoWalletOptions };
+export type OkoWalletInfo = Wallet & { options: OkoWalletInternalOptions };

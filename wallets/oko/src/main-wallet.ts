@@ -25,8 +25,8 @@ export class OkoMainWallet extends MainWalletBase {
       if (!options.apiKey) {
         throw new Error('Oko API key is required');
       }
-    } catch (err) {
-      this.initClientError(err);
+    } catch (error) {
+      this.initClientError(error);
       return;
     }
 
