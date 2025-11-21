@@ -11,5 +11,4 @@ export const okoWalletInfo: Wallet = {
   rejectMessage: {
     source: 'Request rejected',
   },
-  downloads: [],
 };
