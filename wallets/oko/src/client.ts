@@ -47,19 +47,19 @@ export class OkoWalletClient implements WalletClient {
     this.loginProvider = loginProvider;
   }
 
-  async startEmailSignIn(email: string) {
-    if (this.loginProvider !== 'email') {
-      throw new Error('Email login is not enabled for this wallet instance');
-    }
-    return await this.client.okoWallet.startEmailSignIn(email);
-  }
+  // async startEmailSignIn(email: string) {
+  //   if (this.loginProvider !== 'email') {
+  //     throw new Error('Email login is not enabled for this wallet instance');
+  //   }
+  //   return await this.client.okoWallet.startEmailSignIn(email);
+  // }
 
-  async completeEmailSignIn(email: string, code: string) {
-    if (this.loginProvider !== 'email') {
-      throw new Error('Email login is not enabled for this wallet instance');
-    }
-    return await this.client.okoWallet.completeEmailSignIn(email, code);
-  }
+  // async completeEmailSignIn(email: string, code: string) {
+  //   if (this.loginProvider !== 'email') {
+  //     throw new Error('Email login is not enabled for this wallet instance');
+  //   }
+  //   return await this.client.okoWallet.completeEmailSignIn(email, code);
+  // }
 
   async enable(_chainIds: string | string[]) {}
 

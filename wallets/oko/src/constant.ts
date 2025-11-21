@@ -14,7 +14,7 @@ export const PROVIDER_CONFIG: Record<
     logo: GOOGLE_LOGO,
     name: 'Oko Wallet (Google)',
   },
-  email: {
-    name: 'Oko Wallet (Email)',
-  },
+  // email: {
+  //   name: 'Oko Wallet (Email)',
+  // },
 };
