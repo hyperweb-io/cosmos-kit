@@ -1,4 +1,9 @@
-import { MainWalletBase } from '@cosmos-kit/core';
+import {
+  type ChainName,
+  type DisconnectOptions,
+  MainWalletBase,
+  State,
+} from '@cosmos-kit/core';
 import { OkoCosmosWallet } from '@oko-wallet/oko-sdk-cosmos';
 
 import { OkoChainWallet } from './chain-wallet';
@@ -57,5 +62,22 @@ export class OkoMainWallet extends MainWalletBase {
     } catch (error) {
       this.initClientError(error);
     }
+  }
+
+  async disconnectAll(
+    activeOnly?: boolean,
+    exclude?: ChainName,
+    options?: DisconnectOptions
+  ): Promise<void> {
+    if (this.client) {
+      const okoClient = this.client as OkoWalletClient;
+      await okoClient.client.okoWallet.signOut();
+    }
+
+    await super.disconnectAll(activeOnly, exclude, options);
+
+    // Reset client state to Init to force re-initialization on next connect
+    this.clientMutable.data = undefined;
+    this.clientMutable.state = State.Init;
   }
 }
