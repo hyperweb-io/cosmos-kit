@@ -44,7 +44,7 @@ export class OkoMainWallet extends MainWalletBase {
       const publicKey = await cosmosWallet.data.okoWallet.getPublicKey();
 
       if (!publicKey) {
-        const loginProvider = options.loginProvider || 'google';
+        const loginProvider = options.loginProvider;
 
         if (loginProvider === 'google') {
           await cosmosWallet.data.okoWallet.signIn('google');
