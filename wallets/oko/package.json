@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/oko",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "cosmos-kit wallet connector for Oko Wallet",
   "author": "oko-wallet",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
