@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/aria",
-  "version": "2.17.0",
+  "version": "2.18.0",
   "description": "cosmos-kit wallet connector",
   "author": "dblackstone@orchestralabs.org",
   "contributors": [
@@ -53,8 +53,8 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/aria-extension": "^2.19.0",
-    "@cosmos-kit/aria-mobile": "^1.2.0"
+    "@cosmos-kit/aria-extension": "^2.20.0",
+    "@cosmos-kit/aria-mobile": "^1.3.0"
   },
   "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

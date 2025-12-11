@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/station",
-  "version": "2.14.0",
+  "version": "2.15.0",
   "description": "@cosmos-kit/station is the Station integration for CosmosKit",
   "author": "jonlitech@gmail.com",
   "contributors": [
@@ -53,7 +53,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/station-extension": "^2.15.0"
+    "@cosmos-kit/station-extension": "^2.16.0"
   },
   "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

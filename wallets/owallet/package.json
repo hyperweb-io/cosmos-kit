@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/owallet",
-  "version": "2.16.0",
+  "version": "2.17.0",
   "description": "cosmos-kit wallet connector",
   "author": "defi@orai.io",
   "contributors": [
@@ -65,8 +65,8 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/owallet-extension": "^2.16.0",
-    "@cosmos-kit/owallet-mobile": "^2.17.0"
+    "@cosmos-kit/owallet-extension": "^2.17.0",
+    "@cosmos-kit/owallet-mobile": "^2.18.0"
   },
   "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

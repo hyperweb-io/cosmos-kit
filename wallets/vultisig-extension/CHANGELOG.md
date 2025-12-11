@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.17.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/vultisig-extension@2.16.0...@cosmos-kit/vultisig-extension@2.17.0) (2025-12-11)
+
+**Note:** Version bump only for package @cosmos-kit/vultisig-extension
+
+
+
+
+
 # [2.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/vultisig-extension@2.15.8...@cosmos-kit/vultisig-extension@2.16.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/vultisig-extension
