@@ -58,5 +58,6 @@
     "@chain-registry/keplr": "^1.69.13",
     "@cosmos-kit/core": "^2.17.0",
     "@cosmos-kit/walletconnect": "^2.14.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

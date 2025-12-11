@@ -59,5 +59,6 @@
   "devDependencies": {
     "@cosmjs/proto-signing": ">=0.32.3",
     "@tailwindzone/connect": "^1.1.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

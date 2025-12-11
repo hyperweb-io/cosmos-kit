@@ -55,5 +55,6 @@
   "dependencies": {
     "@cosmos-kit/aria-extension": "^2.19.0",
     "@cosmos-kit/aria-mobile": "^1.2.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

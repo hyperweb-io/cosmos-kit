@@ -88,5 +88,6 @@
     "@types/react-dom": "latest",
     "react": "^18.0.0 || ^19.0.0",
     "react-dom": "^18.0.0 || ^19.0.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

@@ -75,5 +75,6 @@
     "@cosmjs/crypto": ">=0.32.4",
     "@cosmjs/encoding": ">=0.32.4",
     "@cosmjs/proto-signing": ">=0.32.4"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

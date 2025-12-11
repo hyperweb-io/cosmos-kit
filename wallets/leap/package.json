@@ -56,5 +56,6 @@
     "@cosmos-kit/leap-extension": "^2.16.0",
     "@cosmos-kit/leap-metamask-cosmos-snap": "^0.16.0",
     "@cosmos-kit/leap-mobile": "^2.15.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

@@ -51,5 +51,6 @@
   },
   "dependencies": {
     "@cosmos-kit/arculus-mobile": "^0.2.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

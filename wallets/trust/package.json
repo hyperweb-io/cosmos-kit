@@ -53,5 +53,6 @@
   "dependencies": {
     "@cosmos-kit/trust-extension": "^2.14.0",
     "@cosmos-kit/trust-mobile": "^2.14.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

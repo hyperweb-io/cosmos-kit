@@ -67,5 +67,6 @@
   "dependencies": {
     "@cosmos-kit/keplr-extension": "^2.16.0",
     "@cosmos-kit/keplr-mobile": "^2.16.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }
