@@ -2,7 +2,7 @@
   "name": "@cosmos-kit/keplr-mobile",
   "version": "2.15.9",
   "description": "cosmos-kit wallet connector",
-  "author": "developers@interweb.co",
+  "author": "Constructive <developers@constructive.io>",
   "contributors": [
     {
       "name": "Jun Liu"

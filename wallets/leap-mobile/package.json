@@ -2,7 +2,7 @@
   "name": "@cosmos-kit/leap-mobile",
   "version": "2.14.8",
   "description": "cosmos-kit wallet connector",
-  "author": "developers@interweb.co",
+  "author": "Constructive <developers@constructive.io>",
   "contributors": [
     {
       "name": "Jun Liu"
