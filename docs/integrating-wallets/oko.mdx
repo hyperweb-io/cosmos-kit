@@ -1,0 +1,39 @@
+# How to Add Oko Wallet to CosmosKit
+
+Oko makes onboarding to your application easy, fast, and secure. Users can sign up with familiar login methods (email, social, or SSO) while enjoying the benefits of true crypto ownership.
+
+## install the package
+
+```
+yarn add @cosmos-kit/oko
+```
+
+## import makeOkoWallets
+
+```js
+import { makeOkoWallets } from "@cosmos-kit/oko";
+```
+
+## add to your provider
+
+```js
+function MyCosmosApp({ Component, pageProps }: AppProps) {
+  return (
+    <ChainProvider
+      chains={chains}
+      assetLists={assets}
+      wallets={[
+        ...makeOkoWallets({
+          apiKey: "your-oko-api-key",
+        }),
+      ]}
+    >
+      <Component {...pageProps} />
+    </ChainProvider>
+  );
+}
+
+export default MyCosmosApp;
+```
+
+> Note: By default, all available login providers (Google, Email, etc) are enabled. You can optionally specify `loginMethods` to select specific providers.
