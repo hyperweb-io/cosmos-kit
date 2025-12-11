@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/vultisig-extension",
-  "version": "2.15.8",
+  "version": "2.16.0",
   "description": "cosmos-kit wallet connector",
   "author": "contact@vultisig.com",
   "contributors": [],
@@ -55,7 +55,7 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.7"
+    "@cosmos-kit/core": "^2.17.0"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/galaxy-station-mobile",
-  "version": "2.14.8",
+  "version": "2.15.0",
   "description": "cosmos-kit wallet connector",
   "author": "Hexxagon",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.16.7",
-    "@cosmos-kit/walletconnect": "^2.13.8"
+    "@cosmos-kit/core": "^2.17.0",
+    "@cosmos-kit/walletconnect": "^2.14.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/figure-markets",
-  "version": "2.16.5",
+  "version": "2.17.0",
   "description": "cosmos-kit wallet connector",
   "author": "figuremarkets@figuretech.com",
   "contributors": [
@@ -53,6 +53,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/figure-markets-mobile": "^0.2.5"
+    "@cosmos-kit/figure-markets-mobile": "^0.3.0"
   }
 }

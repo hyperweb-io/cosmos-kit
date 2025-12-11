@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.15.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/compass@2.14.7...@cosmos-kit/compass@2.15.0) (2025-12-11)
+
+**Note:** Version bump only for package @cosmos-kit/compass
+
+
+
+
+
 ## [2.14.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/compass@2.14.6...@cosmos-kit/compass@2.14.7) (2025-10-29)
 
 **Note:** Version bump only for package @cosmos-kit/compass

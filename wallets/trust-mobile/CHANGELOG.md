@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.14.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/trust-mobile@2.13.8...@cosmos-kit/trust-mobile@2.14.0) (2025-12-11)
+
+**Note:** Version bump only for package @cosmos-kit/trust-mobile
+
+
+
+
+
 ## [2.13.8](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/trust-mobile@2.13.7...@cosmos-kit/trust-mobile@2.13.8) (2025-11-04)
 
 **Note:** Version bump only for package @cosmos-kit/trust-mobile

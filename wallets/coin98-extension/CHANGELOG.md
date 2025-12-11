@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/coin98-extension@2.15.7...@cosmos-kit/coin98-extension@2.16.0) (2025-12-11)
+
+**Note:** Version bump only for package @cosmos-kit/coin98-extension
+
+
+
+
+
 ## [2.15.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/coin98-extension@2.15.6...@cosmos-kit/coin98-extension@2.15.7) (2025-10-29)
 
 **Note:** Version bump only for package @cosmos-kit/coin98-extension

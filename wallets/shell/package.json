@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/shell",
-  "version": "2.14.7",
+  "version": "2.15.0",
   "description": "cosmos-kit wallet connector",
   "author": "Constructive <developers@constructive.io>",
   "contributors": [
@@ -65,6 +65,6 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/shell-extension": "^2.14.7"
+    "@cosmos-kit/shell-extension": "^2.15.0"
   }
 }

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.9...example-lite@1.16.0) (2025-12-11)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
 ## [1.15.9](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.8...example-lite@1.15.9) (2025-11-04)
 
 **Note:** Version bump only for package example-lite
