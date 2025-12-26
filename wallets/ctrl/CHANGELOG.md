@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ctrl@2.15.0...@cosmos-kit/ctrl@2.16.0) (2025-12-11)
+
+**Note:** Version bump only for package @cosmos-kit/ctrl
+
+
+
+
+
+# [2.15.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ctrl@2.14.7...@cosmos-kit/ctrl@2.15.0) (2025-12-11)
+
+**Note:** Version bump only for package @cosmos-kit/ctrl
+
+
+
+
+
+## [2.14.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ctrl@2.14.6...@cosmos-kit/ctrl@2.14.7) (2025-10-29)
+
+**Note:** Version bump only for package @cosmos-kit/ctrl
+
+
+
+
+
+## [2.14.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ctrl@2.14.5...@cosmos-kit/ctrl@2.14.6) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/ctrl
+
+
+
+
+
+## [2.14.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ctrl@2.14.4...@cosmos-kit/ctrl@2.14.5) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/ctrl
+
+
+
+
+
+## [2.14.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ctrl@2.14.3...@cosmos-kit/ctrl@2.14.4) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/ctrl
+
+
+
+
+
 ## [2.14.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ctrl@2.14.2...@cosmos-kit/ctrl@2.14.3) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/ctrl

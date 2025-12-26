@@ -1,8 +1,8 @@
 {
   "name": "@cosmos-kit/react",
-  "version": "2.22.3",
+  "version": "2.24.0",
   "description": "cosmos-kit wallet connector",
-  "author": "developers@hyperweb.io",
+  "author": "Constructive <developers@constructive.io>",
   "contributors": [
     {
       "name": "Jun Liu"
@@ -81,8 +81,8 @@
   },
   "dependencies": {
     "@chain-registry/types": "^0.46.11",
-    "@cosmos-kit/core": "^2.16.3",
-    "@cosmos-kit/react-lite": "^2.16.3",
+    "@cosmos-kit/core": "^2.18.0",
+    "@cosmos-kit/react-lite": "^2.18.0",
     "@react-icons/all-files": "^4.1.0"
   },
   "peerDependencies": {
@@ -92,5 +92,6 @@
     "react": "^18.0.0 || ^19.0.0",
     "react-dom": "^18.0.0 || ^19.0.0"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

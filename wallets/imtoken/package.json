@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/imtoken",
-  "version": "1.4.3",
+  "version": "1.6.0",
   "description": "cosmos-kit wallet connector",
   "author": "dev@token.im",
   "contributors": [
@@ -53,6 +53,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/imtoken-extension": "^1.4.3"
-  }
+    "@cosmos-kit/imtoken-extension": "^1.6.0"
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

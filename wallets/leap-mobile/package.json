@@ -1,8 +1,8 @@
 {
   "name": "@cosmos-kit/leap-mobile",
-  "version": "2.14.3",
+  "version": "2.16.0",
   "description": "cosmos-kit wallet connector",
-  "author": "developers@hyperweb.io",
+  "author": "Constructive <developers@constructive.io>",
   "contributors": [
     {
       "name": "Jun Liu"
@@ -72,7 +72,8 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.16.3",
-    "@cosmos-kit/walletconnect": "^2.13.3"
-  }
+    "@cosmos-kit/core": "^2.18.0",
+    "@cosmos-kit/walletconnect": "^2.15.0"
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

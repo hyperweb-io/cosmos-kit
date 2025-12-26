@@ -3,6 +3,70 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.16.0...example-lite@1.17.0) (2025-12-11)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
+# [1.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.9...example-lite@1.16.0) (2025-12-11)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
+## [1.15.9](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.8...example-lite@1.15.9) (2025-11-04)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
+## [1.15.8](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.7...example-lite@1.15.8) (2025-10-29)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
+## [1.15.7](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.6...example-lite@1.15.7) (2025-10-16)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
+## [1.15.6](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.5...example-lite@1.15.6) (2025-10-16)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
+## [1.15.5](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.4...example-lite@1.15.5) (2025-10-16)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
+## [1.15.4](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.3...example-lite@1.15.4) (2025-10-15)
+
+**Note:** Version bump only for package example-lite
+
+
+
+
+
 ## [1.15.3](https://github.com/hyperweb-io/cosmos-kit/compare/example-lite@1.15.2...example-lite@1.15.3) (2025-08-12)
 
 **Note:** Version bump only for package example-lite

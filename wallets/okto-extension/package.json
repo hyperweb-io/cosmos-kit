@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/okto-extension",
-  "version": "2.11.3",
+  "version": "2.13.0",
   "description": "cosmos-kit wallet connector",
   "author": "mayank.yadav@oktowallet.io",
   "contributors": [
@@ -60,10 +60,11 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.16.3"
+    "@cosmos-kit/core": "^2.18.0"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.2",
     "@cosmjs/proto-signing": ">=0.32.2"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

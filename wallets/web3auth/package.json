@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/web3auth",
-  "version": "2.16.3",
+  "version": "2.18.0",
   "description": "cosmos-kit wallet connector for Web3Auth",
   "author": "noah@noah.zone",
   "contributors": [
@@ -57,20 +57,17 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.3",
-    "@solana/web3.js": "^1.77.3",
-    "@toruslabs/eccrypto": "^2.1.1",
-    "@web3auth/auth-adapter": "^9.5.0",
-    "@web3auth/base": "^9.5.0",
-    "@web3auth/base-provider": "^9.5.0",
-    "@web3auth/ethereum-provider": "^9.5.0",
-    "@web3auth/no-modal": "^9.5.0",
-    "@web3auth/solana-provider": "^9.5.0",
-    "ethereum-cryptography": "^2.1.2",
-    "url": "^0.11.1"
+    "@cosmos-kit/core": "^2.18.0",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@toruslabs/eccrypto": "6.2.0",
+    "@web3auth/auth": "^10.5.0",
+    "@web3auth/modal": "^10.4.0",
+    "url": "^0.11.1",
+    "viem": "^2.23.0"
   },
   "devDependencies": {
-    "@chain-registry/types": "^0.46.11"
+    "@chain-registry/types": "^0.46.11",
+    "typescript": "5.8.3"
   },
   "peerDependencies": {
     "@chain-registry/types": ">= 0.17",
@@ -78,5 +75,6 @@
     "@cosmjs/proto-signing": "^0.32.3",
     "@keplr-wallet/cosmos": ">= 0.10",
     "cosmjs-types": "^0.9.0"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

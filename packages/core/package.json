@@ -1,8 +1,8 @@
 {
   "name": "@cosmos-kit/core",
-  "version": "2.16.3",
+  "version": "2.18.0",
   "description": "cosmos-kit wallet connector core package",
-  "author": "developers@hyperweb.io",
+  "author": "Constructive <developers@constructive.io>",
   "contributors": [
     {
       "name": "Jun Liu"
@@ -75,16 +75,17 @@
     "@chain-registry/client": "^1.49.11",
     "@chain-registry/keplr": "^1.69.13",
     "@chain-registry/types": "^0.46.11",
-    "@cosmjs/amino": "^0.32.3",
-    "@cosmjs/cosmwasm-stargate": "^0.32.3",
-    "@cosmjs/proto-signing": "^0.32.3",
-    "@cosmjs/stargate": "^0.32.3",
+    "@cosmjs/amino": "^0.36.2",
+    "@cosmjs/cosmwasm-stargate": "^0.36.2",
+    "@cosmjs/proto-signing": "^0.36.2",
+    "@cosmjs/stargate": "^0.36.2",
     "@dao-dao/cosmiframe": "^1.0.0",
     "@walletconnect/types": "2.11.0",
     "bowser": "2.11.0",
-    "cosmjs-types": "^0.9.0",
+    "cosmjs-types": "^0.10.1",
     "events": "3.3.0",
     "nock": "13.5.4",
     "uuid": "^9.0.1"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

@@ -1,6 +1,6 @@
 import { MainWalletBase } from '@cosmos-kit/core';
-import { getHashQueryParams } from '@web3auth/auth-adapter';
-import { WEB3AUTH_NETWORK } from '@web3auth/base';
+import { getHashQueryParams } from '@web3auth/auth';
+import { WEB3AUTH_NETWORK } from '@web3auth/modal';
 
 import { Web3AuthChainWallet } from './chain-wallet';
 import { Web3AuthClient } from './client';
@@ -30,7 +30,8 @@ export class Web3AuthWallet extends MainWalletBase {
       if (
         typeof options.client?.web3AuthNetwork !== 'string' ||
         !Object.values(WEB3AUTH_NETWORK).includes(
-          options.client.web3AuthNetwork
+          options.client
+            .web3AuthNetwork as typeof WEB3AUTH_NETWORK[keyof typeof WEB3AUTH_NETWORK]
         )
       ) {
         throw new Error('Invalid web3auth network');

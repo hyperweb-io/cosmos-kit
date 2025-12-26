@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/initia",
-  "version": "0.11.3",
+  "version": "0.13.0",
   "description": "@cosmos-kit/initia is the Initia integration for CosmosKit",
   "author": "songwong@alleslabs.com",
   "contributors": [
@@ -59,6 +59,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/initia-extension": "^0.11.3"
-  }
+    "@cosmos-kit/initia-extension": "^0.13.0"
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

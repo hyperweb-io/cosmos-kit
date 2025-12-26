@@ -1,6 +1,6 @@
 import { Secp256k1Wallet } from '@cosmjs/amino';
 import { DirectSecp256k1Wallet } from '@cosmjs/proto-signing';
-import eccrypto from '@toruslabs/eccrypto';
+import * as eccrypto from '@toruslabs/eccrypto';
 
 import { ToWorkerMessage } from './types';
 import { decrypt, hashObject } from './utils';

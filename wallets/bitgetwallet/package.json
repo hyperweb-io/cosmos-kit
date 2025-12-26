@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/bitgetwallet",
-  "version": "1.1.3",
+  "version": "1.3.0",
   "description": "cosmos-kit wallet connector",
   "author": "bitgetwallet@bitget.com",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
@@ -49,6 +49,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/bitgetwallet-extension": "^1.2.2"
-  }
+    "@cosmos-kit/bitgetwallet-extension": "^1.4.0"
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

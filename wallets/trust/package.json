@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/trust",
-  "version": "2.14.3",
+  "version": "2.16.0",
   "description": "cosmos-kit wallet connector",
   "contributors": [
     {
@@ -51,7 +51,8 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/trust-extension": "^2.13.3",
-    "@cosmos-kit/trust-mobile": "^2.13.3"
-  }
+    "@cosmos-kit/trust-extension": "^2.15.0",
+    "@cosmos-kit/trust-mobile": "^2.15.0"
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

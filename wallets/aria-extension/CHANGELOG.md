@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.20.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.19.0...@cosmos-kit/aria-extension@2.20.0) (2025-12-11)
+
+**Note:** Version bump only for package @cosmos-kit/aria-extension
+
+
+
+
+
+# [2.19.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.5...@cosmos-kit/aria-extension@2.19.0) (2025-12-11)
+
+**Note:** Version bump only for package @cosmos-kit/aria-extension
+
+
+
+
+
+## [2.18.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.4...@cosmos-kit/aria-extension@2.18.5) (2025-10-29)
+
+**Note:** Version bump only for package @cosmos-kit/aria-extension
+
+
+
+
+
+## [2.18.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.3...@cosmos-kit/aria-extension@2.18.4) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/aria-extension
+
+
+
+
+
+## [2.18.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.2...@cosmos-kit/aria-extension@2.18.3) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/aria-extension
+
+
+
+
+
+## [2.18.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.1...@cosmos-kit/aria-extension@2.18.2) (2025-10-16)
+
+**Note:** Version bump only for package @cosmos-kit/aria-extension
+
+
+
+
+
 ## [2.18.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.0...@cosmos-kit/aria-extension@2.18.1) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension

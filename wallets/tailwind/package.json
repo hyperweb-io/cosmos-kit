@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/tailwind",
-  "version": "1.8.3",
+  "version": "1.10.0",
   "description": "Cosmos-kit wallet connector for TAILWIND wallet",
   "author": "bao@tailwind.zone",
   "contributors": [
@@ -59,6 +59,7 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/tailwind-extension": "^1.8.3"
-  }
+    "@cosmos-kit/tailwind-extension": "^1.10.0"
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

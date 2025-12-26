@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/station-extension",
-  "version": "2.14.3",
+  "version": "2.16.0",
   "description": "@cosmos-kit/station-extension is the Station integration for CosmosKit",
   "author": "kanisorn@alleslab.com",
   "contributors": [
@@ -60,7 +60,7 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.16.3",
+    "@cosmos-kit/core": "^2.18.0",
     "@terra-money/feather.js": "^1.0.8",
     "@terra-money/station-connector": "^1.1.0",
     "@terra-money/wallet-types": "^3.11.2"
@@ -72,5 +72,6 @@
     "@chain-registry/types": ">= 0.17",
     "@cosmjs/amino": ">=0.32.3",
     "@cosmjs/proto-signing": ">=0.32.3"
-  }
+  },
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }
