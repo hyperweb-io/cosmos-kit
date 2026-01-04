@@ -3,85 +3,53 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.3.0...@cosmos-kit/aria-mobile@1.4.0) (2026-01-04)
+
+### Features
+
+- **aria-mobile:** implement full feature parity with aria-extension ([4d17dbd](https://github.com/hyperweb-io/cosmos-kit/commit/4d17dbd75f62f2c1d570725e14729c153a7a987a))
+- **aria-mobile:** use extension client when in Aria app browser ([d99da18](https://github.com/hyperweb-io/cosmos-kit/commit/d99da188afab331a1c0bd53c925716ae6adac664))
+- update icon for aria wallet ([840086f](https://github.com/hyperweb-io/cosmos-kit/commit/840086fb7bc8e3c0a079850ed5f34d33c6098ff2))
+
 # [1.3.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.2.0...@cosmos-kit/aria-mobile@1.3.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
-
-
-
-
 
 # [1.2.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.8...@cosmos-kit/aria-mobile@1.2.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
 
-
-
-
-
 ## [1.1.8](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.7...@cosmos-kit/aria-mobile@1.1.8) (2025-11-04)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
-
-
-
-
 
 ## [1.1.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.6...@cosmos-kit/aria-mobile@1.1.7) (2025-10-29)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
 
-
-
-
-
 ## [1.1.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.5...@cosmos-kit/aria-mobile@1.1.6) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
-
-
-
-
 
 ## [1.1.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.4...@cosmos-kit/aria-mobile@1.1.5) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
 
-
-
-
-
 ## [1.1.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.3...@cosmos-kit/aria-mobile@1.1.4) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
-
-
-
-
 
 ## [1.1.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.2...@cosmos-kit/aria-mobile@1.1.3) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
 
-
-
-
-
 ## [1.1.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.1...@cosmos-kit/aria-mobile@1.1.2) (2025-07-22)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
 
-
-
-
-
 ## [1.1.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-mobile@1.1.0...@cosmos-kit/aria-mobile@1.1.1) (2025-07-16)
 
 **Note:** Version bump only for package @cosmos-kit/aria-mobile
-
-
-
-
 
 # 1.1.0 (2025-04-07)
 

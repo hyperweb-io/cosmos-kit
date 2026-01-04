@@ -3,91 +3,58 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.21.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.20.0...@cosmos-kit/aria-extension@2.21.0) (2026-01-04)
+
+### Features
+
+- **aria-extension:** implement full cosmos-kit WalletClient interface ([2ed4bd0](https://github.com/hyperweb-io/cosmos-kit/commit/2ed4bd0a0ebada41826f1794a323bdcb462e3631))
+- **aria-mobile:** use extension client when in Aria app browser ([d99da18](https://github.com/hyperweb-io/cosmos-kit/commit/d99da188afab331a1c0bd53c925716ae6adac664))
+- simplify client implementation ([22bbcea](https://github.com/hyperweb-io/cosmos-kit/commit/22bbceab47f4fd9f6433021cbfd4567ea96ad8b9))
+- update icon for aria wallet ([840086f](https://github.com/hyperweb-io/cosmos-kit/commit/840086fb7bc8e3c0a079850ed5f34d33c6098ff2))
+
 # [2.20.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.19.0...@cosmos-kit/aria-extension@2.20.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension
-
-
-
-
 
 # [2.19.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.5...@cosmos-kit/aria-extension@2.19.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension
 
-
-
-
-
 ## [2.18.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.4...@cosmos-kit/aria-extension@2.18.5) (2025-10-29)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension
-
-
-
-
 
 ## [2.18.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.3...@cosmos-kit/aria-extension@2.18.4) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension
 
-
-
-
-
 ## [2.18.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.2...@cosmos-kit/aria-extension@2.18.3) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension
-
-
-
-
 
 ## [2.18.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.1...@cosmos-kit/aria-extension@2.18.2) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension
 
-
-
-
-
 ## [2.18.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.18.0...@cosmos-kit/aria-extension@2.18.1) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension
 
-
-
-
-
 # [2.18.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.17.1...@cosmos-kit/aria-extension@2.18.0) (2025-08-05)
-
 
 ### Features
 
-* update aria extension entry ([9cb6b05](https://github.com/hyperweb-io/cosmos-kit/commit/9cb6b0571be15d4fe2bda49871e6ceadde0678df))
-
-
-
-
+- update aria extension entry ([9cb6b05](https://github.com/hyperweb-io/cosmos-kit/commit/9cb6b0571be15d4fe2bda49871e6ceadde0678df))
 
 ## [2.17.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.17.0...@cosmos-kit/aria-extension@2.17.1) (2025-07-22)
 
 **Note:** Version bump only for package @cosmos-kit/aria-extension
 
-
-
-
-
 # [2.17.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.16.0...@cosmos-kit/aria-extension@2.17.0) (2025-07-16)
-
 
 ### Features
 
-* update constant.ts ([f2a2828](https://github.com/hyperweb-io/cosmos-kit/commit/f2a28283272d5dc16a2b09d8c067d385bb4b6a0f))
-
-
-
-
+- update constant.ts ([f2a2828](https://github.com/hyperweb-io/cosmos-kit/commit/f2a28283272d5dc16a2b09d8c067d385bb4b6a0f))
 
 # [2.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria-extension@2.15.6...@cosmos-kit/aria-extension@2.16.0) (2025-03-25)
 
