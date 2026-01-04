@@ -2,22 +2,10 @@
   "name": "@cosmos-kit/aria-mobile",
   "version": "1.3.0",
   "description": "cosmos-kit wallet connector",
-  "author": "Constructive <developers@constructive.io>",
+  "author": "dblackstone@orchestralabs.org",
   "contributors": [
     {
-      "name": "Jun Liu"
-    },
-    {
-      "name": "Dan Lynch"
-    },
-    {
-      "name": "Noah Saso"
-    },
-    {
-      "name": "Eliot Baker"
-    },
-    {
-      "name": "Delivan Jeonghyeok Yoo"
+      "name": "David Blackstone"
     }
   ],
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
@@ -71,8 +59,13 @@
     ]
   },
   "dependencies": {
+    "@cosmos-kit/aria-extension": "^2.20.0",
     "@cosmos-kit/core": "^2.18.0",
     "@cosmos-kit/walletconnect": "^2.15.0"
+  },
+  "peerDependencies": {
+    "@cosmjs/amino": ">=0.32.3",
+    "@cosmjs/proto-signing": ">=0.32.3"
   },
   "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }
