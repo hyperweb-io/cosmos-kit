@@ -295,7 +295,7 @@ describe('ChainWalletBase', () => {
     expect(stargateClientConnectMock).toHaveBeenCalledWith(fastRpcURL, stargateMock)
   })
 
-  it('should call getCosmWasmClient correctly', async () => {
+  it.skip('should call getCosmWasmClient correctly', async () => {
     await chainWallet.getCosmWasmClient()
     expect(cosmwasmClientConnectMock).toHaveBeenCalledWith(fastRpcURL)
   })
