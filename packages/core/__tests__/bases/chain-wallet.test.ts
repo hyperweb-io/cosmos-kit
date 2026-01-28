@@ -92,10 +92,10 @@ describe('ChainWalletBase', () => {
   const fastRestURL = 'http://fake-rest-endpoint.fast'
 
   beforeEach(() => {
-    nock(slowRestURL).get('/cosmos/base/tendermint/v1beta1/node_info').delayConnection(5).reply(200, 'ok')
-    nock(fastRestURL).get('/cosmos/base/tendermint/v1beta1/node_info').reply(200, 'ok')
-    nock(slowRpcURL).post('/').delayConnection(5).reply(200, 'ok')
-    nock(fastRpcURL).post('/').reply(200, 'ok')
+    nock(slowRestURL).persist().get('/cosmos/base/tendermint/v1beta1/node_info').delayConnection(5).reply(200, 'ok')
+    nock(fastRestURL).persist().get('/cosmos/base/tendermint/v1beta1/node_info').reply(200, 'ok')
+    nock(slowRpcURL).persist().post('/').delayConnection(5).reply(200, 'ok')
+    nock(fastRpcURL).persist().post('/').reply(200, 'ok')
   })
 
   afterAll(() => {
@@ -126,6 +126,8 @@ describe('ChainWalletBase', () => {
 
   afterEach(() => {
     storageMockInstance.removeItem('cosmos-kit@2:core//accounts');
+    jest.clearAllMocks();
+    nock.cleanAll();
   })
 
   it('should have the correct assets', () => {
