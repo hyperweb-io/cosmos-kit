@@ -3,85 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.18.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.17.0...@cosmos-kit/owallet-mobile@2.18.0) (2025-12-11)
+## [2.18.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.18.0...@cosmos-kit/owallet-mobile@2.18.1) (2026-01-28)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
 
+# [2.18.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.17.0...@cosmos-kit/owallet-mobile@2.18.0) (2025-12-11)
 
-
-
+**Note:** Version bump only for package @cosmos-kit/owallet-mobile
 
 # [2.17.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.8...@cosmos-kit/owallet-mobile@2.17.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
 
-
-
-
-
 ## [2.16.8](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.7...@cosmos-kit/owallet-mobile@2.16.8) (2025-11-04)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
-
-
-
-
 
 ## [2.16.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.6...@cosmos-kit/owallet-mobile@2.16.7) (2025-10-29)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
 
-
-
-
-
 ## [2.16.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.5...@cosmos-kit/owallet-mobile@2.16.6) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
-
-
-
-
 
 ## [2.16.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.4...@cosmos-kit/owallet-mobile@2.16.5) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
 
-
-
-
-
 ## [2.16.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.3...@cosmos-kit/owallet-mobile@2.16.4) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
-
-
-
-
 
 ## [2.16.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.2...@cosmos-kit/owallet-mobile@2.16.3) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
 
-
-
-
-
 ## [2.16.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.1...@cosmos-kit/owallet-mobile@2.16.2) (2025-07-22)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
 
-
-
-
-
 ## [2.16.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.16.0...@cosmos-kit/owallet-mobile@2.16.1) (2025-07-16)
 
 **Note:** Version bump only for package @cosmos-kit/owallet-mobile
-
-
-
-
 
 # [2.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/owallet-mobile@2.15.6...@cosmos-kit/owallet-mobile@2.16.0) (2025-03-25)
 

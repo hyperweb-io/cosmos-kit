@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/vultisig",
-  "version": "2.16.0",
+  "version": "2.16.1",
   "description": "cosmos-kit wallet connector",
   "author": "contact@vultisig.com",
   "contributors": [],
@@ -49,7 +49,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/vultisig-extension": "^2.17.0"
+    "@cosmos-kit/vultisig-extension": "^2.17.1"
   },
   "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

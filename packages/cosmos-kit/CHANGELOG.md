@@ -3,108 +3,62 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.29.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.28.0...cosmos-kit@2.29.0) (2025-12-11)
+## [2.29.1](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.29.0...cosmos-kit@2.29.1) (2026-01-28)
 
 **Note:** Version bump only for package cosmos-kit
 
+# [2.29.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.28.0...cosmos-kit@2.29.0) (2025-12-11)
 
-
-
+**Note:** Version bump only for package cosmos-kit
 
 # [2.28.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.27.0...cosmos-kit@2.28.0) (2025-12-11)
 
 **Note:** Version bump only for package cosmos-kit
 
-
-
-
-
 # [2.27.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.5...cosmos-kit@2.27.0) (2025-12-11)
 
 **Note:** Version bump only for package cosmos-kit
-
-
-
-
 
 ## [2.26.5](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.4...cosmos-kit@2.26.5) (2025-11-04)
 
 **Note:** Version bump only for package cosmos-kit
 
-
-
-
-
 ## [2.26.4](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.3...cosmos-kit@2.26.4) (2025-10-29)
 
 **Note:** Version bump only for package cosmos-kit
-
-
-
-
 
 ## [2.26.3](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.2...cosmos-kit@2.26.3) (2025-10-16)
 
 **Note:** Version bump only for package cosmos-kit
 
-
-
-
-
 ## [2.26.2](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.1...cosmos-kit@2.26.2) (2025-10-16)
 
 **Note:** Version bump only for package cosmos-kit
-
-
-
-
 
 ## [2.26.1](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.26.0...cosmos-kit@2.26.1) (2025-10-16)
 
 **Note:** Version bump only for package cosmos-kit
 
-
-
-
-
 # [2.26.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.25.2...cosmos-kit@2.26.0) (2025-10-15)
-
 
 ### Features
 
-* add gate wallet into wallets ([3583ec5](https://github.com/hyperweb-io/cosmos-kit/commit/3583ec50564c2658339fb933b3d4945a54f4e0bd))
-
-
-
-
+- add gate wallet into wallets ([3583ec5](https://github.com/hyperweb-io/cosmos-kit/commit/3583ec50564c2658339fb933b3d4945a54f4e0bd))
 
 ## [2.25.2](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.25.1...cosmos-kit@2.25.2) (2025-08-12)
 
 **Note:** Version bump only for package cosmos-kit
 
-
-
-
-
 ## [2.25.1](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.25.0...cosmos-kit@2.25.1) (2025-07-22)
 
 **Note:** Version bump only for package cosmos-kit
 
-
-
-
-
 # [2.25.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.24.0...cosmos-kit@2.25.0) (2025-07-16)
-
 
 ### Features
 
-* add Bitget Wallet into wallets ([91c4c9d](https://github.com/hyperweb-io/cosmos-kit/commit/91c4c9ddd2527f2cefe1ad5d19b575771433e4bf))
-* add FoxWallet extension ([493a6be](https://github.com/hyperweb-io/cosmos-kit/commit/493a6bed6fc057fca233c6311882cb5ce1cd3f45))
-
-
-
-
+- add Bitget Wallet into wallets ([91c4c9d](https://github.com/hyperweb-io/cosmos-kit/commit/91c4c9ddd2527f2cefe1ad5d19b575771433e4bf))
+- add FoxWallet extension ([493a6be](https://github.com/hyperweb-io/cosmos-kit/commit/493a6bed6fc057fca233c6311882cb5ce1cd3f45))
 
 # [2.24.0](https://github.com/hyperweb-io/cosmos-kit/compare/cosmos-kit@2.23.10...cosmos-kit@2.24.0) (2025-03-25)
 

@@ -3,104 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.34.0](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.33.0...docs@2.34.0) (2025-12-11)
+## [2.34.1](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.34.0...docs@2.34.1) (2026-01-28)
 
 **Note:** Version bump only for package docs
 
+# [2.34.0](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.33.0...docs@2.34.0) (2025-12-11)
 
-
-
+**Note:** Version bump only for package docs
 
 # [2.33.0](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.32.0...docs@2.33.0) (2025-12-11)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.32.0](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.8...docs@2.32.0) (2025-12-11)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.31.8](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.7...docs@2.31.8) (2025-11-04)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [2.31.7](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.6...docs@2.31.7) (2025-10-29)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.31.6](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.5...docs@2.31.6) (2025-10-16)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [2.31.5](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.4...docs@2.31.5) (2025-10-16)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.31.4](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.3...docs@2.31.4) (2025-10-16)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [2.31.3](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.2...docs@2.31.3) (2025-10-15)
 
 **Note:** Version bump only for package docs
-
-
-
-
 
 ## [2.31.2](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.1...docs@2.31.2) (2025-08-12)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 ## [2.31.1](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.31.0...docs@2.31.1) (2025-07-22)
 
 **Note:** Version bump only for package docs
 
-
-
-
-
 # [2.31.0](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.30.0...docs@2.31.0) (2025-07-16)
-
 
 ### Features
 
-* add FoxWallet extension ([493a6be](https://github.com/hyperweb-io/cosmos-kit/commit/493a6bed6fc057fca233c6311882cb5ce1cd3f45))
-
-
-
-
+- add FoxWallet extension ([493a6be](https://github.com/hyperweb-io/cosmos-kit/commit/493a6bed6fc057fca233c6311882cb5ce1cd3f45))
 
 # [2.30.0](https://github.com/hyperweb-io/cosmos-kit/compare/docs@2.29.0...docs@2.30.0) (2025-04-07)
 

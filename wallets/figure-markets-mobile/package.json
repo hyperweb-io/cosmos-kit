@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/figure-markets-mobile",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "figure-markets cosmos-kit wallet connector",
   "author": "figuremarkets@figuretech.com",
   "contributors": [
@@ -56,8 +56,8 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.18.0",
-    "@cosmos-kit/walletconnect": "^2.15.0"
+    "@cosmos-kit/core": "^2.18.1",
+    "@cosmos-kit/walletconnect": "^2.15.1"
   },
   "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

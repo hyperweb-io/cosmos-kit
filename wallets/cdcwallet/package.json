@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/cdcwallet",
-  "version": "2.18.0",
+  "version": "2.18.1",
   "description": "cosmos-kit wallet connector",
   "author": "andy.bin@crypto.com",
   "contributors": [
@@ -57,7 +57,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/cdcwallet-extension": "^2.18.0"
+    "@cosmos-kit/cdcwallet-extension": "^2.18.1"
   },
   "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
 }

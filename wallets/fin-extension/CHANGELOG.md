@@ -3,77 +3,45 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.15.0...@cosmos-kit/fin-extension@2.16.0) (2025-12-11)
+## [2.16.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.16.0...@cosmos-kit/fin-extension@2.16.1) (2026-01-28)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
 
+# [2.16.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.15.0...@cosmos-kit/fin-extension@2.16.0) (2025-12-11)
 
-
-
+**Note:** Version bump only for package @cosmos-kit/fin-extension
 
 # [2.15.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.14.7...@cosmos-kit/fin-extension@2.15.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
 
-
-
-
-
 ## [2.14.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.14.6...@cosmos-kit/fin-extension@2.14.7) (2025-10-29)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
-
-
-
-
 
 ## [2.14.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.14.5...@cosmos-kit/fin-extension@2.14.6) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
 
-
-
-
-
 ## [2.14.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.14.4...@cosmos-kit/fin-extension@2.14.5) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
-
-
-
-
 
 ## [2.14.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.14.3...@cosmos-kit/fin-extension@2.14.4) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
 
-
-
-
-
 ## [2.14.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.14.2...@cosmos-kit/fin-extension@2.14.3) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
-
-
-
-
 
 ## [2.14.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.14.1...@cosmos-kit/fin-extension@2.14.2) (2025-07-22)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
 
-
-
-
-
 ## [2.14.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.14.0...@cosmos-kit/fin-extension@2.14.1) (2025-07-16)
 
 **Note:** Version bump only for package @cosmos-kit/fin-extension
-
-
-
-
 
 # [2.14.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/fin-extension@2.13.7...@cosmos-kit/fin-extension@2.14.0) (2025-03-25)
 

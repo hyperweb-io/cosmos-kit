@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/aria-mobile",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "cosmos-kit wallet connector",
   "author": "dblackstone@orchestralabs.org",
   "contributors": [
@@ -59,9 +59,9 @@
     ]
   },
   "dependencies": {
-    "@cosmos-kit/aria-extension": "^2.21.0",
-    "@cosmos-kit/core": "^2.18.0",
-    "@cosmos-kit/walletconnect": "^2.15.0"
+    "@cosmos-kit/aria-extension": "^2.21.1",
+    "@cosmos-kit/core": "^2.18.1",
+    "@cosmos-kit/walletconnect": "^2.15.1"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

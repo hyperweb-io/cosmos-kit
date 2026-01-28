@@ -3,88 +3,51 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.5.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.4.0...@cosmos-kit/gatewallet-extension@1.5.0) (2025-12-11)
+## [1.5.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.5.0...@cosmos-kit/gatewallet-extension@1.5.1) (2026-01-28)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
 
+# [1.5.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.4.0...@cosmos-kit/gatewallet-extension@1.5.0) (2025-12-11)
 
-
-
+**Note:** Version bump only for package @cosmos-kit/gatewallet-extension
 
 # [1.4.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.3.4...@cosmos-kit/gatewallet-extension@1.4.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
 
-
-
-
-
 ## [1.3.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.3.3...@cosmos-kit/gatewallet-extension@1.3.4) (2025-10-29)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
-
-
-
-
 
 ## [1.3.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.3.2...@cosmos-kit/gatewallet-extension@1.3.3) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
 
-
-
-
-
 ## [1.3.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.3.1...@cosmos-kit/gatewallet-extension@1.3.2) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
-
-
-
-
 
 ## [1.3.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.3.0...@cosmos-kit/gatewallet-extension@1.3.1) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
 
-
-
-
-
 # [1.3.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.2.3...@cosmos-kit/gatewallet-extension@1.3.0) (2025-10-15)
-
 
 ### Features
 
-* add gate wallet into wallets ([3583ec5](https://github.com/hyperweb-io/cosmos-kit/commit/3583ec50564c2658339fb933b3d4945a54f4e0bd))
-
-
-
-
+- add gate wallet into wallets ([3583ec5](https://github.com/hyperweb-io/cosmos-kit/commit/3583ec50564c2658339fb933b3d4945a54f4e0bd))
 
 ## [1.2.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.2.2...@cosmos-kit/gatewallet-extension@1.2.3) (2025-08-12)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
 
-
-
-
-
 ## [1.2.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.2.1...@cosmos-kit/gatewallet-extension@1.2.2) (2025-07-22)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
 
-
-
-
-
 ## [1.2.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.2.0...@cosmos-kit/gatewallet-extension@1.2.1) (2025-07-16)
 
 **Note:** Version bump only for package @cosmos-kit/gatewallet-extension
-
-
-
-
 
 # [1.2.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/gatewallet-extension@1.1.6...@cosmos-kit/gatewallet-extension@1.2.0) (2025-03-25)
 

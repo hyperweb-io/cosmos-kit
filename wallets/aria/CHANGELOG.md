@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.18.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria@2.18.1...@cosmos-kit/aria@2.18.2) (2026-01-28)
+
+**Note:** Version bump only for package @cosmos-kit/aria
+
 ## [2.18.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/aria@2.18.0...@cosmos-kit/aria@2.18.1) (2026-01-04)
 
 **Note:** Version bump only for package @cosmos-kit/aria

@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/core",
-  "version": "2.18.0",
+  "version": "2.18.1",
   "description": "cosmos-kit wallet connector core package",
   "author": "Constructive <developers@constructive.io>",
   "contributors": [
