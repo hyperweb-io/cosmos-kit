@@ -255,11 +255,11 @@ There are four levels of `isLazy` setting.
 
 **Four Levels of `isLazy`:**
 
-1. Global `isLazy`: `isLazy` in `EndpointOptions` is the highest level with the lowerst priority, which is meant to globally control all endpoints.
+1. Global `isLazy`: `isLazy` in `EndpointOptions` is the highest level with the lowest priority, which is meant to globally control all endpoints.
 
 2. Chain `isLazy`: `isLazy` in `Endpoints` will control all endpoints for a particular chain. If `isLazy` in `EndpointOptions` and `isLazy` in `Endpoints` are all set and don't agree, the latter predominates.
 
-3. Endpoint `isLazy`: `isLazy` in `ExtendedHttpEndpoint` only controls the one in `ExtendedHttpEndpoint` object. For signing or broadcasting a transaction, this one is the lowerst level and with the highest priority.
+3. Endpoint `isLazy`: `isLazy` in `ExtendedHttpEndpoint` only controls the one in `ExtendedHttpEndpoint` object. For signing or broadcasting a transaction, this one is the lowest level and with the highest priority.
 
 4. Parameter `isLazy`: `isLazy` in `getRpcEndpoint` and `getRestEndpoint` parameters. It also globally controls all endpoints. (Note: this one only affects getting endpoint functions with the highest priority, but won't affect signing or broadcasting a transaction.)
 
