@@ -27,7 +27,7 @@ Three important properties/arguments in `ChainProvider`/`WalletManager` are `cha
 
 > For practice you can take a look at [How to Integrate New Wallets into CosmosKit](/integrating-wallets/adding-new-wallets)
 
-`MainWalletBase` is only about wallet and it's not about any specifical chain. And it's responsible for initializing wallet client and managing all chain wallets. Here brings in the third class `ChainWalletBase`.
+`MainWalletBase` is only about wallet and it's not about any specific chain. And it's responsible for initializing wallet client and managing all chain wallets. Here brings in the third class `ChainWalletBase`.
 
 > So far `MainWalletBase` is dealing with four different broadcast/synchronization events for chain wallets.
 >
