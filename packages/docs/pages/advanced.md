@@ -23,7 +23,7 @@ Three important properties/arguments in `ChainProvider`/`WalletManager` are `cha
 
 ### MainWalletBase
 
-`MainWalletBase` is meant to provide a base implementation and unified interface for all different wallets like `keplr-extension`, `keplr-mobile` and `cosmostation-extension`. Basically every wallet has it's own `MainWallet` class, which extends `MainWalletBase` in common, but with `WalletClient` implemented in different ways. In this way `WalletManager` can handle all different wallets no matter how different they're inside.
+`MainWalletBase` is meant to provide a base implementation and unified interface for all different wallets like `keplr-extension`, `keplr-mobile` and `cosmostation-extension`. Basically every wallet has its own `MainWallet` class, which extends `MainWalletBase` in common, but with `WalletClient` implemented in different ways. In this way `WalletManager` can handle all different wallets no matter how different they're inside.
 
 > For practice you can take a look at [How to Integrate New Wallets into CosmosKit](/integrating-wallets/adding-new-wallets)
 
