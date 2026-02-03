@@ -40,7 +40,7 @@ Three important properties/arguments in `ChainProvider`/`WalletManager` are `cha
 
 ### ChainWalletBase
 
-When you're trying to connect to a wallet, you always need to provide a target chain name so that the wallet knows what to response. So `ChainWalletBase` is the class actually being used for real connection. It's the finest grain of functionality that with chain specified and also wallet specified.
+When you're trying to connect to a wallet, you always need to provide a target chain name so that the wallet knows how to respond. So `ChainWalletBase` is the class actually being used for real connection. It's the finest grain of functionality that with chain specified and also wallet specified.
 
 We're separating `MainWalletBase` and `ChainWalletBase` because it's clearer to put some common properties like `wallet client` and `env` in the `MainWalletBase` to enable
 centralized management and distribution (events `broadcast_client` and `broadcast_env`), and put only chain specified functionalities in `ChainWalletBase`.
