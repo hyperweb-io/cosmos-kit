@@ -57,7 +57,7 @@
 
 - [Keplr Extension - Wallet Info](https://github.com/hyperweb-io/cosmos-kit/tree/main/wallets/keplr-extension/src/extension/registry.ts)
 
-- [Keplr Mobile - Wallet Info](https://github.com/hyperweb-io/cosmos-kit/tree/main/wallets/keplr-mobile/src/wallet-connect/registry.ts)jk
+- [Keplr Mobile - Wallet Info](https://github.com/hyperweb-io/cosmos-kit/tree/main/wallets/keplr-mobile/src/wallet-connect/registry.ts)
 
 ### 2️⃣ Implement `WalletClient` <span id="2-implement-walletclient"></span>
 
@@ -74,7 +74,7 @@
 | Key                  | Type                                                                        | Description                                                                                                                                     |
 | -------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **getAccount**       | `(chainId: string) => Promise<WalletAccount>`<sup>\*</sup>                  | return account with address, pubkey and algo                                                                                                    |
-| **getOfflineSigner** | `(chainId: string, preferredSignType?: SignType) => Promise<OfflineSigner>` | prioritize returning `preferredSignType` (by default `amino`) corresponding signer if it is available, otherwise return siger that is provided. |
+| **getOfflineSigner** | `(chainId: string, preferredSignType?: SignType) => Promise<OfflineSigner>` | prioritize returning `preferredSignType` (by default `amino`) corresponding signer if it is available, otherwise return signer that is provided. |
 | **enable**           | `(chainIds: string \| string[]) => Promise<void>`                           | give permission for the webpage to access wallet                                                                                                |
 | **addChain**         | `(chainInfo: ChainRecord) => Promise<void>`                                 | add new Cosmos-SDK based blockchains that isn't natively integrated to wallet app/extension                                                     |
 | **on**               | `(type: string, listener: EventListenerOrEventListenerObject) => void`      | add event listener                                                                                                                              |
@@ -130,4 +130,4 @@ Last but not least, append this instance to the `wallets` property of [ChainProv
 
 ## 6️⃣ Don't Forget To Update Docs
 
-Add `Mardown File` just like other wallets [here](https://github.com/hyperweb-io/cosmos-kit/tree/main/packages/docs/pages/integrating-wallets).
+Add `Markdown File` just like other wallets [here](https://github.com/hyperweb-io/cosmos-kit/tree/main/packages/docs/pages/integrating-wallets).
