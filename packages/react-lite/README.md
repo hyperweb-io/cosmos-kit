@@ -25,7 +25,7 @@ Cosmos Kit is a universal wallet adapter for developers to build apps that quick
 > You can also see [**create-interchain-app**](https://github.com/hyperweb-io/create-interchain-app) our official starter kit that supports Interchain Kit.
 
 
-@cosmos-kit/react is the React integration for CosmosKit.
+@cosmos-kit/react-lite is the lightweight React integration for CosmosKit without the default modal.
 
 ## Documentation
 
@@ -34,7 +34,7 @@ Cosmos Kit is a universal wallet adapter for developers to build apps that quick
 ## Installation
 
 ```sh
-yarn add @cosmos-kit/react @cosmos-kit/core @cosmos-kit/keplr chain-registry
+yarn add @cosmos-kit/react-lite @cosmos-kit/core @cosmos-kit/keplr chain-registry
 ```
 
 ## Provider
