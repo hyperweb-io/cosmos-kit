@@ -2,7 +2,7 @@
 
 ## Code Structure
 
-To make user better understand the whole design structure of CosmosKit, here to briefly introduce some important classes from `@cosmos-kit/core`.
+To help users better understand the whole design structure of CosmosKit, here we briefly introduce some important classes from `@cosmos-kit/core`.
 
 There are four important classes.
 
