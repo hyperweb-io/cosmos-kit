@@ -8,15 +8,6 @@
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "dist",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsup src/index.ts --dts --format esm,cjs",
@@ -63,6 +54,5 @@
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",
     "@cosmjs/proto-signing": ">=0.32.3"
-  },
-  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
+  }
 }

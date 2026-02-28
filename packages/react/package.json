@@ -22,18 +22,9 @@
   ],
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
-  "main": "dist/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "dist",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
+  "main": "index.js",
+  "module": "esm/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "makage clean",
     "prepack": "npm run build",
@@ -91,6 +82,5 @@
     "react": "^18.0.0 || ^19.0.0",
     "react-dom": "^18.0.0 || ^19.0.0"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }

@@ -5,18 +5,9 @@
   "author": "oko-wallet",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
-  "main": "dist/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "dist",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
+  "main": "index.js",
+  "module": "esm/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "makage clean",
     "prepack": "npm run build",

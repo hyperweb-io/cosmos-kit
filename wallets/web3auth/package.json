@@ -11,22 +11,13 @@
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/esm/index.js",
+  "main": "index.js",
+  "module": "esm/index.js",
   "typings": "dist/index.d.ts",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "dist",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
   "scripts": {
     "clean": "makage clean",
     "prepack": "npm run build",
-    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/ && node -e \"const fs=require('fs'),p=JSON.parse(fs.readFileSync('dist/package.json','utf8'));['main','module','types'].forEach(k=>{if(p[k])p[k]=p[k].replace(/^dist\\//,'')});fs.writeFileSync('dist/package.json',JSON.stringify(p,null,2))\"",
+    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/",
     "lint": "eslint --ext .tsx,.ts .",
     "format": "eslint --ext .tsx,.ts --fix .",
     "test": "jest",
@@ -80,6 +71,5 @@
     "@cosmjs/proto-signing": "^0.32.3",
     "@keplr-wallet/cosmos": ">= 0.10",
     "cosmjs-types": "^0.9.0"
-  },
-  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
+  }
 }

@@ -10,17 +10,9 @@
   ],
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
-  "main": "dist/index.js",
-  "module": "dist/esm/index.js",
+  "main": "index.js",
+  "module": "esm/index.js",
   "typings": "dist/index.d.ts",
-  "directories": {
-    "lib": "src"
-  },
-  "files": [
-    "dist",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
   "scripts": {
     "clean": "makage clean",
     "prepack": "npm run build",
@@ -53,8 +45,7 @@
   "dependencies": {
     "@cosmos-kit/ninji-extension": "workspace:*"
   },
-  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a",
-  "types": "dist/index.d.ts",
+  "types": "index.d.ts",
   "devDependencies": {
     "makage": "^0.1.12"
   },

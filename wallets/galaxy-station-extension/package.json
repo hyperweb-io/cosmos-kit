@@ -5,22 +5,13 @@
   "author": "Hexxagon",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
-  "main": "dist/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "dist",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
+  "main": "index.js",
+  "module": "esm/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "makage clean",
     "prepack": "npm run build",
-    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/ && node -e \"const fs=require('fs'),p=JSON.parse(fs.readFileSync('dist/package.json','utf8'));['main','module','types'].forEach(k=>{if(p[k])p[k]=p[k].replace(/^dist\\//,'')});fs.writeFileSync('dist/package.json',JSON.stringify(p,null,2))\"",
+    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/",
     "build:dev": "makage build --dev",
     "lint": "eslint --ext .tsx,.ts .",
     "format": "eslint --ext .tsx,.ts --fix .",
@@ -66,7 +57,6 @@
     "@cosmjs/amino": ">=0.32.3",
     "@cosmjs/proto-signing": ">=0.32.3"
   },
-  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a",
   "devDependencies": {
     "makage": "^0.1.12"
   }
