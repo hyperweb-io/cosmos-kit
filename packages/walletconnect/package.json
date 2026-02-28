@@ -37,7 +37,7 @@
   "scripts": {
     "clean": "makage clean",
     "prepack": "npm run build",
-    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/",
+    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/ && node -e \"const fs=require('fs'),p=JSON.parse(fs.readFileSync('dist/package.json','utf8'));['main','module','types'].forEach(k=>{if(p[k])p[k]=p[k].replace(/^dist\\//,'')});fs.writeFileSync('dist/package.json',JSON.stringify(p,null,2))\"",
     "build:dev": "makage build --dev",
     "lint": "eslint --ext .tsx,.ts .",
     "format": "eslint --ext .tsx,.ts --fix .",
