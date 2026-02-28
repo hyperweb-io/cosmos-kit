@@ -1,6 +1,7 @@
 .DS_Store
 .eslintcache
 *.log
+pnpm-debug.log*
 **/node_modules
 coverage
 packages/**/build
@@ -18,9 +19,7 @@ wallets/**/esm
 packages/example/pages/tmp.tsx
 packages/example/utils/tmp.ts
 .idea
-/.yarnrc
 /.npmrc
 /.parcel-cache
 packages/my-example
 wallets/social-login
-.yarn

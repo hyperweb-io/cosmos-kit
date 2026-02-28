@@ -1,23 +1,16 @@
 {
-  "name": "cosmos-kit",
+  "name": "cosmos-kit-repo",
   "version": "2.0.0",
-  "publishConfig": {
-    "access": "restricted"
-  },
   "private": true,
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
-    "commit": "git-cz",
-    "build": "lerna run prepare --stream",
-    "watch": "yarn watch",
-    "lint": "lerna run lint",
-    "format": "lerna run format",
-    "pretest": "yarn lint",
-    "test": "lerna run test",
-    "clear:mjs": "lerna run clean:mjs --stream",
+    "build": "pnpm -r --filter '!docs' run build",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format",
+    "test": "pnpm -r --filter '!cosmos-kit' run test --passWithNoTests",
     "clear:modules": "find . -name 'node_modules' -type d -prune -print | xargs rm -rf",
-    "clear:packages": "find -E ./packages -iregex '.*/packages/[-0-9a-z]*/(main|module|types|build|dist|cjs|esm)' -type d -prune -print | xargs rm -rf",
-    "clear:wallets": "find -E ./wallets -iregex '.*/wallets/[-0-9a-z]*/(main|module|types|build|dist|cjs|esm)' -type d -prune -print | xargs rm -rf",
-    "clear": "yarn clear:packages && yarn clear:wallets",
+    "clear:dist": "pnpm -r run clean",
+    "clear": "pnpm run clear:dist",
     "pub:beta": "lerna publish prerelease --preid beta --allow-branch beta",
     "pub": "lerna publish"
   },
@@ -36,14 +29,15 @@
     "lerna": "7.1.1",
     "prettier": "2.7.1",
     "publish-scripts": "0.1.0",
-    "rimraf": "3.0.2",
+    "makage": "^0.1.12",
     "ts-jest": "29.4.5",
     "typescript": "5.8.3"
   },
-  "workspaces": [
-    "packages/*",
-    "wallets/*"
-  ],
+  "pnpm": {
+    "overrides": {
+      "@chain-registry/types": "0.46.11"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/hyperweb-io/cosmos-kit#readme"

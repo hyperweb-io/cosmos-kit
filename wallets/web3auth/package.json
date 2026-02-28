@@ -11,24 +11,13 @@
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
   "type": "module",
-  "main": "esm/index.js",
+  "main": "index.js",
   "module": "esm/index.js",
-  "typings": "esm/index.d.ts",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "esm",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "build:esm": "yarn tsc -p tsconfig.json --outDir esm --module es2022 || true",
-    "clean:esm": "rimraf esm",
-    "clean": "npm run clean:esm",
-    "build": "npm run clean && npm run build:esm",
-    "prepare": "npm run build",
+    "clean": "makage clean",
+    "prepack": "npm run build",
+    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/",
     "lint": "eslint --ext .tsx,.ts .",
     "format": "eslint --ext .tsx,.ts --fix .",
     "test": "jest",
@@ -36,7 +25,8 @@
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   },
   "repository": {
     "type": "git",
@@ -54,20 +44,26 @@
   "jest": {
     "testPathIgnorePatterns": [
       "dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/"
     ]
   },
   "dependencies": {
-    "@cosmos-kit/core": "^2.18.1",
+    "@cosmos-kit/core": "workspace:*",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@toruslabs/eccrypto": "6.2.0",
     "@web3auth/auth": "^10.5.0",
     "@web3auth/modal": "^10.4.0",
     "url": "^0.11.1",
-    "viem": "^2.23.0"
+    "viem": "^2.23.0",
+    "@cosmjs/crypto": "^0.36.2",
+    "@cosmjs/encoding": "^0.36.2"
   },
   "devDependencies": {
     "@chain-registry/types": "^0.46.11",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "makage": "^0.1.12"
   },
   "peerDependencies": {
     "@chain-registry/types": ">= 0.17",
@@ -75,6 +71,5 @@
     "@cosmjs/proto-signing": "^0.32.3",
     "@keplr-wallet/cosmos": ">= 0.10",
     "cosmjs-types": "^0.9.0"
-  },
-  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
+  }
 }

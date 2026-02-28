@@ -25,27 +25,14 @@
   ],
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
-  "main": "cjs/index.js",
+  "main": "index.js",
   "module": "esm/index.js",
-  "types": "cjs/index.d.ts",
-  "directories": {
-    "lib": "src",
-    "test": "test"
-  },
-  "files": [
-    "cjs",
-    "esm",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
+  "types": "index.d.ts",
   "scripts": {
-    "build:cjs": "yarn tsc -p tsconfig.json --outDir cjs --module commonjs || true",
-    "build:esm": "yarn tsc -p tsconfig.json --outDir esm --module es2022 || true",
-    "clean:cjs": "rimraf cjs",
-    "clean:esm": "rimraf esm",
-    "clean": "npm run clean:cjs && npm run clean:esm",
-    "build": "npm run clean && npm run build:cjs && npm run build:esm",
-    "prepare": "npm run build",
+    "clean": "makage clean",
+    "prepack": "npm run build",
+    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/",
+    "build:dev": "makage build --dev",
     "lint": "eslint --ext .tsx,.ts .",
     "format": "eslint --ext .tsx,.ts --fix .",
     "test": "jest",
@@ -53,7 +40,8 @@
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   },
   "repository": {
     "type": "git",
@@ -71,25 +59,27 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/bitgetwallet-extension": "^1.4.1",
-    "@cosmos-kit/cdcwallet": "^2.18.1",
-    "@cosmos-kit/coin98": "^2.16.1",
-    "@cosmos-kit/compass": "^2.16.1",
-    "@cosmos-kit/cosmostation": "^2.17.1",
-    "@cosmos-kit/ctrl": "^2.16.1",
-    "@cosmos-kit/exodus": "^2.15.1",
-    "@cosmos-kit/fin": "^2.16.1",
-    "@cosmos-kit/galaxy-station": "^2.16.1",
-    "@cosmos-kit/gatewallet-extension": "1.1.2",
-    "@cosmos-kit/keplr": "^2.17.1",
-    "@cosmos-kit/leap": "^2.17.1",
-    "@cosmos-kit/ledger": "^2.16.1",
-    "@cosmos-kit/okxwallet-extension": "^2.16.1",
-    "@cosmos-kit/omni": "^2.15.1",
-    "@cosmos-kit/owallet": "^2.17.1",
-    "@cosmos-kit/shell": "^2.16.1",
-    "@cosmos-kit/tailwind": "^1.10.1",
-    "@cosmos-kit/trust": "^2.16.1"
+    "@cosmos-kit/bitgetwallet-extension": "workspace:*",
+    "@cosmos-kit/cdcwallet": "workspace:*",
+    "@cosmos-kit/coin98": "workspace:*",
+    "@cosmos-kit/compass": "workspace:*",
+    "@cosmos-kit/cosmostation": "workspace:*",
+    "@cosmos-kit/ctrl": "workspace:*",
+    "@cosmos-kit/exodus": "workspace:*",
+    "@cosmos-kit/fin": "workspace:*",
+    "@cosmos-kit/galaxy-station": "workspace:*",
+    "@cosmos-kit/gatewallet-extension": "workspace:*",
+    "@cosmos-kit/keplr": "workspace:*",
+    "@cosmos-kit/leap": "workspace:*",
+    "@cosmos-kit/ledger": "workspace:*",
+    "@cosmos-kit/okxwallet-extension": "workspace:*",
+    "@cosmos-kit/omni": "workspace:*",
+    "@cosmos-kit/owallet": "workspace:*",
+    "@cosmos-kit/shell": "workspace:*",
+    "@cosmos-kit/tailwind": "workspace:*",
+    "@cosmos-kit/trust": "workspace:*"
   },
-  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
+  "devDependencies": {
+    "makage": "^0.1.12"
+  }
 }
