@@ -5,7 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@walletconnect/types': 2.11.0
   '@chain-registry/types': 0.46.11
 
 importers:
@@ -92,7 +91,7 @@ importers:
         version: 1.0.0(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)
       '@walletconnect/types':
         specifier: 2.11.0
-        version: 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+        version: 2.11.0
       axios:
         specifier: ^1.13.6
         version: 1.13.6
@@ -399,7 +398,7 @@ importers:
         version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       '@walletconnect/types':
         specifier: 2.11.0
-        version: 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+        version: 2.11.0
       '@walletconnect/utils':
         specifier: ^2.9.0
         version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
@@ -1168,7 +1167,7 @@ importers:
         version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       '@walletconnect/types':
         specifier: 2.11.0
-        version: 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+        version: 2.11.0
       long:
         specifier: ^5.2.3
         version: 5.3.2
@@ -3519,7 +3518,7 @@ packages:
     resolution: {integrity: sha512-lXWv3qN9Z2JIa7Z+O0QUMEau4bog3ZAAwGUt0QfMfKKD9QySDvu4K6H7SwTRe2Br/RlOWS2LbLG8QxNUMu9LCw==}
     peerDependencies:
       '@walletconnect/sign-client': ^2
-      '@walletconnect/types': 2.11.0
+      '@walletconnect/types': ^2
       starknet: ^8
 
   '@leapwallet/cosmos-snap-provider@0.1.26':
@@ -13629,7 +13628,7 @@ snapshots:
       '@cosmjs/proto-signing': 0.36.2
       '@cosmjs/stargate': 0.36.2(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       '@dao-dao/cosmiframe': 1.0.0(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)
-      '@walletconnect/types': 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/types': 2.11.0
       bowser: 2.11.0
       cosmjs-types: 0.10.1
       events: 3.3.0
@@ -14858,7 +14857,7 @@ snapshots:
       '@cosmjs/proto-signing': 0.36.2
       '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      '@walletconnect/types': 2.23.7
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
       events: 3.3.0
     transitivePeerDependencies:
@@ -15894,7 +15893,7 @@ snapshots:
       '@keplr-wallet/provider': 0.12.313(starknet@8.9.2)
       '@keplr-wallet/types': 0.12.313(starknet@8.9.2)
       '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      '@walletconnect/types': 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/types': 2.11.0
       buffer: 6.0.3
       deepmerge: 4.3.1
       long: 5.3.2
@@ -15905,7 +15904,7 @@ snapshots:
       '@keplr-wallet/provider': 0.12.313(starknet@8.9.2)
       '@keplr-wallet/types': 0.12.313(starknet@8.9.2)
       '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      '@walletconnect/types': 2.23.7
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       buffer: 6.0.3
       deepmerge: 4.3.1
       long: 5.3.2
@@ -18789,7 +18788,7 @@ snapshots:
       '@walletconnect/relay-auth': 1.1.0
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
       '@walletconnect/window-getters': 1.0.1
       es-toolkit: 1.44.0
@@ -18934,7 +18933,7 @@ snapshots:
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/logger': 3.0.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
       events: 3.3.0
     transitivePeerDependencies:
@@ -18966,7 +18965,7 @@ snapshots:
     dependencies:
       tslib: 1.14.1
 
-  '@walletconnect/types@2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))':
+  '@walletconnect/types@2.11.0':
     dependencies:
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.1
@@ -18995,7 +18994,7 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@walletconnect/types@2.23.7':
+  '@walletconnect/types@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))':
     dependencies:
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.2
@@ -19038,7 +19037,7 @@ snapshots:
       '@walletconnect/relay-auth': 1.1.0
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/window-getters': 1.0.1
       '@walletconnect/window-metadata': 1.0.1
       blakejs: 1.2.1
@@ -19187,7 +19186,7 @@ snapshots:
       '@wallet-standard/base': 1.1.0
       '@wallet-standard/features': 1.1.0
       '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      '@walletconnect/types': 2.11.0(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
       '@web3auth/auth': 10.8.0(@babel/runtime@7.28.6)(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(utf-8-validate@5.0.10)
       '@web3auth/ws-embed': 5.6.0(@babel/runtime@7.28.6)(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(utf-8-validate@5.0.10)

@@ -37,7 +37,7 @@
   "scripts": {
     "clean": "makage clean",
     "prepack": "npm run build",
-    "build": "makage build",
+    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/",
     "build:dev": "makage build --dev",
     "lint": "eslint --ext .tsx,.ts .",
     "format": "eslint --ext .tsx,.ts --fix .",

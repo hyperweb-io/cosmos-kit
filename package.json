@@ -35,7 +35,6 @@
   },
   "pnpm": {
     "overrides": {
-      "@walletconnect/types": "2.11.0",
       "@chain-registry/types": "0.46.11"
     }
   },
