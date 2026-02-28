@@ -16,6 +16,6 @@ module.exports = {
   ],
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  testPathIgnorePatterns: ['cjs/*', 'esm/*'],
-  modulePathIgnorePatterns: ['cjs/*', 'esm/*'],
+  testPathIgnorePatterns: ['cjs/*', 'esm/*', 'dist/*'],
+  modulePathIgnorePatterns: ['cjs/*', 'esm/*', 'dist/*'],
 };
