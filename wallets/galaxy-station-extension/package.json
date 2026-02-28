@@ -5,27 +5,23 @@
   "author": "Hexxagon",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
-  "main": "cjs/index.js",
-  "module": "esm/index.js",
-  "types": "cjs/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "cjs",
-    "esm",
+    "dist",
     "!CHANGELOG.md",
     "!LICENSE"
   ],
   "scripts": {
-    "build:cjs": "yarn tsc -p tsconfig.json --outDir cjs --module commonjs || true",
-    "build:esm": "yarn tsc -p tsconfig.json --outDir esm --module es2022 || true",
-    "clean:cjs": "rimraf cjs",
-    "clean:esm": "rimraf esm",
-    "clean": "npm run clean:cjs && npm run clean:esm",
-    "build": "npm run clean && npm run build:cjs && npm run build:esm",
-    "prepare": "npm run build",
+    "clean": "makage clean",
+    "prepack": "npm run build",
+    "build": "rm -rf dist && (tsc -p tsconfig.json || true) && (tsc -p tsconfig.esm.json || true) && cp ../../LICENSE dist/ && cp package.json dist/ && cp README.md dist/",
+    "build:dev": "makage build --dev",
     "lint": "eslint --ext .tsx,.ts .",
     "format": "eslint --ext .tsx,.ts --fix .",
     "test": "jest",
@@ -33,7 +29,8 @@
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   },
   "repository": {
     "type": "git",
@@ -52,17 +49,25 @@
   "jest": {
     "testPathIgnorePatterns": [
       "dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/"
     ]
   },
   "dependencies": {
     "@chain-registry/types": "0.46.11",
-    "@cosmos-kit/core": "^2.18.1",
+    "@cosmos-kit/core": "workspace:*",
     "@hexxagon/feather.js": "^1.0.9-beta.8",
-    "@hexxagon/station-connector": "^1.0.17"
+    "@hexxagon/station-connector": "^1.0.17",
+    "cosmjs-types": "^0.10.1",
+    "long": "^5.2.3"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",
     "@cosmjs/proto-signing": ">=0.32.3"
   },
-  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a"
+  "gitHead": "39fe5288455524191eb70ca82de6f2d7e6b3549a",
+  "devDependencies": {
+    "makage": "^0.1.12"
+  }
 }

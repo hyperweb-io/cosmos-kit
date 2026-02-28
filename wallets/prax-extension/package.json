@@ -18,11 +18,11 @@
     "!LICENSE"
   ],
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rm -rf dist",
     "build": "npm run clean && tsup src/index.ts --dts --format esm,cjs",
-    "prepare": "npm run build",
     "lint": "eslint --ext .tsx,.ts .",
-    "format": "eslint --ext .tsx,.ts --fix ."
+    "format": "eslint --ext .tsx,.ts --fix .",
+    "prepack": "npm run build"
   },
   "exports": {
     ".": {
@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
-    "@cosmos-kit/core": "^2.18.1"
+    "@cosmos-kit/core": "workspace:*"
   },
   "devDependencies": {
     "@bufbuild/protobuf": "^1.10.0",

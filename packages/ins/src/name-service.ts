@@ -81,9 +81,10 @@ export class INS {
     // TODO better logic for loading RPCs and handling errors
     // NOTE in production a wallet provider will likely want to use their own RPCs
     let client: CosmWasmClient;
-    for (let i = 0; i < chain.apis.rpc.length; i++) {
+    const rpcs = chain?.apis?.rpc ?? [];
+    for (let i = 0; i < rpcs.length; i++) {
       try {
-        client = await CosmWasmClient.connect(chain.apis.rpc[i]?.address);
+        client = await CosmWasmClient.connect(rpcs[i]?.address);
         break;
       } catch (e) {
         continue;
@@ -127,9 +128,10 @@ export class INS {
     // TODO better logic for loading RPCs and handling errors
     // NOTE in production a wallet provider will likely want to use their own RPCs
     let client: CosmWasmClient;
-    for (let i = 0; i < chain.apis.rpc.length; i++) {
+    const rpcs = chain?.apis?.rpc ?? [];
+    for (let i = 0; i < rpcs.length; i++) {
       try {
-        client = await CosmWasmClient.connect(chain.apis.rpc[i]?.address);
+        client = await CosmWasmClient.connect(rpcs[i]?.address);
         break;
       } catch (e) {
         continue;

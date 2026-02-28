@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "skipLibCheck": true,
     "emitDeclarationOnly": false,
     "declaration": true,
     "esModuleInterop": true,
     "target": "es2022",
-    "module": "es2022",
+    "module": "commonjs",
     "lib": [
       "es2022",
       "DOM"

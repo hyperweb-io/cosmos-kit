@@ -131,8 +131,7 @@ export class GalaxyStationClient implements WalletClient {
       {
         ...signDoc,
         accountNumber: Long.fromString(signDoc.accountNumber.toString()),
-      },
-      signOptions || this.defaultSignOptions
+      }
     );
   }
 }

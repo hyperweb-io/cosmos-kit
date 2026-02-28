@@ -20,11 +20,16 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - name: Deps
         run: |
-          yarn
-          yarn build
+          pnpm install
+          pnpm run build
 
       - name: Test
         run: |
-          npx --yes lerna@7 run test -- --passWithNoTests
+          pnpm run test
