@@ -34,7 +34,7 @@ Cosmos Kit is a universal wallet adapter for developers to build apps that quick
 ## Installation
 
 ```sh
-yarn add @cosmos-kit/react @cosmos-kit/core @cosmos-kit/keplr chain-registry
+pnpm add @cosmos-kit/react @cosmos-kit/core @cosmos-kit/keplr chain-registry
 ```
 
 ## Provider

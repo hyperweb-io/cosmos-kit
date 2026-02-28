@@ -119,9 +119,9 @@ See our docs on [integrating your wallet](https://docs.hyperweb.io/cosmos-kit/in
 For high-level examples suitable for most developers, explore our [create-cosmos-app](https://github.com/hyperweb-io/create-cosmos-app). For a deeper, more technical understanding, this repository contains an example, which is also useful when integrating new wallets.
 
 ```sh
-yarn build
+pnpm run build
 cd packages/example
-yarn dev
+pnpm dev
 ```
 
 #### [Basic Next.js Example](https://github.com/hyperweb-io/cosmos-kit/tree/main/examples)
@@ -141,19 +141,19 @@ This example is ideal for developers looking to create integrations for Vue.js, 
 
 ## 🛠 Developing
 
-Checkout the repository and bootstrap the yarn workspace:
+Checkout the repository and bootstrap the pnpm workspace:
 
 ```sh
 # Clone the repo.
 git clone https://github.com/hyperweb-io/cosmos-kit
 cd cosmos-kit
-yarn
+pnpm install
 ```
 
 ### Building
 
 ```sh
-yarn build
+pnpm run build
 ```
 
 ### Publishing
