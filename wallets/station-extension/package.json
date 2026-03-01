@@ -57,11 +57,11 @@
     "@terra-money/wallet-types": "^3.11.2"
   },
   "devDependencies": {
-    "@chain-registry/types": "^0.46.11",
+    "@chain-registry/types": "0.46.11",
     "makage": "^0.1.12"
   },
   "peerDependencies": {
-    "@chain-registry/types": ">= 0.17",
+    "@chain-registry/types": "0.46.11",
     "@cosmjs/amino": ">=0.32.3",
     "@cosmjs/proto-signing": ">=0.32.3"
   }

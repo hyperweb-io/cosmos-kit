@@ -50,7 +50,7 @@
     ]
   },
   "dependencies": {
-    "@chain-registry/cosmostation": "1.67.13",
+    "@chain-registry/cosmostation": "2.0.163",
     "@cosmos-kit/core": "workspace:*",
     "@cosmos-kit/walletconnect": "workspace:*"
   },

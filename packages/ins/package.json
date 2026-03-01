@@ -48,8 +48,8 @@
   },
   "dependencies": {
     "@babel/runtime": "7.11.2",
-    "@chain-registry/types": "^2.0.162",
-    "@cosmjs/cosmwasm-stargate": "^0.36.2",
+    "@chain-registry/types": "0.46.11",
+    "@cosmjs/cosmwasm-stargate": "^0.38.1",
     "chain-registry": "^1.64.13"
   },
   "devDependencies": {

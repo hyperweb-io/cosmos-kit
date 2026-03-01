@@ -70,7 +70,7 @@
     "makage": "^0.1.12"
   },
   "dependencies": {
-    "@chain-registry/types": "^0.46.11",
+    "@chain-registry/types": "0.46.11",
     "@cosmos-kit/core": "workspace:*",
     "@cosmos-kit/react-lite": "workspace:*",
     "@react-icons/all-files": "^4.1.0"

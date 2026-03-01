@@ -56,10 +56,10 @@
   },
   "dependencies": {
     "@chain-registry/keplr": "^1.69.13",
+    "@cosmjs/stargate": "^0.38.1",
     "@cosmos-kit/core": "workspace:*",
     "@initia/initia-registry-types": "^0.0.17",
-    "@initia/initia.proto": "^0.1.33",
-    "@cosmjs/stargate": "^0.36.2"
+    "@initia/initia.proto": "^0.1.33"
   },
   "peerDependencies": {
     "@cosmjs/amino": ">=0.32.3",

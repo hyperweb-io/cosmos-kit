@@ -50,23 +50,23 @@
     ]
   },
   "dependencies": {
+    "@cosmjs/crypto": "^0.36.2",
+    "@cosmjs/encoding": "^0.38.1",
     "@cosmos-kit/core": "workspace:*",
-    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-async-storage/async-storage": "^3.0.1",
     "@toruslabs/eccrypto": "6.2.0",
     "@web3auth/auth": "^10.5.0",
     "@web3auth/modal": "^10.4.0",
     "url": "^0.11.1",
-    "viem": "^2.23.0",
-    "@cosmjs/crypto": "^0.36.2",
-    "@cosmjs/encoding": "^0.36.2"
+    "viem": "^2.23.0"
   },
   "devDependencies": {
-    "@chain-registry/types": "^0.46.11",
-    "typescript": "5.8.3",
-    "makage": "^0.1.12"
+    "@chain-registry/types": "0.46.11",
+    "makage": "^0.1.12",
+    "typescript": "5.8.3"
   },
   "peerDependencies": {
-    "@chain-registry/types": ">= 0.17",
+    "@chain-registry/types": "0.46.11",
     "@cosmjs/amino": "^0.32.3",
     "@cosmjs/proto-signing": "^0.32.3",
     "@keplr-wallet/cosmos": ">= 0.10",

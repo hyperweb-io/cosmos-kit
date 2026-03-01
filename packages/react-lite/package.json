@@ -66,11 +66,11 @@
     "makage": "^0.1.12"
   },
   "dependencies": {
-    "@chain-registry/types": "^0.46.11",
+    "@chain-registry/types": "0.46.11",
+    "@cosmjs/amino": "^0.38.1",
+    "@cosmjs/proto-signing": "^0.38.1",
     "@cosmos-kit/core": "workspace:*",
-    "@dao-dao/cosmiframe": "^1.0.0",
-    "@cosmjs/amino": "^0.36.2",
-    "@cosmjs/proto-signing": "^0.36.2"
+    "@dao-dao/cosmiframe": "^1.0.0"
   },
   "peerDependencies": {
     "@types/react": "latest",
