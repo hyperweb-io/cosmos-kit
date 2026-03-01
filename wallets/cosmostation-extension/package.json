@@ -50,7 +50,7 @@
     ]
   },
   "dependencies": {
-    "@chain-registry/cosmostation": "^1.67.13",
+    "@chain-registry/cosmostation": "^2.0.163",
     "@cosmos-kit/core": "workspace:*",
     "@keplr-wallet/types": "^0.12.95",
     "long": "^5.2.3"

@@ -48,7 +48,7 @@
     "@cosmos-kit/core": "workspace:*"
   },
   "devDependencies": {
-    "@cosmjs/proto-signing": ">=0.32.3",
+    "@cosmjs/proto-signing": "^0.38.1",
     "@tailwindzone/connect": "^1.1.0",
     "makage": "^0.1.12"
   }
