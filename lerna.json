@@ -1,14 +1,7 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "lerna": "7",
-  "conventionalCommits": true,
-  "npmClient": "pnpm",
-  "packages": [
-    "packages/*",
-    "wallets/*",
-    "examples/*"
-  ],
   "version": "independent",
+  "npmClient": "pnpm",
   "registry": "https://registry.npmjs.org",
   "command": {
     "create": {
@@ -16,9 +9,13 @@
       "license": "SEE LICENSE IN LICENSE",
       "access": "restricted"
     },
+    "version": {
+      "syncWorkspaceLock": true
+    },
     "publish": {
       "allowBranch": "main",
-      "message": "chore(release): publish"
+      "message": "chore(release): publish",
+      "conventionalCommits": true
     }
   }
 }
