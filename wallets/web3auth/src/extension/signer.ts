@@ -9,7 +9,7 @@ import {
   DirectSignResponse,
   OfflineDirectSigner,
 } from '@cosmjs/proto-signing';
-import eccrypto from '@toruslabs/eccrypto';
+import * as eccrypto from '@toruslabs/eccrypto';
 import { SignDoc } from 'cosmjs-types/cosmos/tx/v1beta1/tx';
 
 import { PromptSign, SignData, ToWorkerMessage } from './types';

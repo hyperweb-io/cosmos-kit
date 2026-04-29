@@ -1,47 +1,28 @@
 import { ClientNotExistError } from '@cosmos-kit/core';
 
-import { Aria } from './types';
-
-interface AriaWindow {
-  aria?: Aria;
-}
-
-export const getAriaFromExtension: () => Promise<
-  Aria | undefined
-> = async () => {
+export const getAriaFromExtension = async () => {
   if (typeof window === 'undefined') {
-    return void 0;
+    return undefined;
   }
 
-  const aria = (window as AriaWindow).aria;
+  const aria = (window as any).aria;
 
   if (aria) {
     return aria;
   }
 
-  if (document.readyState === 'complete') {
-    if (aria) {
-      return aria;
-    } else {
-      throw ClientNotExistError;
-    }
-  }
-
   return new Promise((resolve, reject) => {
-    const documentStateChange = (event: Event) => {
-      if (
-        event.target &&
-        (event.target as Document).readyState === 'complete'
-      ) {
+    const checkReadyState = () => {
+      if (document.readyState === 'complete') {
+        const aria = (window as any).aria;
         if (aria) {
           resolve(aria);
         } else {
-          reject(ClientNotExistError.message);
+          reject(ClientNotExistError);
         }
-        document.removeEventListener('readystatechange', documentStateChange);
       }
     };
 
-    document.addEventListener('readystatechange', documentStateChange);
+    document.addEventListener('readystatechange', checkReadyState);
   });
 };

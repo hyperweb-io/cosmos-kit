@@ -1,17 +1,14 @@
 import { sha256 } from '@cosmjs/crypto';
 import { toUtf8 } from '@cosmjs/encoding';
-import eccrypto, { Ecies } from '@toruslabs/eccrypto';
-import { AuthAdapter, AuthLoginParams } from '@web3auth/auth-adapter';
+import * as eccrypto from '@toruslabs/eccrypto';
+import { Ecies } from '@toruslabs/eccrypto';
 import {
-  ADAPTER_STATUS,
-  CHAIN_NAMESPACES,
-  CustomChainConfig,
+  CONNECTOR_STATUS,
   SafeEventEmitterProvider,
   UX_MODE,
-  WALLET_ADAPTERS,
-} from '@web3auth/base';
-import { CommonPrivateKeyProvider } from '@web3auth/base-provider';
-import { Web3AuthNoModal } from '@web3auth/no-modal';
+  WALLET_CONNECTORS,
+  Web3Auth,
+} from '@web3auth/modal';
 
 import {
   FromWorkerMessage,
@@ -116,28 +113,11 @@ export const connectClientAndProvider = async (
   options: Web3AuthClientOptions,
   { dontAttemptLogin = false } = {}
 ): Promise<{
-  client: Web3AuthNoModal;
+  client: Web3Auth;
   provider: SafeEventEmitterProvider | null;
 }> => {
-  const chainConfig: CustomChainConfig = {
-    chainId: 'other',
-    rpcTarget: 'other',
-    displayName: 'other',
-    blockExplorerUrl: 'other',
-    ticker: 'other',
-    tickerName: 'other',
-    ...options.client.chainConfig,
-    chainNamespace: CHAIN_NAMESPACES.OTHER,
-  };
-  const privateKeyProvider = new CommonPrivateKeyProvider({
-    config: {
-      chainConfig,
-    },
-  });
-  const client = new Web3AuthNoModal({
+  const client = new Web3Auth({
     ...options.client,
-    chainConfig,
-    privateKeyProvider,
   });
 
   // Popups are blocked by default on mobile browsers, so use redirect. Popup is
@@ -157,27 +137,29 @@ export const connectClientAndProvider = async (
     );
   }
 
-  const mfaLevel = options.mfaLevel ?? 'default';
-  const authAdapter = new AuthAdapter({
-    adapterSettings: {
-      uxMode,
-    },
-    loginSettings: {
-      mfaLevel,
-    },
-  });
-  client.configureAdapter(authAdapter);
-
   await client.init();
+
+  // Wait up to 10 seconds for the client to be ready or connected.
+  // This is necessary on v10 because init() does not wait for the session to
+  // be restored.
+  const timeout = 10000;
+  const startTime = Date.now();
+  while (
+    client.status !== CONNECTOR_STATUS.READY &&
+    client.status !== CONNECTOR_STATUS.CONNECTED &&
+    Date.now() - startTime < timeout
+  ) {
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
 
   let provider = client.connected ? client.provider : null;
   if (!client.connected && !dontAttemptLogin) {
     try {
       const loginHint = options.getLoginHint?.();
-      provider = await client.connectTo(WALLET_ADAPTERS.AUTH, {
-        loginProvider: options.loginProvider,
-        login_hint: loginHint,
-      } as AuthLoginParams);
+      provider = await client.connectTo(WALLET_CONNECTORS.AUTH, {
+        authConnection: options.loginProvider,
+        loginHint: loginHint,
+      });
     } catch (err) {
       // Unnecessary error thrown during redirect, so log and ignore it.
       if (
@@ -194,7 +176,7 @@ export const connectClientAndProvider = async (
   }
 
   if (usingRedirect) {
-    if (client.status === ADAPTER_STATUS.CONNECTED) {
+    if (client.status === CONNECTOR_STATUS.CONNECTED) {
       // On successful connection from a redirect, remove the localStorage key
       // so we do not attempt to auto connect on the next page load.
       localStorage.removeItem(WEB3AUTH_REDIRECT_AUTO_CONNECT_KEY);

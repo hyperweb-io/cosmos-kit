@@ -1,0 +1,61 @@
+{
+  "name": "@cosmos-kit/oko",
+  "version": "0.2.1",
+  "description": "cosmos-kit wallet connector for Oko Wallet",
+  "author": "oko-wallet",
+  "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "module": "esm/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "clean": "makage clean",
+    "prepack": "npm run build",
+    "build": "makage build",
+    "build:dev": "makage build --dev",
+    "lint": "eslint --ext .tsx,.ts .",
+    "format": "eslint --ext .tsx,.ts --fix .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperweb-io/cosmos-kit"
+  },
+  "keywords": [
+    "cosmos-kit",
+    "cosmos",
+    "oko",
+    "wallet",
+    "embed"
+  ],
+  "bugs": {
+    "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/"
+    ]
+  },
+  "dependencies": {
+    "@cosmos-kit/core": "workspace:*",
+    "@keplr-wallet/types": "^0.12.290",
+    "@oko-wallet/oko-sdk-core": "^0.0.6-rc.113",
+    "@oko-wallet/oko-sdk-cosmos": "^0.0.6-rc.136"
+  },
+  "peerDependencies": {
+    "@cosmjs/amino": ">= 0.28",
+    "@cosmjs/proto-signing": ">= 0.28"
+  },
+  "devDependencies": {
+    "makage": "^0.1.12"
+  }
+}

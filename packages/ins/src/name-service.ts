@@ -1,4 +1,4 @@
-import { Chains } from '@chain-registry/types';
+import { Chain } from '@chain-registry/types';
 import { CosmWasmClient } from '@cosmjs/cosmwasm-stargate';
 
 export type NameServiceName = string;
@@ -18,10 +18,10 @@ export type NameServiceRegistry = NameServiceInfo[];
 
 export type ParsedInsName =
   | {
-      name: string;
-      resolver: string;
-      nameservice: string;
-    }
+    name: string;
+    resolver: string;
+    nameservice: string;
+  }
   | undefined;
 
 /**
@@ -44,13 +44,13 @@ export const parseINSName = (name: string): ParsedInsName => {
  * @Module INS
  */
 export class INS {
-  chains: Chains;
+  chains: Chain[];
   ins_registry: NameServiceRegistry;
 
   /**
    * This class is used to resolve names and addresses.
    */
-  constructor(chains: Chains, ins_registry: NameServiceRegistry) {
+  constructor(chains: Chain[], ins_registry: NameServiceRegistry) {
     this.chains = chains;
     this.ins_registry = ins_registry;
   }
@@ -81,9 +81,10 @@ export class INS {
     // TODO better logic for loading RPCs and handling errors
     // NOTE in production a wallet provider will likely want to use their own RPCs
     let client: CosmWasmClient;
-    for (let i = 0; i < chain.apis.rpc.length; i++) {
+    const rpcs = chain?.apis?.rpc ?? [];
+    for (let i = 0; i < rpcs.length; i++) {
       try {
-        client = await CosmWasmClient.connect(chain.apis.rpc[i]?.address);
+        client = await CosmWasmClient.connect(rpcs[i]?.address);
         break;
       } catch (e) {
         continue;
@@ -127,9 +128,10 @@ export class INS {
     // TODO better logic for loading RPCs and handling errors
     // NOTE in production a wallet provider will likely want to use their own RPCs
     let client: CosmWasmClient;
-    for (let i = 0; i < chain.apis.rpc.length; i++) {
+    const rpcs = chain?.apis?.rpc ?? [];
+    for (let i = 0; i < rpcs.length; i++) {
       try {
-        client = await CosmWasmClient.connect(chain.apis.rpc[i]?.address);
+        client = await CosmWasmClient.connect(rpcs[i]?.address);
         break;
       } catch (e) {
         continue;

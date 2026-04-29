@@ -8,11 +8,8 @@
   <a href="https://github.com/hyperweb-io/cosmos-kit/actions/workflows/run-tests.yml">
     <img height="20" src="https://github.com/hyperweb-io/cosmos-kit/actions/workflows/run-tests.yml/badge.svg" />
   </a>
-  <a href="https://github.com/hyperweb-io/lib-count">
-    <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Fproducts%2Fcosmos-kit%2Ftotal.json"/>  
-  </a>
-  <a href="https://github.com/hyperweb-io/lib-count">
-    <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhyperweb-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Fproducts%2Fcosmos-kit%2Fmonthly.json"/>  
+  <a href="https://github.com/constructive-io/lib-count">
+    <img height="20" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fconstructive-io%2Flib-count%2Fmain%2Foutput%2Fbadges%2Fproducts%2Fcosmos-kit%2Ftotal.json"/>
   </a>
   <br />
    <a href="https://github.com/hyperweb-io/cosmos-kit/blob/main/LICENSE"><img height="20" src="https://img.shields.io/badge/license-BSD%203--Clause%20Clear-blue.svg"></a>
@@ -120,9 +117,9 @@ See our docs on [integrating your wallet](https://docs.hyperweb.io/cosmos-kit/in
 For high-level examples suitable for most developers, explore our [create-cosmos-app](https://github.com/hyperweb-io/create-cosmos-app). For a deeper, more technical understanding, this repository contains an example, which is also useful when integrating new wallets.
 
 ```sh
-yarn build
+pnpm run build
 cd packages/example
-yarn dev
+pnpm dev
 ```
 
 #### [Basic Next.js Example](https://github.com/hyperweb-io/cosmos-kit/tree/main/packages/example)
@@ -142,19 +139,19 @@ This example is ideal for developers looking to create integrations for Vue.js, 
 
 ## 🛠 Developing
 
-Checkout the repository and bootstrap the yarn workspace:
+Checkout the repository and bootstrap the pnpm workspace:
 
 ```sh
 # Clone the repo.
 git clone https://github.com/hyperweb-io/cosmos-kit
 cd cosmos-kit
-yarn
+pnpm install
 ```
 
 ### Building
 
 ```sh
-yarn build
+pnpm run build
 ```
 
 ### Publishing
@@ -183,8 +180,7 @@ A unified toolkit for building applications and smart contracts in the Interchai
 
 ## Credits
 
-🛠 Built by Hyperweb (formerly Cosmology) — if you like our tools, please checkout and contribute to [our github ⚛️](https://github.com/hyperweb-io)
-
+🛠 Built by the [Constructive](https://constructive.io) team — makers of [Hyperweb](https://hyperweb.io)
 ## Disclaimer
 
 AS DESCRIBED IN THE LICENSES, THE SOFTWARE IS PROVIDED “AS IS”, AT YOUR OWN RISK, AND WITHOUT WARRANTIES OF ANY KIND.

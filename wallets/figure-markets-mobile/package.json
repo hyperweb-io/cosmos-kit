@@ -1,0 +1,56 @@
+{
+  "name": "@cosmos-kit/figure-markets-mobile",
+  "version": "0.5.1",
+  "description": "figure-markets cosmos-kit wallet connector",
+  "author": "figuremarkets@figuretech.com",
+  "contributors": [
+    {
+      "name": "Figure Markets Developers"
+    }
+  ],
+  "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "module": "esm/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "clean": "makage clean",
+    "prepack": "npm run build",
+    "build": "makage build",
+    "build:dev": "makage build --dev",
+    "lint": "eslint --ext .tsx,.ts .",
+    "format": "eslint --ext .tsx,.ts --fix .",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
+  },
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "repository": "https://github.com/hyperweb-io/cosmos-kit",
+  "keywords": [
+    "cosmos",
+    "cosmos-kit",
+    "figure-markets",
+    "wallet"
+  ],
+  "bugs": {
+    "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/"
+    ]
+  },
+  "dependencies": {
+    "@cosmos-kit/core": "workspace:*",
+    "@cosmos-kit/walletconnect": "workspace:*"
+  },
+  "devDependencies": {
+    "makage": "^0.1.12"
+  }
+}

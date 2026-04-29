@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/trust",
-  "version": "2.14.2",
+  "version": "2.16.1",
   "description": "cosmos-kit wallet connector",
   "contributors": [
     {
@@ -9,26 +9,14 @@
   ],
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",
   "license": "SEE LICENSE IN LICENSE",
-  "main": "cjs/index.js",
+  "main": "index.js",
   "module": "esm/index.js",
-  "types": "cjs/index.d.ts",
-  "directories": {
-    "lib": "src"
-  },
-  "files": [
-    "cjs",
-    "esm",
-    "!CHANGELOG.md",
-    "!LICENSE"
-  ],
+  "types": "index.d.ts",
   "scripts": {
-    "build:cjs": "yarn tsc -p tsconfig.json --outDir cjs --module commonjs || true",
-    "build:esm": "yarn tsc -p tsconfig.json --outDir esm --module es2022 || true",
-    "clean:cjs": "rimraf cjs",
-    "clean:esm": "rimraf esm",
-    "clean": "npm run clean:cjs && npm run clean:esm",
-    "build": "npm run clean && npm run build:cjs && npm run build:esm",
-    "prepare": "npm run build",
+    "clean": "makage clean",
+    "prepack": "npm run build",
+    "build": "makage build",
+    "build:dev": "makage build --dev",
     "lint": "eslint --ext .tsx,.ts .",
     "format": "eslint --ext .tsx,.ts --fix .",
     "test": "jest",
@@ -36,7 +24,8 @@
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "directory": "dist"
   },
   "repository": {
     "type": "git",
@@ -51,7 +40,18 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
-    "@cosmos-kit/trust-extension": "^2.13.2",
-    "@cosmos-kit/trust-mobile": "^2.13.2"
+    "@cosmos-kit/trust-extension": "workspace:*",
+    "@cosmos-kit/trust-mobile": "workspace:*"
+  },
+  "devDependencies": {
+    "makage": "^0.1.12"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "dist/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/"
+    ]
   }
 }

@@ -1,5 +1,4 @@
 import { Wallet } from '@cosmos-kit/core';
-
 import { ICON } from '../constant';
 
 export const ariaExtensionInfo: Wallet = {
@@ -7,8 +6,7 @@ export const ariaExtensionInfo: Wallet = {
   prettyName: 'Aria',
   logo: ICON,
   mode: 'extension',
-  mobileDisabled: () =>
-    !('aria' in window || /AriaCosmos/i.test(navigator.userAgent)),
+  mobileDisabled: () => !('aria' in window),
   rejectMessage: {
     source: 'Request rejected',
   },
