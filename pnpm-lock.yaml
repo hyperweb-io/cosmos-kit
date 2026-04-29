@@ -945,11 +945,11 @@ importers:
         specifier: workspace:*
         version: link:../../packages/core/dist
       '@hexxagon/feather.js':
-        specifier: ^1.0.9-beta.8
-        version: 1.0.11
+        specifier: ^2.1.3
+        version: 2.1.3
       '@hexxagon/station-connector':
-        specifier: ^1.0.17
-        version: 1.0.23(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@hexxagon/feather.js@1.0.11)(axios@1.13.6)
+        specifier: ^1.0.23
+        version: 1.0.23(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@hexxagon/feather.js@2.1.3)(axios@1.13.6)
       cosmjs-types:
         specifier: ^0.10.1
         version: 0.10.1
@@ -3257,6 +3257,16 @@ packages:
     resolution: {integrity: sha512-PkPV4USLqmu9r+9UdGt3dYAcc1xS6ykZGUt+pfXrso/D0XSQUASKSHk6ZLbnU2Aum1zWjzS+3EJYCeG3IUYOWg==}
     engines: {node: '>=16'}
 
+  '@hexxagon/feather.js@2.1.3':
+    resolution: {integrity: sha512-ZP+zBKkqvuH4WxAPErzmxwiQX/XIiT+lhZlmdn7lFjdd9U1I9Gy0wOk0krmU6Q9i+jf9dWaJmCsxMQd/SSd0lA==}
+    engines: {node: '>=16'}
+
+  '@hexxagon/hexxagon.proto@0.1.7':
+    resolution: {integrity: sha512-kshiQUoqnb80XBW+KhJh/KX9+5S5zP1RT8e2D1G4H6HSa6BKu59FrrmHMXtiWPXA4sFlgsR7HHB2OZ0hNJXP2Q==}
+
+  '@hexxagon/hexxagon.proto@5.3.1':
+    resolution: {integrity: sha512-oolLKcr2uvj3F1qyrzpcDGi4tEr3jRCh3psU2Tk+W9yEznnNNmnQxkQe+BzX26sNec2QLIsYN/qDHUxEtD86kg==}
+
   '@hexxagon/station-connector@1.0.23':
     resolution: {integrity: sha512-TVGguv4QEwErc8NzypljR/d+IFcOYknjvHpF9sq4Jubxpl4GSTfcEHr/zsb5te/szP4bCFRkDookEwpg5Bw+AQ==}
     engines: {node: '>=16'}
@@ -5078,6 +5088,9 @@ packages:
 
   '@terra-money/terra.proto@4.0.10':
     resolution: {integrity: sha512-cSTGri/X7r+RjTHKQ40lUDM7+lwWIiodLmBvuCUWMH8svji0D45StZTVGfaQ5wCnPr7KcDbZTERzyLKiSwsBqg==}
+
+  '@terra-money/terra.proto@5.3.0-beta.0':
+    resolution: {integrity: sha512-pRy8RScTbhHuSZsuevQBGdVAcFaMTriQeCrT1TOJ2/cMJLGnBJ/43wQN/0KS+4tg2UyYpudZzBhARp+0nvbs1Q==}
 
   '@terra-money/wallet-types@3.11.2':
     resolution: {integrity: sha512-vIHCqL4gtiAlvhnxDSnh6bTXIIZGNOIEfH/lWEgwCHXp4cGh0MeZixcnd4UvpW2ynirwtWkppAz9N4qX9zTtAA==}
@@ -15419,12 +15432,62 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
+  '@hexxagon/feather.js@2.1.3':
+    dependencies:
+      '@classic-terra/terra.proto': 1.1.0
+      '@hexxagon/hexxagon.proto': 5.3.1
+      '@hexxagon/legacy.proto': '@hexxagon/hexxagon.proto@0.1.7'
+      '@terra-money/terra.proto': 5.3.0-beta.0
+      assert: 2.1.0
+      axios: 0.27.2
+      bech32: 2.0.0
+      bip32: 2.0.6
+      bip39: 3.1.0
+      bufferutil: 4.1.0
+      crypto-browserify: 3.12.1
+      decimal.js: 10.6.0
+      jscrypto: 1.0.3
+      keccak256: 1.0.6
+      long: 5.3.2
+      readable-stream: 3.6.2
+      secp256k1: 4.0.4
+      tmp: 0.2.5
+      utf-8-validate: 5.0.10
+      ws: 7.5.10(bufferutil@4.1.0)(utf-8-validate@5.0.10)
+    transitivePeerDependencies:
+      - debug
+
+  '@hexxagon/hexxagon.proto@0.1.7':
+    dependencies:
+      '@improbable-eng/grpc-web': 0.14.1(google-protobuf@3.21.4)
+      google-protobuf: 3.21.4
+      long: 4.0.0
+      protobufjs: 6.11.4
+
+  '@hexxagon/hexxagon.proto@5.3.1':
+    dependencies:
+      '@improbable-eng/grpc-web': 0.14.1(google-protobuf@3.21.4)
+      browser-headers: 0.4.1
+      google-protobuf: 3.21.4
+      long: 4.0.0
+      protobufjs: 6.11.4
+
   '@hexxagon/station-connector@1.0.23(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@hexxagon/feather.js@1.0.11)(axios@1.13.6)':
     dependencies:
       '@cosmjs/amino': 0.36.2
       '@cosmjs/encoding': 0.37.1
       '@cosmjs/proto-signing': 0.36.2
       '@hexxagon/feather.js': 1.0.11
+      axios: 1.13.6
+      bech32: 2.0.0
+      cosmjs-types: 0.11.0
+
+  '@hexxagon/station-connector@1.0.23(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@hexxagon/feather.js@2.1.3)(axios@1.13.6)':
+    dependencies:
+      '@cosmjs/amino': 0.36.2
+      '@cosmjs/encoding': 0.37.1
+      '@cosmjs/proto-signing': 0.36.2
+      '@hexxagon/feather.js': 2.1.3
       axios: 1.13.6
       bech32: 2.0.0
       cosmjs-types: 0.11.0
@@ -18095,6 +18158,14 @@ snapshots:
       protobufjs: 6.11.4
 
   '@terra-money/terra.proto@4.0.10':
+    dependencies:
+      '@improbable-eng/grpc-web': 0.14.1(google-protobuf@3.21.4)
+      browser-headers: 0.4.1
+      google-protobuf: 3.21.4
+      long: 4.0.0
+      protobufjs: 6.11.4
+
+  '@terra-money/terra.proto@5.3.0-beta.0':
     dependencies:
       '@improbable-eng/grpc-web': 0.14.1(google-protobuf@3.21.4)
       browser-headers: 0.4.1
