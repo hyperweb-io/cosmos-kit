@@ -196,8 +196,9 @@ export interface Aria {
     viewingKey?: string
   ): Promise<void>;
 
-  // Chain Management
+  // Chain Management: addChain is Aria's name for Keplr's experimentalSuggestChain, same chain format
   addChain?(chainInfo: unknown): Promise<void>;
+  experimentalSuggestChain?(chainInfo: unknown): Promise<void>;
 
   // Event Listeners
   on?(type: string, listener: EventListenerOrEventListenerObject): void;

@@ -59,6 +59,7 @@
     "url": "https://github.com/hyperweb-io/cosmos-kit/issues"
   },
   "dependencies": {
+    "@cosmos-kit/aria": "workspace:*",
     "@cosmos-kit/bitgetwallet-extension": "workspace:*",
     "@cosmos-kit/cdcwallet": "workspace:*",
     "@cosmos-kit/coin98": "workspace:*",

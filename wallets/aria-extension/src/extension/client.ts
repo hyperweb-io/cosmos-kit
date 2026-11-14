@@ -1,3 +1,4 @@
+import { chainRegistryChainToKeplr } from '@chain-registry/keplr';
 import {
   AminoSignResponse,
   OfflineAminoSigner,
@@ -14,6 +15,7 @@ import {
   BroadcastMode,
   ChainRecord,
   DirectSignDoc,
+  ExtendedHttpEndpoint,
   SignOptions,
   SignType,
   SuggestToken,
@@ -69,10 +71,31 @@ export class AriaClient implements WalletClient {
     await this.client.enable?.(chainIds);
   }
 
+  // Keplr's chain format, through Aria's addChain, or experimentalSuggestChain on Aria versions without it
   async addChain(chainInfo: ChainRecord) {
-    if (this.client.addChain) {
-      await this.client.addChain(chainInfo);
+    const add =
+      this.client.addChain?.bind(this.client) ??
+      this.client.experimentalSuggestChain?.bind(this.client);
+    if (!add) {
+      return;
     }
+
+    const suggestChain = chainRegistryChainToKeplr(
+      chainInfo.chain,
+      chainInfo.assetList ? [chainInfo.assetList] : []
+    );
+
+    if (chainInfo.preferredEndpoints?.rest?.[0]) {
+      (suggestChain.rest as string | ExtendedHttpEndpoint) =
+        chainInfo.preferredEndpoints?.rest?.[0];
+    }
+
+    if (chainInfo.preferredEndpoints?.rpc?.[0]) {
+      (suggestChain.rpc as string | ExtendedHttpEndpoint) =
+        chainInfo.preferredEndpoints?.rpc?.[0];
+    }
+
+    await add(suggestChain);
   }
 
   on(type: string, listener: EventListenerOrEventListenerObject): void {

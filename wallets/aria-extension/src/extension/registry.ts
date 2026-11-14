@@ -8,7 +8,7 @@ export const ariaExtensionInfo: Wallet = {
   mode: 'extension',
   mobileDisabled: () => !('aria' in window),
   rejectMessage: {
-    source: 'Request rejected',
+    source: 'User rejected the connection request',
   },
   connectEventNamesOnWindow: ['aria_keystorechange'],
   downloads: [
@@ -16,6 +16,9 @@ export const ariaExtensionInfo: Wallet = {
       device: 'desktop',
       browser: 'chrome',
       link: 'https://chromewebstore.google.com/detail/aria-wallet/cgghllcclkhfpkjhgomhehlebgphifbm',
+    },
+    {
+      link: 'https://aria.orchestralabs.org',
     },
   ],
 };
