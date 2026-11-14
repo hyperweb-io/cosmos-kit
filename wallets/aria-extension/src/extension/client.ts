@@ -71,9 +71,12 @@ export class AriaClient implements WalletClient {
     await this.client.enable?.(chainIds);
   }
 
-  // Aria takes Keplr's chain format through experimentalSuggestChain, as Keplr and Leap do
+  // Keplr's chain format, through Aria's addChain, or experimentalSuggestChain on Aria versions without it
   async addChain(chainInfo: ChainRecord) {
-    if (!this.client.experimentalSuggestChain) {
+    const add =
+      this.client.addChain?.bind(this.client) ??
+      this.client.experimentalSuggestChain?.bind(this.client);
+    if (!add) {
       return;
     }
 
@@ -92,7 +95,7 @@ export class AriaClient implements WalletClient {
         chainInfo.preferredEndpoints?.rpc?.[0];
     }
 
-    await this.client.experimentalSuggestChain(suggestChain);
+    await add(suggestChain);
   }
 
   on(type: string, listener: EventListenerOrEventListenerObject): void {
