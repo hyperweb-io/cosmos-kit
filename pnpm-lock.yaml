@@ -130,6 +130,9 @@ importers:
 
   packages/cosmos-kit:
     dependencies:
+      '@cosmos-kit/aria':
+        specifier: workspace:*
+        version: link:../../wallets/aria/dist
       '@cosmos-kit/bitgetwallet-extension':
         specifier: workspace:*
         version: link:../../wallets/bitgetwallet-extension/dist

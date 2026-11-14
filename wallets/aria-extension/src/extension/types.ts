@@ -197,7 +197,7 @@ export interface Aria {
   ): Promise<void>;
 
   // Chain Management
-  addChain?(chainInfo: unknown): Promise<void>;
+  experimentalSuggestChain?(chainInfo: unknown): Promise<void>;
 
   // Event Listeners
   on?(type: string, listener: EventListenerOrEventListenerObject): void;

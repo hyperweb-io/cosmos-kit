@@ -14,6 +14,14 @@ describe('wallets', () => {
     expect(wallets.keplr.extension).toBe(keplr.extension);
   });
 
+  test('wallets.aria', () => {
+    expect(wallets.aria).toBeDefined();
+    expect(wallets.aria.length).toBe(2);
+    expect(wallets.aria.extension?.walletInfo.name).toBe('aria-extension');
+    expect(wallets.aria.mobile?.walletInfo.name).toBe('aria-cosmos-mobile');
+    expect(wallets.for('aria').length).toBe(2);
+  });
+
   test('wallets.for()', () => {
     const ws = wallets.for('keplr', 'cosmostation');
     expect(ws.length).toBe(4);
