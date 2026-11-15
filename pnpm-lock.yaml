@@ -1330,6 +1330,37 @@ importers:
         version: 0.1.12
     publishDirectory: dist
 
+  wallets/locker:
+    dependencies:
+      '@cosmos-kit/locker-extension':
+        specifier: workspace:*
+        version: link:../locker-extension/dist
+    devDependencies:
+      makage:
+        specifier: ^0.1.12
+        version: 0.1.12
+    publishDirectory: dist
+
+  wallets/locker-extension:
+    dependencies:
+      '@cosmjs/amino':
+        specifier: '>=0.32.3'
+        version: 0.36.2
+      '@cosmjs/proto-signing':
+        specifier: '>=0.32.3'
+        version: 0.36.2
+      '@cosmos-kit/core':
+        specifier: workspace:*
+        version: link:../../packages/core/dist
+      long:
+        specifier: ^5.2.3
+        version: 5.3.2
+    devDependencies:
+      makage:
+        specifier: ^0.1.12
+        version: 0.1.12
+    publishDirectory: dist
+
   wallets/ninji:
     dependencies:
       '@cosmos-kit/ninji-extension':

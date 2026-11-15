@@ -108,6 +108,9 @@ Explore the range of wallet adapters available in our [wallets directory](https:
 <a href="https://vultisig.com/">
   <img width="30px" src="https://raw.githubusercontent.com/hyperweb-io/cosmos-kit/main/public/images/logos/wallets/vultisig.svg" />
 </a>
+<a href="https://lockerprotocol.com">
+  <img width="30px" src="https://raw.githubusercontent.com/hyperweb-io/cosmos-kit/main/public/images/logos/wallets/locker.svg" />
+</a>
 </p>
 
 ## 🔌 Integrating Wallets
