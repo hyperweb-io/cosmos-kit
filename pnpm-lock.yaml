@@ -196,20 +196,20 @@ importers:
   packages/docs:
     dependencies:
       '@cosmos-kit/core':
-        specifier: ^2.18.1
-        version: 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
+        specifier: workspace:^
+        version: link:../core/dist
       '@cosmos-kit/react':
-        specifier: ^2.24.1
-        version: 2.24.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@interchain-ui/react@1.26.3(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(bufferutil@4.1.0)(encoding@0.1.13)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(utf-8-validate@5.0.10)
+        specifier: workspace:^
+        version: link:../react/dist
       '@interchain-ui/react':
         specifier: ^1.26.3
-        version: 1.26.3(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 1.26.3(@types/react@19.3.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       chain-registry:
         specifier: ^1.64.13
         version: 1.69.503
       cosmos-kit:
-        specifier: ^2.29.1
-        version: 2.29.1(@cosmjs/amino@0.36.2)(@cosmjs/crypto@0.38.1)(@cosmjs/encoding@0.38.1)(@cosmjs/proto-signing@0.36.2)(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.23.7)(axios@1.13.6)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(react@19.2.4)(starknet@8.9.2)(typescript@5.8.3)(utf-8-validate@5.0.10)
+        specifier: workspace:^
+        version: link:../cosmos-kit/dist
       fast-fuzzy:
         specifier: ^1.12.0
         version: 1.12.0
@@ -249,10 +249,10 @@ importers:
         version: 7.22.5(@babel/core@7.29.0)
       '@types/react':
         specifier: latest
-        version: 19.2.14
+        version: 19.3.3
       '@types/react-dom':
         specifier: latest
-        version: 19.2.3(@types/react@19.2.14)
+        version: 19.3.0(@types/react@19.3.3)
       babel-loader:
         specifier: 9.1.2
         version: 9.1.2(@babel/core@7.29.0)(webpack@5.105.3)
@@ -307,7 +307,7 @@ importers:
         version: link:../react-lite/dist
       '@interchain-ui/react':
         specifier: ^1.26.3
-        version: 1.26.3(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 1.26.3(@types/react@19.3.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@react-icons/all-files':
         specifier: ^4.1.0
         version: 4.1.0(react@19.2.4)
@@ -323,10 +323,10 @@ importers:
         version: 1.0.0(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)
       '@types/react':
         specifier: latest
-        version: 19.2.14
+        version: 19.3.3
       '@types/react-dom':
         specifier: latest
-        version: 19.2.3(@types/react@19.2.14)
+        version: 19.3.0(@types/react@19.3.3)
       makage:
         specifier: ^0.1.12
         version: 0.1.12
@@ -364,16 +364,16 @@ importers:
         version: 6.9.1
       '@testing-library/react':
         specifier: ^14.2.1
-        version: 14.3.1(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 14.3.1(@types/react@19.3.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@testing-library/react-hooks':
         specifier: ^8.0.1
-        version: 8.0.1(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 8.0.1(@types/react@19.3.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       '@types/react':
         specifier: latest
-        version: 19.2.14
+        version: 19.3.3
       '@types/react-dom':
         specifier: latest
-        version: 19.2.3(@types/react@19.2.14)
+        version: 19.3.0(@types/react@19.3.3)
       jest-environment-jsdom:
         specifier: ^29.7.0
         version: 29.7.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
@@ -395,13 +395,13 @@ importers:
         version: link:../core/dist
       '@walletconnect/sign-client':
         specifier: ^2.9.0
-        version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
+        version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       '@walletconnect/types':
         specifier: 2.11.0
         version: 2.11.0
       '@walletconnect/utils':
         specifier: ^2.9.0
-        version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
+        version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
       events:
         specifier: 3.3.0
         version: 3.3.0
@@ -1164,7 +1164,7 @@ importers:
         version: 0.12.313(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.11.0)(starknet@8.9.2)
       '@walletconnect/sign-client':
         specifier: ^2.9.0
-        version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
+        version: 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       '@walletconnect/types':
         specifier: 2.11.0
         version: 2.11.0
@@ -1827,7 +1827,7 @@ importers:
         version: 0.13.11(bitcoinjs-lib@6.1.7)(starknet@8.9.2)
       '@react-native-async-storage/async-storage':
         specifier: ^2.2.0
-        version: 2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))
+        version: 2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))
       '@toruslabs/eccrypto':
         specifier: 6.2.0
         version: 6.2.0
@@ -1836,7 +1836,7 @@ importers:
         version: 10.8.0(@babel/runtime@7.28.6)(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(utf-8-validate@5.0.10)
       '@web3auth/modal':
         specifier: ^10.4.0
-        version: 10.15.0(@babel/runtime@7.28.6)(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(@sentry/core@9.47.1)(@solana/web3.js@1.98.4(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(encoding@0.1.13)(react-dom@19.2.4(react@19.2.4))(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@2.46.3(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
+        version: 10.15.0(@babel/runtime@7.28.6)(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(@sentry/core@9.47.1)(@solana/web3.js@1.98.4(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(encoding@0.1.13)(react-dom@19.2.4(react@19.2.4))(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@2.46.3(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
       cosmjs-types:
         specifier: ^0.9.0
         version: 0.9.0
@@ -2653,223 +2653,6 @@ packages:
   '@cosmjs/utils@0.38.1':
     resolution: {integrity: sha512-ccQ5in6IvsQ+o/SstUdQH1jCJ2+MkJPZK7A/EYwMAFcjV8vzOgJ97LVy6AT24nwdi0/iVa2nbAG+fitUEsgLcA==}
 
-  '@cosmos-kit/bitgetwallet-extension@1.4.1':
-    resolution: {integrity: sha512-BAu8VnmvzeatVYHuezd/K4s/vDB1+R3FW/SVNCZMTEvI1f/bS/PLbvtzNjMUy4gHHQx4t9M42erMBmVTwK2rEQ==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/cdcwallet-extension@2.18.1':
-    resolution: {integrity: sha512-EG4UaKZYLquED+0U16utH9qA1ayhIVILshwCqs9vTJNQiwnAwax1c9n1lwa+lw0aHHagcjBA+D6DJlLCwIQBLg==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/cdcwallet@2.18.1':
-    resolution: {integrity: sha512-rVCPHDuDLUcLnxOFCBf70fdU5TjZx1K5r6d04YNkzu7jfA/XFjdiqthLW1mzDxgAUOlYgZgXnwgMlKSdnMaFXw==}
-
-  '@cosmos-kit/coin98-extension@2.17.1':
-    resolution: {integrity: sha512-KiDrJtXUQkGnl+6WjJN4dV5tdR+o94seMdRvbGvzwcFW3dpXil3Jzd2zN4C7mK0VwuocdGKPyX1IsJVRZHrtEg==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/coin98@2.16.1':
-    resolution: {integrity: sha512-pEsy0izsMjC5giR3hLugWRmVBlX6MOb9XECWt0RDjH0d3/3P8sEsITlXpRKVc4MKUZX2JdnQ07H0A2+y8riDnA==}
-
-  '@cosmos-kit/compass-extension@2.16.1':
-    resolution: {integrity: sha512-6bXMnkxYvQDngGtWk8dZ1/OG+0iCJtBlsm3FZoKCpdWfM21bAdZSE6tIreUwY/wlec+UWXy0ORvMelVhlUp83w==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/compass@2.16.1':
-    resolution: {integrity: sha512-8MxSxXpX0X2UKwg3Sq2+a/HhuVSI40vhNVD/7wL8Yfe0i6zu4iaiKs8+EVe66NXEaIbqyWLn/sK4CvquBh6dvQ==}
-
-  '@cosmos-kit/core@2.18.1':
-    resolution: {integrity: sha512-LIOPHJevy3kuaE/U6gAsIAb+HOpEn8zeqrp3nGJdqyTR1oYOyaGDFZUfjMph1wXTJ+vgu7Loix49TIgFCxDVXw==}
-
-  '@cosmos-kit/cosmostation-extension@2.18.1':
-    resolution: {integrity: sha512-GqHCH+wCRglB7ty+3Ib+v92S4T+Z9cUZ2Pm3SoEGZWVVwcXF23dXmm0k3dN6GjpLRUejG1fX3dkd7yjfppjpZA==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-      cosmjs-types: '>=0.9.0'
-
-  '@cosmos-kit/cosmostation-mobile@2.16.1':
-    resolution: {integrity: sha512-F0Y2wxzBDtTOUoU0Hklj4ypmjA+uhWK6m7KB3+55Y/6PgRr/hJh6ZYoPwaTCn7rmGhm5BioWSI6FFx/db3Xe7g==}
-
-  '@cosmos-kit/cosmostation@2.17.1':
-    resolution: {integrity: sha512-7HYxSr5D1mi58CbLlydud3n7Ny0z+OZowi2IJTzdk8by1PZvVE5P+nOHzv+7usMsMQwVViXY3dj3HD4Fud+cfg==}
-
-  '@cosmos-kit/ctrl-extension@2.17.1':
-    resolution: {integrity: sha512-wehyqQd2octQvTiOISN+XUPuZIwE+ta0nNXy65NlB58zeX3EvrEaaIsvv8G1/EEkHLexvclNdPYbbPq5ZqC4Xw==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/ctrl@2.16.1':
-    resolution: {integrity: sha512-rRTUQdQwnmP8tO1KJTwOwjRCpD1f7qsUe+/5aA9/TO0mSq1IdpwGp5C+I8WCk7B+qXOkU+lCz/7gZwkvGZP79g==}
-
-  '@cosmos-kit/exodus-extension@2.15.1':
-    resolution: {integrity: sha512-26h9YzHkmE49kHy1Ar0Q/cvTW31uXknJ5YuZ+2uxj2bAAEKMex2oIFeeYOJQyPC7yWPQQx1Eqp7KmdS5ix2+ig==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/exodus@2.15.1':
-    resolution: {integrity: sha512-uLL5PW2lBgD39qxvPXhGeiDRZcpogfWSgoVpDTPIdga9OnHpQNOJKfIIKlxJbjnkB0v1uXKAE9ko78eOHiv0Qw==}
-
-  '@cosmos-kit/fin-extension@2.16.1':
-    resolution: {integrity: sha512-njIqgCOnSOy6pYkyzgYeZCqfLKkUKgAbmHTaOI2GtoKsWWCybzdsZRr+6z9+mwXrbpUY3c8jq5t8/6ShVirwIg==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/fin@2.16.1':
-    resolution: {integrity: sha512-+f5D78UzHloxBAELPzBDTUok8HEqSiNjDVuyULOCcHpQex6ENWOSbcUt/YqBKK14KEvcWXbq5JT1jiUbp41miA==}
-
-  '@cosmos-kit/galaxy-station-extension@2.16.1':
-    resolution: {integrity: sha512-+AtqL8yg6YSZ+WJEP4znauVDvv3PbaG6QLCy5M3Dq6klHKAY6gGJeCKflTuCerxPXkK9gbL//sdDing6mWXNBg==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/galaxy-station-mobile@2.16.1':
-    resolution: {integrity: sha512-bkvzy1x3A3oh3p9KqDZhUfRUqk4wK4HxwGyeFltOpOnmyY8X4N+7ldP7Fh8+60rlzNOqIPQh+rv9/Ng0a4Rs/g==}
-
-  '@cosmos-kit/galaxy-station@2.16.1':
-    resolution: {integrity: sha512-hKrDJ/hZAJXpsQOG67pRcXqyaNArPJAtm6Q0d9U+QX99OqWk11DVZ+C2Htsr81HW37z+N7ZVZQgwK3UUSLL/9w==}
-
-  '@cosmos-kit/gatewallet-extension@1.1.2':
-    resolution: {integrity: sha512-kVsJYAZErKl5zlFzQMEmQTupEdZIUPNdtYeqSexCJxKKf+rTv+LQ9m9OTRZoUOzMKjt2DoUxnb6w+bvY9b8EeQ==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/keplr-extension@2.17.1':
-    resolution: {integrity: sha512-81fxThFG4m4Am4cUaNVYo99nF0KBfWN+Zz6Kmgskff7FBdOlh8wGk0kEHKExX7GOnpTV2xK50lf3cVJ1ZQTYKA==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/keplr-mobile@2.17.1':
-    resolution: {integrity: sha512-QyxgnoVT5GMAgTmGNRhMuM/mxBBY/6CCh2ZRGh02A2rO7wqwxdAzBN27r0YDtkaKppWVPY6mxSIoTl+6fraOXw==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/keplr@2.17.1':
-    resolution: {integrity: sha512-szVutDVDCWE4bCUWNo6M49OVd1ta4opuc896KXBGPOwndSuw1si95n488zpo+ang3lRZ0IyaqpLVkDHdQ9lqSg==}
-
-  '@cosmos-kit/leap-extension@2.17.1':
-    resolution: {integrity: sha512-LXvCSAvRmAexnoqa9iYaKa8bGwIoHKIOl/YznBFBiWrkdjwOwabMXhOJ/UN+sZzhu0syBsinPoZVB+2amLsOjQ==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/leap-metamask-cosmos-snap@0.17.1':
-    resolution: {integrity: sha512-/DSziXSePt72fYsc1/UIt64bYLSx/bjelGZPeWmJFDwNRjU8FUdvdvZxQHrLOLCwKFfzYgyB1Vvc4MPprM7kMw==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-      cosmjs-types: '>=0.9.0'
-
-  '@cosmos-kit/leap-mobile@2.16.1':
-    resolution: {integrity: sha512-NTmmT6kj68CYmQIup+M+uBichyH9B4R07gtFpfXI0AfyjFLRuEJrrhkEYt5hAMGmxOj21p7vbwjLtfPXb29a5w==}
-
-  '@cosmos-kit/leap@2.17.1':
-    resolution: {integrity: sha512-8L5SpANb3PVGUmk6ScnyoDbrkwmQ8GPuGvM9/9FzJud8k1B73CXQ1KsGLNjFK/FSteVQbN2n9+11K9UYEdoqPg==}
-
-  '@cosmos-kit/ledger@2.16.1':
-    resolution: {integrity: sha512-r8rOn7/ngLTUOXwavvH5xeIpxAYrJEMshPmAxkXvc5PdNB5zx5D1tk3KiaSPGelU6hLLx5Ofa/RA7V0Oti+KnA==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.4'
-      '@cosmjs/crypto': '>=0.32.4'
-      '@cosmjs/encoding': '>=0.32.4'
-      '@cosmjs/proto-signing': '>=0.32.4'
-
-  '@cosmos-kit/okxwallet-extension@2.16.1':
-    resolution: {integrity: sha512-fhrCfCOFQaUDpxVH6hNyg9wOiP0i+Y6MNQYwRA7rCaTVX7ZDH6Or62VZ9pb9qAiklKS1WxF6dTrOzCgAlDNpDQ==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/omni-mobile@2.15.1':
-    resolution: {integrity: sha512-Asd00PccQiH5N4sFGxmqdlFzN0AY3ZHXpT80v3bGwm7z9CXszgBVXi7maoBSdjhisQtsQVzpYLzAf6SkklmyWQ==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/omni@2.15.1':
-    resolution: {integrity: sha512-KXkonyW60L+3JtT6+JPpV6F5YwlO7psaHwMYSGlsUvlu08JHjRdEJmuLT75y/jzq09rMFXo0sHeXfZydd2IhrQ==}
-
-  '@cosmos-kit/owallet-extension@2.17.1':
-    resolution: {integrity: sha512-OF7StGZ8++KB2jUzvnrUAAZBgir0kFMiXZsLp7St3OG9LzQ6CI0aGMr3oNzxq5NGVB7oYc8YAIplqRbnVeRhzw==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/owallet-mobile@2.18.1':
-    resolution: {integrity: sha512-Mw+6ycZVZWPP58UUmm0jhC2RXqjkvMv3FzzpzNLcUPhZ/NuBpPf1ezzSlvtGlcgVAyz3GXXlJUJOBOitbHdSwA==}
-
-  '@cosmos-kit/owallet@2.17.1':
-    resolution: {integrity: sha512-FTW85Jzj0+qOz4LgXjVXIs/TwS3uV4tAmPlM4U2zWX/Rd4MGrBI9SjZivJjOTgfiEGK23spOj0kOiWCciVduHw==}
-
-  '@cosmos-kit/react-lite@2.18.1':
-    resolution: {integrity: sha512-Us7gBZtb1eYxcwMu74ii+pIeR4TE5Q+JhSXkyKUJHh/wDQyTNhCYGpp9PJUMUAiuLuPsv1qToEoeuk6gcD7XaQ==}
-    peerDependencies:
-      '@types/react': latest
-      '@types/react-dom': latest
-      react: ^18.0.0 || ^19.0.0
-      react-dom: ^18.0.0 || ^19.0.0
-
-  '@cosmos-kit/react@2.24.1':
-    resolution: {integrity: sha512-jNTye1dyw8QeVa2BCZccZPxTQBoqX8R9KchhNJFX74tWVgE4jjcz4bLlegjs/G1C8NLEqbDlUCRAiDTg9B92oA==}
-    peerDependencies:
-      '@interchain-ui/react': ^1.26.3
-      '@types/react': latest
-      '@types/react-dom': latest
-      react: ^18.0.0 || ^19.0.0
-      react-dom: ^18.0.0 || ^19.0.0
-
-  '@cosmos-kit/shell-extension@2.16.1':
-    resolution: {integrity: sha512-gz3ZMKSq2Gho+NhLOwhiUxosW9DzKgze65CBlg2jhkUCUQVLyEsCmPXbDt9ZiCYNzHZT9yP9qw1nBzlL9wTf3A==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/shell@2.16.1':
-    resolution: {integrity: sha512-HtExOhGUp5A41nFStGG4A2VA79/WRzla09JqyC9hF7gB05sRYEs5i22SVZVGMCkCguAnjZ3I495zHW2HEweEPg==}
-
-  '@cosmos-kit/tailwind-extension@1.10.1':
-    resolution: {integrity: sha512-Jjmw/UH5d4UW9IhWAwG72fpv6FF/yzI1GWsC8Lp6ASTZZu7K6zlrrb/yvxV351aMDK6cKsdLjEMpAUjfQc4jPg==}
-
-  '@cosmos-kit/tailwind@1.10.1':
-    resolution: {integrity: sha512-QQ/rgKjcKmp0lPDXWOHhXLSPGmw7Rc68mHNx1a3dmYPAMqLM0FiUsEIE7Da1N+i+ZUUXxmKLX3vyXdoH37U++A==}
-
-  '@cosmos-kit/trust-extension@2.15.1':
-    resolution: {integrity: sha512-0yH6Lf0n6O0K1a3QIe66e9DZGiTO2007Wb+jsiYcBBViSqpt6qkJAIapbj7d3CCJoBLcLZwQzev9ON37iiFgPQ==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/trust-mobile@2.15.1':
-    resolution: {integrity: sha512-EUqFE20TPvafUIX7iQ3Dx767O1t85xOlltTPga5Ue/HuVRg0wgc9ZYcXPEzogZQepJNG0Ir2la/WDxSJU06hvg==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-
-  '@cosmos-kit/trust@2.16.1':
-    resolution: {integrity: sha512-8xUNdxnGiftIG1PMtnC4rrD1mrBYiH24g4DH9l0zYqk9oPt+69ANGcDGeIpuIdQ15gg6OquxDPCk9w5CMbeACQ==}
-
-  '@cosmos-kit/walletconnect@2.15.1':
-    resolution: {integrity: sha512-KinnhgLbrxDpP3Teic8dZaDkD3NNHBTM341B89ua5MCz63T7bqPi6KeViHQZZeL89/hA4W4V/3ZrMg4tkdRHog==}
-    peerDependencies:
-      '@cosmjs/amino': '>=0.32.3'
-      '@cosmjs/proto-signing': '>=0.32.3'
-      '@walletconnect/types': 2.11.0
-
   '@cosmostation/extension-client@0.1.15':
     resolution: {integrity: sha512-HlXYJjFrNpjiV/GUKhri1UL8/bhlOIFFLpRF78YDSqq16x0+plIqx5CAvEusFcKTDpVfpeD5sfUHiKvP7euNFg==}
 
@@ -3535,15 +3318,18 @@ packages:
 
   '@ledgerhq/errors@6.29.0':
     resolution: {integrity: sha512-mmDsGN662zd0XGKyjzSKkg+5o1/l9pvV1HkVHtbzaydvHAtRypghmVoWMY9XAQDLXiUBXGIsLal84NgmGeuKWA==}
+    deprecated: This package is no longer maintained and will not receive updates. Published versions remain available.
 
   '@ledgerhq/hw-app-cosmos@6.33.0':
     resolution: {integrity: sha512-0CxN9y1U0OmPm5yNX1dcOzYBPsPP+TCBul+uCn7BDvaY11IB6jptxhZRoTtthBFKwBzZbkv+BSdumPRnKIScDQ==}
 
   '@ledgerhq/hw-transport-webhid@6.31.0':
     resolution: {integrity: sha512-XtCFOJ1ooaqCefB6WDfV/ie+GaO/7xQgezwRpyLroMBYboSpnEd3Diu3BAoptXKTNklwZEiUVRLVXlltTBzNvw==}
+    deprecated: This package is no longer maintained. Use @ledgerhq/device-transport-kit-web-hid instead.
 
   '@ledgerhq/hw-transport-webusb@6.30.0':
     resolution: {integrity: sha512-GX5OJvNl0cRZyadxQjS+cnAxiD2irw4Cponp46r50WmirXOLR7hJYKfd1plmGlZOAgT6ayggOZkzahunYerPXw==}
+    deprecated: This package is no longer maintained. Use @ledgerhq/device-transport-kit-web-hid instead.
 
   '@ledgerhq/hw-transport@6.32.0':
     resolution: {integrity: sha512-bf2nxzDQ21DV/bsmExfWI0tatoVeoqhu/ePWalD/nPgPnTn/ZIDq7VBU+TY5p0JZaE87NQwmRUAjm6C1Exe61A==}
@@ -3558,6 +3344,7 @@ packages:
   '@lerna/create@7.1.1':
     resolution: {integrity: sha512-1PY2OgwGxp7b91JzLKEhONVl69mCt1IyYEc6pzKy3Sv+UOdeK2QFq1SX/85hNOR3iitiyZ75bNWUTcBly1ZlZg==}
     engines: {node: ^14.17.0 || >=16.0.0}
+    deprecated: This package is an implementation detail of Lerna and is no longer published separately.
 
   '@lukeed/csprng@1.1.0':
     resolution: {integrity: sha512-Z7C/xXCiGWsg0KuKsHTKJxbWhpI3Vs5GwLfOean7MGyVFGqdRgBbAjOCh6u4bbjPc/8MJ2pZmK/0DLdCbivLDA==}
@@ -3635,9 +3422,11 @@ packages:
 
   '@metamask/sdk-analytics@0.0.5':
     resolution: {integrity: sha512-fDah+keS1RjSUlC8GmYXvx6Y26s3Ax1U9hGpWb6GSY5SAdmTSIqp2CvYy6yW0WgLhnYhW+6xERuD0eVqV63QIQ==}
+    deprecated: No longer maintained, superseded by @metamask/connect-analytics
 
   '@metamask/sdk-communication-layer@0.33.1':
     resolution: {integrity: sha512-0bI9hkysxcfbZ/lk0T2+aKVo1j0ynQVTuB3sJ5ssPWlz+Z3VwveCkP1O7EVu1tsVVCb0YV5WxK9zmURu2FIiaA==}
+    deprecated: No longer maintained, superseded by https://docs.metamask.io/metamask-connect
     peerDependencies:
       cross-fetch: ^4.0.0
       eciesjs: '*'
@@ -3647,9 +3436,11 @@ packages:
 
   '@metamask/sdk-install-modal-web@0.32.1':
     resolution: {integrity: sha512-MGmAo6qSjf1tuYXhCu2EZLftq+DSt5Z7fsIKr2P+lDgdTPWgLfZB1tJKzNcwKKOdf6q9Qmmxn7lJuI/gq5LrKw==}
+    deprecated: No longer maintained, superseded by https://docs.metamask.io/metamask-connect
 
   '@metamask/sdk@0.34.0':
     resolution: {integrity: sha512-8dkJUShZ5zFqYjNmhJaqKgDzZVne+F2rNjMQJ3pxs89n3oOUNuJ8dsTo08Grf9vlQ6Ldpdt2RTwqbrxKWyyqlw==}
+    deprecated: No longer maintained, superseded by https://docs.metamask.io/metamask-connect
 
   '@metamask/smart-accounts-kit@0.3.0':
     resolution: {integrity: sha512-WwaLwSB3WO5p0WpuxVEvTJbOZ1dr2wCBeq1IoEpv9EjFwiPNXlorji77PRskjQjFgFAc9XrERt4jWX7oua6N+Q==}
@@ -4116,7 +3907,7 @@ packages:
 
   '@paulmillr/qr@0.2.1':
     resolution: {integrity: sha512-IHnV6A+zxU7XwmKFinmYjUcwlyK9+xkG3/s9KcQhI9BjQKycrJ1JRO+FbNYPwZiPKW3je/DR0k7w8/gLa5eaxQ==}
-    deprecated: 'The package is now available as "qr": npm install qr'
+    deprecated: 'Switch to "qr" (new package name) for security updates: npm install qr'
 
   '@penumbra-zone/bech32m@7.0.0':
     resolution: {integrity: sha512-OqSH4G8pQ/mjy/7EfS9KlxF8Pdr3h/Ib8ZDOjDyQJB4/L+ZYkK3bWFGrFpAI8XDoc0phoMXkL77fZEpR18JoAg==}
@@ -5398,13 +5189,16 @@ packages:
     peerDependencies:
       '@types/react': ^18.0.0
 
-  '@types/react-dom@19.2.3':
-    resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
+  '@types/react-dom@19.3.0':
+    resolution: {integrity: sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==}
     peerDependencies:
-      '@types/react': ^19.2.0
+      '@types/react': ^19.3.0
 
   '@types/react@19.2.14':
     resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
+
+  '@types/react@19.3.3':
+    resolution: {integrity: sha512-K8uWpJc4teiuOPdiP1umjeA9rGMgVPiXuoL66fcS1QlwBT1WMqY8PORmub9FadopIs+RCW6siYEs7Lpq+vDlog==}
 
   '@types/secp256k1@4.0.7':
     resolution: {integrity: sha512-Rcvjl6vARGAKRO6jHeKMatGrvOMGrR/AR11N1x2LqintPCyDZ7NBhrh238Z2VZc7aM7KIwnFpFQ7fnfK4H/9Qw==}
@@ -5499,6 +5293,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@usecapsule/core-sdk@1.21.0':
     resolution: {integrity: sha512-zblf/9A5jyVhB2gEdUkkJsq9JLZ5EwsaSH+vWCJL+SqOFk2xD4TgfQoWymxtxtrbSbChrqLB68rrBtsevQNuuw==}
@@ -6629,6 +6424,7 @@ packages:
   conventional-changelog-core@5.0.1:
     resolution: {integrity: sha512-Rvi5pH+LvgsqGwZPZ3Cq/tz4ty7mjijhr3qR4m9IBXNbxGGYgTVVO+duXzz9aArmHxFtwZ+LRkrNIMDQzgoY4A==}
     engines: {node: '>=14'}
+    deprecated: Deprecated and no longer maintained. Please use conventional-changelog instead.
 
   conventional-changelog-preset-loader@3.0.0:
     resolution: {integrity: sha512-qy9XbdSLmVnwnvzEisjxdDiLA4OmV3o8db+Zdg4WiFw14fP3B6XNz98X0swPPpkTd/pc1K7+adKgEDM1JCUMiA==}
@@ -6693,9 +6489,6 @@ packages:
   cosmjs-types@0.9.0:
     resolution: {integrity: sha512-MN/yUe6mkJwHnCFfsNPeCfXVhyxHYW6c/xDUzrSbBycYzw++XvWDMJArXp2pLdgD6FQ8DW79vkPjeNKVrXaHeQ==}
 
-  cosmos-kit@2.29.1:
-    resolution: {integrity: sha512-RNKDxW6V1ov5+8ND869bXedZRkWeuRYawcByqrrLIGleiLmD1eCN7KJmWJymnPb7s9uwWLo73YNfgvITaUa/IA==}
-
   crc-32@1.2.2:
     resolution: {integrity: sha512-ROmzCKrTnOwybPcJApAA6WBWij23HVfGVNKqqrZpuyZOHqK2CwHSvpGuyt/UNNvaIjEd8X5IFGp4Mh+Ie1IHJQ==}
     engines: {node: '>=0.8'}
@@ -6740,6 +6533,7 @@ packages:
 
   crypto-js@4.2.0:
     resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
+    deprecated: Active development of CryptoJS has been discontinued. This library is no longer maintained.
 
   css-what@6.2.2:
     resolution: {integrity: sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA==}
@@ -7810,6 +7604,7 @@ packages:
   git-raw-commits@3.0.0:
     resolution: {integrity: sha512-b5OHmZ3vAgGrDn/X0kS+9qCfNKWe4K/jFnhwzVWWg0/k5eLa3060tZShrRg8Dja5kPc+YjS0Gc6y7cRr44Lpjw==}
     engines: {node: '>=14'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-remote-origin-url@2.0.0:
@@ -7819,6 +7614,7 @@ packages:
   git-semver-tags@5.0.1:
     resolution: {integrity: sha512-hIvOeZwRbQ+7YEUmCkHqo8FOLQZCEn18yevLHADlFPZY02KJGsu5FZt9YW/lybfK2uhWFI7Qg/07LekJiTv7iA==}
     engines: {node: '>=14'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@7.0.0:
@@ -10912,6 +10708,7 @@ packages:
 
   shadcn-ui@0.2.3:
     resolution: {integrity: sha512-Bf2y8d5VusDbCs5l/SRmFTJ2tW9oBvIDWL1xmmURKuxn8rznXApoTdflPJ+Q68zKFXmIh6cYd4cJ8I8nzOkoAQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     hasBin: true
 
   shallow-clone@3.0.1:
@@ -11099,6 +10896,7 @@ packages:
   starknet@8.9.2:
     resolution: {integrity: sha512-+dp+o2w67fV6JyVOVkYeM1Ec71aORHc/JrF4VHLlfeGee0nLilooCQLE2u6hUcSGQG2x2/fvzkxYpIN+k1JBvA==}
     engines: {node: '>=22'}
+    deprecated: starknet <10 is end-of-life and no longer receives security fixes. Upgrade to starknet@10 (10.8.0 or later).
 
   statuses@1.5.0:
     resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}
@@ -11860,10 +11658,12 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uvu@0.5.6:
@@ -13404,1489 +13204,6 @@ snapshots:
 
   '@cosmjs/utils@0.38.1': {}
 
-  '@cosmos-kit/bitgetwallet-extension@1.4.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/cdcwallet-extension@2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/cdcwallet@2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/cdcwallet-extension': 2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/coin98-extension@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      cosmjs-types: 0.10.1
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/coin98@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/coin98-extension': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/compass-extension@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/compass@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/compass-extension': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/core@2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/client': 1.53.312(encoding@0.1.13)
-      '@chain-registry/keplr': 1.74.503
-      '@chain-registry/types': 0.46.11
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/cosmwasm-stargate': 0.36.2(bufferutil@4.1.0)(utf-8-validate@5.0.10)
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmjs/stargate': 0.36.2(bufferutil@4.1.0)(utf-8-validate@5.0.10)
-      '@dao-dao/cosmiframe': 1.0.0(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)
-      '@walletconnect/types': 2.11.0
-      bowser: 2.11.0
-      cosmjs-types: 0.10.1
-      events: 3.3.0
-      nock: 13.5.4
-      uuid: 9.0.1
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/cosmostation-extension@2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/cosmostation': 1.67.13
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      cosmjs-types: 0.11.0
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/cosmostation-mobile@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/cosmostation': 1.67.13
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/walletconnect': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/cosmostation@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/cosmostation-extension': 2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/cosmostation-mobile': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - cosmjs-types
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/ctrl-extension@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/ctrl@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/ctrl-extension': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/exodus-extension@2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(react@19.2.4)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      react-icons: 4.4.0(react@19.2.4)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - react
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/exodus@2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(react@19.2.4)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/exodus-extension': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(react@19.2.4)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - react
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/fin-extension@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/fin@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/fin-extension': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/galaxy-station-extension@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(axios@1.13.6)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/types': 0.46.11
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@hexxagon/feather.js': 1.0.11
-      '@hexxagon/station-connector': 1.0.23(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@hexxagon/feather.js@1.0.11)(axios@1.13.6)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - axios
-      - bufferutil
-      - db0
-      - debug
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/galaxy-station-mobile@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/walletconnect': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/galaxy-station@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(axios@1.13.6)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/galaxy-station-extension': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(axios@1.13.6)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/galaxy-station-mobile': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - axios
-      - bufferutil
-      - db0
-      - debug
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/gatewallet-extension@1.1.2(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/keplr-extension@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@keplr-wallet/provider-extension': 0.12.313(starknet@8.9.2)
-      '@keplr-wallet/types': 0.12.313(starknet@8.9.2)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - starknet
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/keplr-mobile@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/keplr-extension': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(utf-8-validate@5.0.10)
-      '@cosmos-kit/walletconnect': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@keplr-wallet/provider-extension': 0.12.313(starknet@8.9.2)
-      '@keplr-wallet/wc-client': 0.12.313(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.23.7)(starknet@8.9.2)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/sign-client'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - starknet
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/keplr@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/keplr-extension': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(utf-8-validate@5.0.10)
-      '@cosmos-kit/keplr-mobile': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/sign-client'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - starknet
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/leap-extension@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/leap-metamask-cosmos-snap@0.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@leapwallet/cosmos-snap-provider': 0.1.26
-      '@metamask/providers': 11.1.2
-      cosmjs-types: 0.11.0
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/leap-mobile@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/walletconnect': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/leap@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/leap-extension': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/leap-metamask-cosmos-snap': 0.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/leap-mobile': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - cosmjs-types
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/ledger@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/crypto@0.38.1)(@cosmjs/encoding@0.38.1)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/crypto': 0.38.1
-      '@cosmjs/encoding': 0.38.1
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@ledgerhq/hw-app-cosmos': 6.33.0
-      '@ledgerhq/hw-transport-webhid': 6.31.0
-      '@ledgerhq/hw-transport-webusb': 6.30.0
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/okxwallet-extension@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/omni-mobile@2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/walletconnect': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/omni@2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/omni-mobile': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/owallet-extension@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@keplr-wallet/types': 0.12.313(starknet@8.9.2)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - starknet
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/owallet-mobile@2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.68.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/walletconnect': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/owallet@2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/owallet-extension': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(utf-8-validate@5.0.10)
-      '@cosmos-kit/owallet-mobile': 2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - starknet
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/react-lite@2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(bufferutil@4.1.0)(encoding@0.1.13)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/types': 0.46.11
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@dao-dao/cosmiframe': 1.0.0(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)
-      '@types/react': 19.2.14
-      '@types/react-dom': 19.2.3(@types/react@19.2.14)
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/react@2.24.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@interchain-ui/react@1.26.3(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(bufferutil@4.1.0)(encoding@0.1.13)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/types': 0.46.11
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/react-lite': 2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@types/react-dom@19.2.3(@types/react@19.2.14))(@types/react@19.2.14)(bufferutil@4.1.0)(encoding@0.1.13)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(utf-8-validate@5.0.10)
-      '@interchain-ui/react': 1.26.3(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      '@react-icons/all-files': 4.1.0(react@19.2.4)
-      '@types/react': 19.2.14
-      '@types/react-dom': 19.2.3(@types/react@19.2.14)
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/shell-extension@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@chain-registry/keplr': 1.74.503
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/shell@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/shell-extension': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/tailwind-extension@1.10.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/tailwind@1.10.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/tailwind-extension': 1.10.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/trust-extension@2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - uploadthing
-      - utf-8-validate
-
-  '@cosmos-kit/trust-mobile@2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/walletconnect': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/trust@2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmos-kit/trust-extension': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/trust-mobile': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/types'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
-  '@cosmos-kit/walletconnect@2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@cosmjs/amino': 0.36.2
-      '@cosmjs/proto-signing': 0.36.2
-      '@cosmos-kit/core': 2.18.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
-      '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
-      events: 3.3.0
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - aws4fetch
-      - bufferutil
-      - db0
-      - encoding
-      - ioredis
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
-
   '@cosmostation/extension-client@0.1.15': {}
 
   '@cosmsnap/snapper@0.2.7(encoding@0.1.13)':
@@ -15471,7 +13788,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 18.7.18
 
-  '@interchain-ui/react@1.26.3(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@interchain-ui/react@1.26.3(@types/react@19.3.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@floating-ui/core': 1.7.4
       '@floating-ui/dom': 1.7.5
@@ -15500,7 +13817,7 @@ snapshots:
       react-aria: 3.46.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react-dom: 19.2.4(react@19.2.4)
       react-stately: 3.44.0(react@19.2.4)
-      zustand: 4.5.7(@types/react@19.2.14)(immer@10.2.0)(react@19.2.4)
+      zustand: 4.5.7(@types/react@19.3.3)(immer@10.2.0)(react@19.2.4)
     transitivePeerDependencies:
       - '@types/react'
       - babel-plugin-macros
@@ -15892,19 +14209,8 @@ snapshots:
     dependencies:
       '@keplr-wallet/provider': 0.12.313(starknet@8.9.2)
       '@keplr-wallet/types': 0.12.313(starknet@8.9.2)
-      '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
+      '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       '@walletconnect/types': 2.11.0
-      buffer: 6.0.3
-      deepmerge: 4.3.1
-      long: 5.3.2
-      starknet: 8.9.2
-
-  '@keplr-wallet/wc-client@0.12.313(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.23.7)(starknet@8.9.2)':
-    dependencies:
-      '@keplr-wallet/provider': 0.12.313(starknet@8.9.2)
-      '@keplr-wallet/types': 0.12.313(starknet@8.9.2)
-      '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       buffer: 6.0.3
       deepmerge: 4.3.1
       long: 5.3.2
@@ -16030,7 +14336,7 @@ snapshots:
   '@mdx-js/react@2.3.0(react@19.2.4)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 19.2.14
+      '@types/react': 19.3.3
       react: 19.2.4
 
   '@metamask/7715-permission-types@0.4.0': {}
@@ -17301,10 +15607,10 @@ snapshots:
     dependencies:
       react: 19.2.4
 
-  '@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))':
+  '@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))':
     dependencies:
       merge-options: 3.0.4
-      react-native: 0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)
+      react-native: 0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)
 
   '@react-native/assets-registry@0.84.1': {}
 
@@ -17367,14 +15673,14 @@ snapshots:
 
   '@react-native/normalize-colors@0.84.1': {}
 
-  '@react-native/virtualized-lists@0.84.1(@types/react@19.2.14)(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)':
+  '@react-native/virtualized-lists@0.84.1(@types/react@19.3.3)(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)':
     dependencies:
       invariant: 2.2.4
       nullthrows: 1.1.1
       react: 19.2.4
-      react-native: 0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)
+      react-native: 0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.3.3
 
   '@react-stately/calendar@3.9.2(react@19.2.4)':
     dependencies:
@@ -18137,20 +16443,20 @@ snapshots:
       picocolors: 1.1.1
       redent: 3.0.0
 
-  '@testing-library/react-hooks@8.0.1(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@testing-library/react-hooks@8.0.1(@types/react@19.3.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@babel/runtime': 7.28.6
       react: 19.2.4
       react-error-boundary: 3.1.4(react@19.2.4)
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.3.3
       react-dom: 19.2.4(react@19.2.4)
 
-  '@testing-library/react@14.3.1(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@testing-library/react@14.3.1(@types/react@19.3.3)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@babel/runtime': 7.28.6
       '@testing-library/dom': 9.3.4
-      '@types/react-dom': 18.3.7(@types/react@19.2.14)
+      '@types/react-dom': 18.3.7(@types/react@19.3.3)
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
     transitivePeerDependencies:
@@ -18547,15 +16853,19 @@ snapshots:
     dependencies:
       '@types/node': 18.7.18
 
-  '@types/react-dom@18.3.7(@types/react@19.2.14)':
+  '@types/react-dom@18.3.7(@types/react@19.3.3)':
     dependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.3.3
 
-  '@types/react-dom@19.2.3(@types/react@19.2.14)':
+  '@types/react-dom@19.3.0(@types/react@19.3.3)':
     dependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.3.3
 
   '@types/react@19.2.14':
+    dependencies:
+      csstype: 3.2.3
+
+  '@types/react@19.3.3':
     dependencies:
       csstype: 3.2.3
 
@@ -18775,21 +17085,21 @@ snapshots:
     dependencies:
       '@wallet-standard/base': 1.1.0
 
-  '@walletconnect/core@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)':
+  '@walletconnect/core@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)':
     dependencies:
       '@walletconnect/heartbeat': 1.2.2
       '@walletconnect/jsonrpc-provider': 1.0.14
       '@walletconnect/jsonrpc-types': 1.0.4
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/jsonrpc-ws-connection': 1.0.16(bufferutil@4.1.0)(utf-8-validate@5.0.10)
-      '@walletconnect/keyvaluestorage': 1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/keyvaluestorage': 1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/logger': 3.0.2
       '@walletconnect/relay-api': 1.0.11
       '@walletconnect/relay-auth': 1.1.0
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
-      '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
       '@walletconnect/window-getters': 1.0.1
       es-toolkit: 1.44.0
       events: 3.3.0
@@ -18872,13 +17182,13 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@walletconnect/keyvaluestorage@1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))':
+  '@walletconnect/keyvaluestorage@1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))':
     dependencies:
       '@walletconnect/safe-json': 1.0.2
       idb-keyval: 6.2.2
       unstorage: 1.17.4(idb-keyval@6.2.2)
     optionalDependencies:
-      '@react-native-async-storage/async-storage': 2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))
+      '@react-native-async-storage/async-storage': 2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -18925,16 +17235,16 @@ snapshots:
     dependencies:
       tslib: 1.14.1
 
-  '@walletconnect/sign-client@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)':
+  '@walletconnect/sign-client@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)':
     dependencies:
-      '@walletconnect/core': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
+      '@walletconnect/core': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.2
       '@walletconnect/jsonrpc-utils': 1.0.8
       '@walletconnect/logger': 3.0.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
-      '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
       events: 3.3.0
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -18970,7 +17280,7 @@ snapshots:
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.1
       '@walletconnect/jsonrpc-types': 1.0.3
-      '@walletconnect/keyvaluestorage': 1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/keyvaluestorage': 1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/logger': 2.1.3
       events: 3.3.0
     transitivePeerDependencies:
@@ -18994,12 +17304,12 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@walletconnect/types@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))':
+  '@walletconnect/types@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))':
     dependencies:
       '@walletconnect/events': 1.0.1
       '@walletconnect/heartbeat': 1.2.2
       '@walletconnect/jsonrpc-types': 1.0.4
-      '@walletconnect/keyvaluestorage': 1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/keyvaluestorage': 1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/logger': 3.0.2
       events: 3.3.0
     transitivePeerDependencies:
@@ -19023,7 +17333,7 @@ snapshots:
       - ioredis
       - uploadthing
 
-  '@walletconnect/utils@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)':
+  '@walletconnect/utils@2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)':
     dependencies:
       '@msgpack/msgpack': 3.1.3
       '@noble/ciphers': 1.3.0
@@ -19031,13 +17341,13 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/base': 1.2.6
       '@walletconnect/jsonrpc-utils': 1.0.8
-      '@walletconnect/keyvaluestorage': 1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/keyvaluestorage': 1.1.1(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/logger': 3.0.2
       '@walletconnect/relay-api': 1.0.11
       '@walletconnect/relay-auth': 1.1.0
       '@walletconnect/safe-json': 1.0.2
       '@walletconnect/time': 1.0.2
-      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
       '@walletconnect/window-getters': 1.0.1
       '@walletconnect/window-metadata': 1.0.1
       blakejs: 1.2.1
@@ -19112,7 +17422,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@web3auth/modal@10.15.0(@babel/runtime@7.28.6)(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(@sentry/core@9.47.1)(@solana/web3.js@1.98.4(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(encoding@0.1.13)(react-dom@19.2.4(react@19.2.4))(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@2.46.3(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)':
+  '@web3auth/modal@10.15.0(@babel/runtime@7.28.6)(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(@sentry/core@9.47.1)(@solana/web3.js@1.98.4(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.1.0)(encoding@0.1.13)(react-dom@19.2.4(react@19.2.4))(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@2.46.3(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)':
     dependencies:
       '@babel/runtime': 7.28.6
       '@hcaptcha/react-hcaptcha': 2.0.2
@@ -19120,7 +17430,7 @@ snapshots:
       '@toruslabs/base-controllers': 8.17.0(@babel/runtime@7.28.6)(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(utf-8-validate@5.0.10)
       '@toruslabs/http-helpers': 8.1.1(@babel/runtime@7.28.6)(@sentry/core@9.47.1)
       '@web3auth/auth': 10.8.0(@babel/runtime@7.28.6)(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(utf-8-validate@5.0.10)
-      '@web3auth/no-modal': 10.15.0(@babel/runtime@7.28.6)(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(encoding@0.1.13)(react@19.2.4)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@2.46.3(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
+      '@web3auth/no-modal': 10.15.0(@babel/runtime@7.28.6)(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(encoding@0.1.13)(react@19.2.4)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@2.46.3(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
       bowser: 2.14.1
       classnames: 2.5.1
       clsx: 2.1.1
@@ -19130,7 +17440,7 @@ snapshots:
       i18next: 25.8.13(typescript@5.8.3)
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
-      react-i18next: 16.5.4(i18next@25.8.13(typescript@5.8.3))(react-dom@19.2.4(react@19.2.4))(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)(typescript@5.8.3)
+      react-i18next: 16.5.4(i18next@25.8.13(typescript@5.8.3))(react-dom@19.2.4(react@19.2.4))(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)(typescript@5.8.3)
       react-qrcode-logo: 4.0.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       tailwind-merge: 3.5.0
     optionalDependencies:
@@ -19165,7 +17475,7 @@ snapshots:
       - utf-8-validate
       - zod
 
-  '@web3auth/no-modal@10.15.0(@babel/runtime@7.28.6)(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(encoding@0.1.13)(react@19.2.4)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@2.46.3(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)':
+  '@web3auth/no-modal@10.15.0(@babel/runtime@7.28.6)(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(encoding@0.1.13)(react@19.2.4)(typescript@5.8.3)(utf-8-validate@5.0.10)(viem@2.46.3(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)':
     dependencies:
       '@babel/runtime': 7.28.6
       '@ethereumjs/util': 10.1.1
@@ -19185,9 +17495,9 @@ snapshots:
       '@wallet-standard/app': 1.1.0
       '@wallet-standard/base': 1.1.0
       '@wallet-standard/features': 1.1.0
-      '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
-      '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
+      '@walletconnect/sign-client': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.76)
+      '@walletconnect/types': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))
+      '@walletconnect/utils': 2.23.7(@react-native-async-storage/async-storage@2.2.0(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)))(typescript@5.8.3)(zod@3.25.76)
       '@web3auth/auth': 10.8.0(@babel/runtime@7.28.6)(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(utf-8-validate@5.0.10)
       '@web3auth/ws-embed': 5.6.0(@babel/runtime@7.28.6)(@sentry/core@9.47.1)(bufferutil@4.1.0)(color@5.0.3)(utf-8-validate@5.0.10)
       assert: 2.1.0
@@ -20368,65 +18678,6 @@ snapshots:
       protobufjs: 6.11.4
 
   cosmjs-types@0.9.0: {}
-
-  cosmos-kit@2.29.1(@cosmjs/amino@0.36.2)(@cosmjs/crypto@0.38.1)(@cosmjs/encoding@0.38.1)(@cosmjs/proto-signing@0.36.2)(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.23.7)(axios@1.13.6)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(react@19.2.4)(starknet@8.9.2)(typescript@5.8.3)(utf-8-validate@5.0.10):
-    dependencies:
-      '@cosmos-kit/bitgetwallet-extension': 1.4.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/cdcwallet': 2.18.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/coin98': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/compass': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/cosmostation': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@cosmos-kit/ctrl': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/exodus': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(react@19.2.4)(utf-8-validate@5.0.10)
-      '@cosmos-kit/fin': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/galaxy-station': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(axios@1.13.6)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@cosmos-kit/gatewallet-extension': 1.1.2(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/keplr': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/sign-client@2.23.7(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@cosmos-kit/leap': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(cosmjs-types@0.11.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@cosmos-kit/ledger': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/crypto@0.38.1)(@cosmjs/encoding@0.38.1)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/okxwallet-extension': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/omni': 2.15.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@cosmos-kit/owallet': 2.17.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(starknet@8.9.2)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@cosmos-kit/shell': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/tailwind': 1.10.1(bufferutil@4.1.0)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@cosmos-kit/trust': 2.16.1(@cosmjs/amino@0.36.2)(@cosmjs/proto-signing@0.36.2)(@walletconnect/types@2.23.7)(bufferutil@4.1.0)(encoding@0.1.13)(typescript@5.8.3)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@azure/app-configuration'
-      - '@azure/cosmos'
-      - '@azure/data-tables'
-      - '@azure/identity'
-      - '@azure/keyvault-secrets'
-      - '@azure/storage-blob'
-      - '@capacitor/preferences'
-      - '@cosmjs/amino'
-      - '@cosmjs/crypto'
-      - '@cosmjs/encoding'
-      - '@cosmjs/proto-signing'
-      - '@deno/kv'
-      - '@netlify/blobs'
-      - '@planetscale/database'
-      - '@react-native-async-storage/async-storage'
-      - '@upstash/redis'
-      - '@vercel/blob'
-      - '@vercel/functions'
-      - '@vercel/kv'
-      - '@walletconnect/sign-client'
-      - '@walletconnect/types'
-      - aws4fetch
-      - axios
-      - bufferutil
-      - cosmjs-types
-      - db0
-      - debug
-      - encoding
-      - ioredis
-      - react
-      - starknet
-      - supports-color
-      - typescript
-      - uploadthing
-      - utf-8-validate
-      - zod
 
   crc-32@1.2.2: {}
 
@@ -25429,7 +23680,7 @@ snapshots:
       '@babel/runtime': 7.28.6
       react: 19.2.4
 
-  react-i18next@16.5.4(i18next@25.8.13(typescript@5.8.3))(react-dom@19.2.4(react@19.2.4))(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)(typescript@5.8.3):
+  react-i18next@16.5.4(i18next@25.8.13(typescript@5.8.3))(react-dom@19.2.4(react@19.2.4))(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)(typescript@5.8.3):
     dependencies:
       '@babel/runtime': 7.28.6
       html-parse-stringify: 3.0.1
@@ -25438,7 +23689,7 @@ snapshots:
       use-sync-external-store: 1.6.0(react@19.2.4)
     optionalDependencies:
       react-dom: 19.2.4(react@19.2.4)
-      react-native: 0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)
+      react-native: 0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10)
       typescript: 5.8.3
 
   react-icons@4.4.0(react@19.2.4):
@@ -25449,7 +23700,7 @@ snapshots:
 
   react-is@18.3.1: {}
 
-  react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10):
+  react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10):
     dependencies:
       '@jest/create-cache-key-function': 29.7.0
       '@react-native/assets-registry': 0.84.1
@@ -25458,7 +23709,7 @@ snapshots:
       '@react-native/gradle-plugin': 0.84.1
       '@react-native/js-polyfills': 0.84.1
       '@react-native/normalize-colors': 0.84.1
-      '@react-native/virtualized-lists': 0.84.1(@types/react@19.2.14)(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.2.14)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)
+      '@react-native/virtualized-lists': 0.84.1(@types/react@19.3.3)(react-native@0.84.1(@babel/core@7.29.0)(@types/react@19.3.3)(bufferutil@4.1.0)(react@19.2.4)(utf-8-validate@5.0.10))(react@19.2.4)
       abort-controller: 3.0.0
       anser: 1.4.10
       ansi-regex: 5.0.1
@@ -25488,7 +23739,7 @@ snapshots:
       ws: 7.5.10(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       yargs: 17.7.2
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.3.3
     transitivePeerDependencies:
       - '@babel/core'
       - '@react-native-community/cli'
@@ -27438,11 +25689,11 @@ snapshots:
 
   zod@3.25.76: {}
 
-  zustand@4.5.7(@types/react@19.2.14)(immer@10.2.0)(react@19.2.4):
+  zustand@4.5.7(@types/react@19.3.3)(immer@10.2.0)(react@19.2.4):
     dependencies:
       use-sync-external-store: 1.6.0(react@19.2.4)
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.3.3
       immer: 10.2.0
       react: 19.2.4
 
