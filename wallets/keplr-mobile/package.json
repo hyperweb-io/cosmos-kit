@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/keplr-mobile",
-  "version": "2.17.1",
+  "version": "2.17.2",
   "description": "cosmos-kit wallet connector",
   "author": "Constructive <developers@constructive.io>",
   "contributors": [
@@ -67,8 +67,8 @@
     "@cosmos-kit/keplr-extension": "workspace:*",
     "@cosmos-kit/walletconnect": "workspace:*",
     "@keplr-wallet/provider-extension": "^0.12.95",
-    "@keplr-wallet/wc-client": "^0.12.95",
     "@keplr-wallet/types": "^0.12.95",
+    "@keplr-wallet/wc-client": "^0.12.95",
     "@walletconnect/sign-client": "^2.9.0",
     "@walletconnect/types": "2.11.0",
     "long": "^5.2.3"

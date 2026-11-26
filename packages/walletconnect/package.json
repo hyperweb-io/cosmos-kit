@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/walletconnect",
-  "version": "2.15.1",
+  "version": "2.15.2",
   "description": "cosmos-kit wallet connector using walletconnect",
   "author": "Constructive <developers@constructive.io>",
   "contributors": [

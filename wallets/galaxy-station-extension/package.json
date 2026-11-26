@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/galaxy-station-extension",
-  "version": "2.16.1",
+  "version": "2.16.2",
   "description": "@cosmos-kit/galaxy-station-extension is the Galaxy Station integration for CosmosKit",
   "author": "Hexxagon",
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",

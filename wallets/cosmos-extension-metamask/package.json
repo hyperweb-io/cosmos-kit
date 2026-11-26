@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/cosmos-extension-metamask",
-  "version": "0.15.1",
+  "version": "0.15.2",
   "description": "cosmos-kit wallet connector for the official Cosmos Extension for Metamask",
   "author": "joe@mysticlabs.xyz",
   "contributors": [

@@ -1,11 +1,11 @@
 {
   "name": "@cosmos-kit/station",
-  "version": "2.15.1",
+  "version": "2.15.2",
   "description": "@cosmos-kit/station is the Station integration for CosmosKit",
   "author": "jonlitech@gmail.com",
   "contributors": [
     {
-      "name": "Javier Ace\u00f1a"
+      "name": "Javier Aceña"
     }
   ],
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",

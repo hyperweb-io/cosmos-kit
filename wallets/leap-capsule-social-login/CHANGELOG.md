@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.15.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/leap-capsule-social-login@0.15.1...@cosmos-kit/leap-capsule-social-login@0.15.2) (2026-11-26)
+
+### Bug Fixes
+
+- rewrite dist/package.json paths in tolerant-build packages for publishing ([e8bd474](https://github.com/hyperweb-io/cosmos-kit/commit/e8bd4748509922348c4adf7f0d30abc8113a8585))
+
+### Features
+
+- migrate from yarn to pnpm with makage + dist/ publishing ([7759408](https://github.com/hyperweb-io/cosmos-kit/commit/7759408bf9d8988328c17b924102521087ad2c41))
+
 ## [0.15.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/leap-capsule-social-login@0.15.0...@cosmos-kit/leap-capsule-social-login@0.15.1) (2026-01-28)
 
 **Note:** Version bump only for package @cosmos-kit/leap-capsule-social-login

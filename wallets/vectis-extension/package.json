@@ -1,11 +1,11 @@
 {
   "name": "@cosmos-kit/vectis-extension",
-  "version": "2.16.1",
+  "version": "2.16.2",
   "description": "cosmos-kit wallet connector",
   "author": "jonlitech@gmail.com",
   "contributors": [
     {
-      "name": "Javier Ace\u00f1a"
+      "name": "Javier Aceña"
     }
   ],
   "homepage": "https://github.com/hyperweb-io/cosmos-kit#readme",

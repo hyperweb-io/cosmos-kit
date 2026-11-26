@@ -3,109 +3,67 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.4.0...@cosmos-kit/ins@2.4.1) (2026-11-26)
+
+### Bug Fixes
+
+- resolve duplicate jest config (remove jest key from package.json, use jest.config.js) ([293655c](https://github.com/hyperweb-io/cosmos-kit/commit/293655cf606779b819e0f266346d834af7479326))
+
+### Features
+
+- migrate from yarn to pnpm with makage + dist/ publishing ([7759408](https://github.com/hyperweb-io/cosmos-kit/commit/7759408bf9d8988328c17b924102521087ad2c41))
+
 # [2.4.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.3.0...@cosmos-kit/ins@2.4.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/ins
-
-
-
-
 
 # [2.3.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.9...@cosmos-kit/ins@2.3.0) (2025-12-11)
 
 **Note:** Version bump only for package @cosmos-kit/ins
 
-
-
-
-
 ## [2.2.9](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.8...@cosmos-kit/ins@2.2.9) (2025-10-29)
 
 **Note:** Version bump only for package @cosmos-kit/ins
-
-
-
-
 
 ## [2.2.8](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.7...@cosmos-kit/ins@2.2.8) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/ins
 
-
-
-
-
 ## [2.2.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.6...@cosmos-kit/ins@2.2.7) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/ins
-
-
-
-
 
 ## [2.2.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.5...@cosmos-kit/ins@2.2.6) (2025-10-16)
 
 **Note:** Version bump only for package @cosmos-kit/ins
 
-
-
-
-
 ## [2.2.5](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.4...@cosmos-kit/ins@2.2.5) (2025-07-16)
 
 **Note:** Version bump only for package @cosmos-kit/ins
-
-
-
-
 
 ## [2.2.4](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.3...@cosmos-kit/ins@2.2.4) (2025-01-28)
 
 **Note:** Version bump only for package @cosmos-kit/ins
 
-
-
-
-
 ## [2.2.3](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.2...@cosmos-kit/ins@2.2.3) (2025-01-18)
 
 **Note:** Version bump only for package @cosmos-kit/ins
-
-
-
-
 
 ## [2.2.2](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.1...@cosmos-kit/ins@2.2.2) (2025-01-18)
 
 **Note:** Version bump only for package @cosmos-kit/ins
 
-
-
-
-
 ## [2.2.1](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.2.0...@cosmos-kit/ins@2.2.1) (2025-01-18)
 
 **Note:** Version bump only for package @cosmos-kit/ins
-
-
-
-
 
 # [2.2.0](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.1.7...@cosmos-kit/ins@2.2.0) (2024-10-09)
 
 **Note:** Version bump only for package @cosmos-kit/ins
 
-
-
-
-
 ## [2.1.7](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.1.6...@cosmos-kit/ins@2.1.7) (2024-06-28)
 
 **Note:** Version bump only for package @cosmos-kit/ins
-
-
-
-
 
 ## [2.1.6](https://github.com/hyperweb-io/cosmos-kit/compare/@cosmos-kit/ins@2.1.5...@cosmos-kit/ins@2.1.6) (2024-01-22)
 

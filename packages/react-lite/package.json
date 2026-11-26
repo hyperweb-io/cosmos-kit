@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/react-lite",
-  "version": "2.18.1",
+  "version": "2.18.2",
   "description": "cosmos-kit wallet connector",
   "author": "Constructive <developers@constructive.io>",
   "contributors": [
@@ -67,10 +67,10 @@
   },
   "dependencies": {
     "@chain-registry/types": "^0.46.11",
-    "@cosmos-kit/core": "workspace:*",
-    "@dao-dao/cosmiframe": "^1.0.0",
     "@cosmjs/amino": "^0.36.2",
-    "@cosmjs/proto-signing": "^0.36.2"
+    "@cosmjs/proto-signing": "^0.36.2",
+    "@cosmos-kit/core": "workspace:*",
+    "@dao-dao/cosmiframe": "^1.0.0"
   },
   "peerDependencies": {
     "@types/react": "latest",

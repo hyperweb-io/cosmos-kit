@@ -1,6 +1,6 @@
 {
   "name": "@cosmos-kit/gatewallet-extension",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "cosmos-kit wallet connector",
   "author": "Constructive <developers@constructive.io>",
   "contributors": [
